@@ -18,43 +18,32 @@
 		body { background-color: #000;}
 		.content1 {
 			background:url(./img/bg_01.jpg)  no-repeat center top fixed;
+			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
 		}
 		.content2 {
 			background:url(./img/bg_02.jpg)  no-repeat center center fixed;
+			height: 2500px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
 		}
 		.content3 {
 			background:url(./img/bg_03.jpg)  no-repeat center top fixed;
+			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
 		}
 		.content4 {
 			background:url(./img/bg_04.jpg)  no-repeat center center fixed;
+			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
 		}
-		.content5 {
-			background:url(./img/bg_05.jpg)  no-repeat center top fixed;
-		}
-		.content6 {
-			 background:url(./img/bg_06.jpg)  no-repeat center center fixed;
-		}
-		.content7 {
-			background:url(./img/bg_07.jpg)  no-repeat center top fixed;
-		}
-		.content8 {
-			 background:url(./img/bg_08.jpg)  no-repeat center center fixed;
-		}
-		.content9 {
-			background:url(./img/bg_09.jpg)  no-repeat center top fixed;
-		}
-		.content10 {
-			 background:url(./img/bg_10.jpg)  no-repeat center center fixed;
-		}
-		.content2{
-			height: 2200px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.5); padding: 0 100px;
-		}
-		.content1,.content3,.content4,.content5, .content6,.content7, .content8,.content9, .content10 {height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.5); padding: 0 100px;}
 
 		h1 {font-size: 75px; padding-top: 250px; font-weight: 300;  }
+		h3.title{font-size: 40px; padding-top: 300px; font-weight: 300;}
 		h3 {font-size: 40px; padding-top: 100px; font-weight: 300;  }
-		h4 { font-weight: 300; font-size: 15px;}
+		h4 {font-size: 15px; font-weight: 300;}
 		p { color: #fff}
+
+		.bold{font-weight:bold;}
+		table.table tr th,td{
+			font-size:25px; font-weight:300; text-align:left;
+		}
+
 	</style>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,7 +55,7 @@
 <body>
 	<div class="container">
 		<div class="content1">
-			<h1>あなただけのオリジナルキャラクターが登場する天気予報</h1>
+			<h3 class="title">あなただけのオリジナルキャラクターが登場する天気予報</h3>
 			<!--당신만의 오리지날 캐릭터가 등장하는 일기 예보-->
 		</div>
 		<div class="content2">
@@ -104,7 +93,7 @@
 			일기 예보 데이터에 근거한 일러스트가
 			2시간마다 전달됩니다 ♪
 			-->
-			<h1>でも…楽しみ方はそれだけじゃない！</h1>
+			<h3>でも…楽しみ方はそれだけじゃない！</h3>
 			<!-- 하지만…….즐기는 방법은 그것뿐만이 아닌! -->
 			<h3>
 				<span style="text-decoration: underline;">ポイント１</span><br/>
@@ -138,12 +127,12 @@
 			-->
 		</div>
 		<div class="content3">
-			<h1>
+			<h3 class="title">
 			近日、アプリ配信開始予定<br/><br/>
 			事前登録受付中<br/>
 			今なら事前登録をされた方の中から抽選で<br>
 			10名様に電子マネー500円分をプレゼント！<br>
-			</h1>
+			</h3>
 			<!--
 			조만간 앱 송신 개시 예정
 
@@ -154,16 +143,124 @@
 		</div>
 		<div class="content4">
 			<h1>事前予約登録画面</h1>
-			<h3>
-			ユーザーネーム:<br/>
-			メールアドレス：<br/>
-			性別：<br/>
-			年令：<br/>
-			都道府県：<br/>
-			あなたが描くキャラクターの特徴：<br/>
-			携帯のOS：<br/>
-			ご意見・ご質問：<br/>
-			</h3>
+			<div class="col-sm-12">
+				<table class="table">
+					<tr>
+						<th>ユーザーネーム:</th>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<th>メールアドレス：</th>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<th>性別：</th>
+						<td>
+							<label><input type="radio" name="" id=""><span>男性</span></label>
+							<label><input type="radio" name="" id=""><span>女性</span></label>
+						</td>
+					</tr>
+					<tr>
+						<th>年令：</th>
+						<td>
+							<select name="" id="">
+								<option value="">１０代前半</option>
+								<option value="">１０代後半</option>
+								<option value="">２０代前半</option>
+								<option value="">２０代後半</option>
+								<option value="">３０代前半</option>
+								<option value="">３０代後半</option>
+								<option value="">４０才以上</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>都道府県：</th>
+						<td>
+							<select name="" id="">
+								<option value="">香川県</option>
+								<option value="">鹿児島県</option>
+								<option value="">神奈川県</option>
+								<option value="">高知県</option>
+								<option value="">京都府</option>
+								<option value="">熊本県</option>
+								<option value="">群馬県</option>
+								<option value="">岐阜県</option>
+								<option value="">長野県</option>
+								<option value="">長崎県</option>
+								<option value="">奈良県</option>
+								<option value="">新潟県</option>
+								<option value="">富山県</option>
+								<option value="">栃木県</option>
+								<option value="">東京都</option>
+								<option value="">徳島県</option>
+								<option value="">鳥取県</option>
+								<option value="">宮城県</option>
+								<option value="">宮崎県</option>
+								<option value="">三重県</option>
+								<option value="">佐賀県</option>
+								<option value="">埼玉県</option>
+								<option value="">滋賀県</option>
+								<option value="">島根県</option>
+								<option value="">静岡県</option>
+								<option value="">青森県</option>
+								<option value="">愛知県</option>
+								<option value="">秋田県</option>
+								<option value="">山形県</option>
+								<option value="">山口県</option>
+								<option value="">山梨県</option>
+								<option value="">愛媛県</option>
+								<option value="">大阪府</option>
+								<option value="">大分県</option>
+								<option value="">岡山県</option>
+								<option value="">沖縄県</option>
+								<option value="">和歌山県</option>
+								<option value="">茨城県</option>
+								<option value="">石川県</option>
+								<option value="">岩手県</option>
+								<option value="">千葉県</option>
+								<option value="">北海道</option>
+								<option value="">兵庫県</option>
+								<option value="">福島県</option>
+								<option value="">福岡県</option>
+								<option value="">福井県</option>
+								<option value="">広島県</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>あなたが描くキャラクターの特徴：</th>
+						<td>
+							<textarea name="" id="" cols="30" rows="3"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<th>携帯のOS：</th>
+						<td>
+							<label><input type="radio" name="" id=""><span>Android </span></label>
+							<label><input type="radio" name="" id=""><span>iOS</span></label>
+						</td>
+					</tr>
+					<tr>
+						<th>ご意見・ご質問：</th>
+						<td>
+							<textarea name="" id="" cols="30" rows="3"></textarea>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!--
+				<h3>
+				ユーザーネーム:<br/>
+				メールアドレス：<br/>
+				性別：<br/>
+				年令：<br/>
+				都道府県：<br/>
+				あなたが描くキャラクターの特徴：<br/>
+				携帯のOS：<br/>
+				ご意見・ご質問：<br/>
+				</h3>
+			-->
 			<!--
 			유저네임
 			이메일:
@@ -224,6 +321,14 @@
 			});
 
 			$('.content2').parallax({
+				speed : 0.3
+			});
+
+			$('.content3').parallax({
+				speed : 0.5
+			});
+
+			$('.content4').parallax({
 				speed : 0.2
 			});
 		</script>
