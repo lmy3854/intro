@@ -22,14 +22,18 @@
 		}
 		.content2 {
 			background:url(./img/bg_02.jpg)  no-repeat center center fixed;
-			height: 2500px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
+			height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
 		}
 		.content3 {
 			background:url(./img/bg_03.jpg)  no-repeat center top fixed;
-			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
+			height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
 		}
 		.content4 {
 			background:url(./img/bg_04.jpg)  no-repeat center center fixed;
+			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
+		}
+		.content5 {
+			background:url(./img/bg_05.jpg)  no-repeat center center fixed;
 			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
 		}
 
@@ -42,6 +46,9 @@
 		.bold{font-weight:bold;}
 		table.table tr th,td{
 			font-size:25px; font-weight:300; text-align:left;
+		}
+		table input,select,textarea{
+			color:#333;
 		}
 
 	</style>
@@ -95,10 +102,12 @@
 			-->
 			<h3>でも…楽しみ方はそれだけじゃない！</h3>
 			<!-- 하지만…….즐기는 방법은 그것뿐만이 아닌! -->
+		</div>
+		<div class="content3">
 			<h3>
 				<span style="text-decoration: underline;">ポイント１</span><br/>
 				他のユーザーとつながろう！<br/>
-		　　　　キャラクターのコラボが楽しめる<br/>
+			キャラクターのコラボが楽しめる<br/>
 			</h3>
 			<!--
 			포인트 1
@@ -126,7 +135,7 @@
 				목표로 인기 제작자!!
 			-->
 		</div>
-		<div class="content3">
+		<div class="content4">
 			<h3 class="title">
 			近日、アプリ配信開始予定<br/><br/>
 			事前登録受付中<br/>
@@ -141,126 +150,117 @@
 			10분에 전자 화폐 500엔 분을 선물!
 			-->
 		</div>
-		<div class="content4">
+		<div class="content5">
 			<h1>事前予約登録画面</h1>
 			<div class="col-sm-12">
 				<table class="table">
 					<tr>
 						<th>ユーザーネーム:</th>
-						<td><input type="text"></td>
-					</tr>
+						<td><input type="text" id="name"></td>
+					</tr>`
 					<tr>
 						<th>メールアドレス：</th>
-						<td><input type="text"></td>
+						<td><input type="text" id="mail"></td>
 					</tr>
 					<tr>
 						<th>性別：</th>
 						<td>
-							<label><input type="radio" name="" id=""><span>男性</span></label>
-							<label><input type="radio" name="" id=""><span>女性</span></label>
+							<label><input type="radio" name="gender" id="gender" value="M" checked="checked"><span>男性</span></label>
+							<label><input type="radio" name="gender" id="gender" value="F"><span>女性</span></label>
 						</td>
 					</tr>
 					<tr>
 						<th>年令：</th>
 						<td>
-							<select name="" id="">
-								<option value="">１０代前半</option>
-								<option value="">１０代後半</option>
-								<option value="">２０代前半</option>
-								<option value="">２０代後半</option>
-								<option value="">３０代前半</option>
-								<option value="">３０代後半</option>
-								<option value="">４０才以上</option>
+							<select name="age" id="age">
+								<option value="１０代前半">１０代前半</option>
+								<option value="１０代後半">１０代後半</option>
+								<option value="２０代前半">２０代前半</option>
+								<option value="２０代後半">２０代後半</option>
+								<option value="３０代前半">３０代前半</option>
+								<option value="３０代後半">３０代後半</option>
+								<option value="４０才以上">４０才以上</option>
 							</select>
 						</td>
 					</tr>
 					<tr>
 						<th>都道府県：</th>
 						<td>
-							<select name="" id="">
-								<option value="">香川県</option>
-								<option value="">鹿児島県</option>
-								<option value="">神奈川県</option>
-								<option value="">高知県</option>
-								<option value="">京都府</option>
-								<option value="">熊本県</option>
-								<option value="">群馬県</option>
-								<option value="">岐阜県</option>
-								<option value="">長野県</option>
-								<option value="">長崎県</option>
-								<option value="">奈良県</option>
-								<option value="">新潟県</option>
-								<option value="">富山県</option>
-								<option value="">栃木県</option>
-								<option value="">東京都</option>
-								<option value="">徳島県</option>
-								<option value="">鳥取県</option>
-								<option value="">宮城県</option>
-								<option value="">宮崎県</option>
-								<option value="">三重県</option>
-								<option value="">佐賀県</option>
-								<option value="">埼玉県</option>
-								<option value="">滋賀県</option>
-								<option value="">島根県</option>
-								<option value="">静岡県</option>
-								<option value="">青森県</option>
-								<option value="">愛知県</option>
-								<option value="">秋田県</option>
-								<option value="">山形県</option>
-								<option value="">山口県</option>
-								<option value="">山梨県</option>
-								<option value="">愛媛県</option>
-								<option value="">大阪府</option>
-								<option value="">大分県</option>
-								<option value="">岡山県</option>
-								<option value="">沖縄県</option>
-								<option value="">和歌山県</option>
-								<option value="">茨城県</option>
-								<option value="">石川県</option>
-								<option value="">岩手県</option>
-								<option value="">千葉県</option>
-								<option value="">北海道</option>
-								<option value="">兵庫県</option>
-								<option value="">福島県</option>
-								<option value="">福岡県</option>
-								<option value="">福井県</option>
-								<option value="">広島県</option>
+							<select name="location" id="location">
+								<option value="北海道">北海道</option>
+								<option value="青森県">青森県</option>
+								<option value="岩手県">岩手県</option>
+								<option value="宮城県">宮城県</option>
+								<option value="秋田県">秋田県</option>
+								<option value="山形県">山形県</option>
+								<option value="福島県">福島県</option>
+								<option value="茨城県">茨城県</option>
+								<option value="栃木県">栃木県</option>
+								<option value="群馬県">群馬県</option>
+								<option value="埼玉県">埼玉県</option>
+								<option value="千葉県">千葉県</option>
+								<option value="東京都">東京都</option>
+								<option value="神奈川県">神奈川県</option>
+								<option value="新潟県">新潟県</option>
+								<option value="富山県">富山県</option>
+								<option value="石川県">石川県</option>
+								<option value="福井県">福井県</option>
+								<option value="山梨県">山梨県</option>
+								<option value="長野県">長野県</option>
+								<option value="岐阜県">岐阜県</option>
+								<option value="静岡県">静岡県</option>
+								<option value="愛知県">愛知県</option>
+								<option value="三重県">三重県</option>
+								<option value="滋賀県">滋賀県</option>
+								<option value="京都府">京都府</option>
+								<option value="大阪府">大阪府</option>
+								<option value="兵庫県">兵庫県</option>
+								<option value="奈良県">奈良県</option>
+								<option value="和歌山県">和歌山県</option>
+								<option value="鳥取県">鳥取県</option>
+								<option value="島根県">島根県</option>
+								<option value="岡山県">岡山県</option>
+								<option value="広島県">広島県</option>
+								<option value="山口県">山口県</option>
+								<option value="徳島県">徳島県</option>
+								<option value="香川県">香川県</option>
+								<option value="愛媛県">愛媛県</option>
+								<option value="高知県">高知県</option>
+								<option value="福岡県">福岡県</option>
+								<option value="佐賀県">佐賀県</option>
+								<option value="長崎県">長崎県</option>
+								<option value="熊本県">熊本県</option>
+								<option value="大分県">大分県</option>
+								<option value="宮崎県">宮崎県</option>
+								<option value="鹿児島県">鹿児島県</option>
+								<option value="沖縄県">沖縄県</option>
 							</select>
 						</td>
 					</tr>
 					<tr>
 						<th>あなたが描くキャラクターの特徴：</th>
 						<td>
-							<textarea name="" id="" cols="30" rows="3"></textarea>
+							<textarea name="character" id="character" cols="30" rows="3"></textarea>
 						</td>
 					</tr>
 					<tr>
 						<th>携帯のOS：</th>
 						<td>
-							<label><input type="radio" name="" id=""><span>Android </span></label>
-							<label><input type="radio" name="" id=""><span>iOS</span></label>
+							<label><input type="radio" name="os" id="os" value="Android" checked="checked"><span>Android </span></label>
+							<label><input type="radio" name="os" id="os" value="iOS"><span>iOS</span></label>
 						</td>
 					</tr>
 					<tr>
 						<th>ご意見・ご質問：</th>
 						<td>
-							<textarea name="" id="" cols="30" rows="3"></textarea>
+							<textarea name="opinion" id="opinion" cols="30" rows="3"></textarea>
 						</td>
 					</tr>
 				</table>
+				<div>
+					<button id="saveBtn" class="btn btn-primary btn-lg">OK</button>
+				</div>
 			</div>
-			<!--
-				<h3>
-				ユーザーネーム:<br/>
-				メールアドレス：<br/>
-				性別：<br/>
-				年令：<br/>
-				都道府県：<br/>
-				あなたが描くキャラクターの特徴：<br/>
-				携帯のOS：<br/>
-				ご意見・ご質問：<br/>
-				</h3>
-			-->
 			<!--
 			유저네임
 			이메일:
@@ -271,6 +271,13 @@
 			핸드폰OS:
 			의견,질문:
 			-->
+		</div>
+	</div>
+	<div class="modal fade" id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div id="modalMsg" class="modal-body"></div>
+			</div>
 		</div>
 	</div>
 
@@ -330,6 +337,44 @@
 
 			$('.content4').parallax({
 				speed : 0.2
+			});
+
+			var msg={
+				 noName:"이름을 입력하세요"
+				,noMail:"메일을 입력하세요"
+				,success:"성공적으로 입력되었습니다."
+			}
+
+			$(document).ready(function(){
+				$("#saveBtn").on("click",function(){
+					if($.trim($("#name").val()) == ""){
+						$("div#modalMsg").text(msg.noName);
+						$("#bs-example-modal-lg").modal("toggle");
+						return false;
+					}else if($.trim($("#mail").val()) == ""){
+						$("div#modalMsg").text(msg.noMail);
+						$("#bs-example-modal-lg").modal("toggle");
+						return false;
+					}
+					$.ajax({
+						 url:"https://script.google.com/macros/s/AKfycbwow4e86Vh8Syq_1fzpct7STCHHpnFkU2etQUVhBE9wN9oqtpE/exec"
+						,data:{name:$("#name").val()
+							, mail:$("#mail").val()
+							, gender:$("input[name='gender']:checked").val()
+							, age:$("select#age option:selected").val()
+							, location:$("select#location option:selected").val()
+							, os:$("input[name='os']:checked").val()
+							, character:$("#character").val()
+							, opinion:$("#opinion").val()
+						}
+						,type:"POST"
+						,success:function(e){
+							console.log(e);
+							$("div#modalMsg").text(msg.success);
+							$("#bs-example-modal-lg").modal("toggle");
+						}
+					});
+				});
 			});
 		</script>
 
