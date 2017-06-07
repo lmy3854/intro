@@ -5,52 +5,20 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>KyaratenTeaser</title>
-
 	<!-- Bootstrap -->
 	<link href="./css/nomalize.css" rel="stylesheet">
 	<link href="./css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="./css/common.css" rel="stylesheet">
+	<link href="./css/index.css" rel="stylesheet">
+	<!-- favicon -->
+	<link rel="icon" href="../../images/favicon.png">
 	<style>
 		@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 		@font-face{
 			font-family:"ktegaki";
 			src:url("./css/fonts/KTEGAKI.ttf");
 		}
-		body { background-color: #000;}
-		.content1 {
-			background:url(./img/bg_01.jpg)  no-repeat center top fixed;
-			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
-		}
-		.content2 {
-			background:url(./img/bg_02.jpg)  no-repeat center center fixed;
-			height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
-		}
-		.content3 {
-			background:url(./img/bg_03.jpg)  no-repeat center top fixed;
-			height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
-		}
-		.content4 {
-			background:url(./img/bg_04.jpg)  no-repeat center center fixed;
-			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
-		}
-		.content5 {
-			background:url(./img/bg_05.jpg)  no-repeat center center fixed;
-			height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7); padding: 0 100px;
-		}
-
-		h1 {font-size: 75px; padding-top: 250px; font-weight: 300;  }
-		h3.title{font-size: 40px; padding-top: 300px; font-weight: 300;}
-		h3 {font-size: 40px; padding-top: 100px; font-weight: 300;  }
-		h4 {font-size: 15px; font-weight: 300;}
-		p { color: #fff}
-
-		.bold{font-weight:bold;}
-		table.table tr th,td{
-			font-size:25px; font-weight:300; text-align:left;
-		}
-		table input,select,textarea{
-			color:#333;
-		}
-
 	</style>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,117 +30,166 @@
 <body>
 	<div class="container">
 		<div class="content1">
-			<h3 class="title">あなただけのオリジナルキャラクターが登場する天気予報</h3>
-			<!--당신만의 오리지날 캐릭터가 등장하는 일기 예보-->
+			<div class="col-sm-12">
+				<h3 id="resize_text_c1" class="title">あなただけのオリジナルキャラクターが登場する天気予報</h3>
+				<!--당신만의 오리지날 캐릭터가 등장하는 일기 예보-->
+			</div>
 		</div>
-		<div class="content2">
-			<h3>
-				STEP1<br/>
-				しみ方はとってもシンプル！<br/>
-				キャラクターとお天気マーク<br/>
-				（例：晴れ、雨など）を描く<br/>
-			</h3>
-			<!--
-			step1
-			즐기는 방법은 매우 심플!
-			캐릭터와 날씨 기록
-			(예:맑음, 비 등)을 그리다
-			-->
-			<h3>
-				STEP2<br/>
-				「キャラ天」サイト・アプリにて<br/>
-				画像をアップロード<br/>
-			</h3>
-			<!--
-			step2
-			"캬라텐"사이트 앱에서
-			화상을 업로드
-			-->
-			<h3>
-				STEP3<br/>
-				オリジナル天気予報の完成！<br/>
-				天気予報データに基づいたイラストが、<br/>
-				２時間ごとに配信されます♪<br/>
-			</h3>
-			<!--
-			step3
-			원본 일기 예보의 완성!
-			일기 예보 데이터에 근거한 일러스트가
-			2시간마다 전달됩니다 ♪
-			-->
-			<h3>でも…楽しみ方はそれだけじゃない！</h3>
-			<!-- 하지만…….즐기는 방법은 그것뿐만이 아닌! -->
+		<div class="content2-1">
+			<div class="col-sm-12 hidden-480" style="height:300px;">
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<h3 id="resize_text_c2">
+					STEP1<br/>
+					しみ方はとってもシンプル！<br/>
+					キャラクターとお天気マーク<br/>
+					（例：晴れ、雨など）を描く<br/>
+				</h3>
+				<!--
+				step1
+				즐기는 방법은 매우 심플!
+				캐릭터와 날씨 기록
+				(예:맑음, 비 등)을 그리다
+				-->
+			</div>
+			<div class="col-xs-12 col-sm-4" style="padding-top:50px;">
+					<img src="./img/content_01.png" alt="" class="col-xs-12 col-sm-12">
+			</div>
+		</div>
+		<div class="content2-2">
+			<div class="col-sm-12 hidden-480" style="height:300px;">
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<h3 id="resize_text_c2">
+					STEP2<br/>
+					「キャラ天」サイト・アプリにて<br/>
+					画像をアップロード<br/>
+				</h3>
+				<!--
+				step2
+				"캬라텐"사이트 앱에서
+				화상을 업로드
+				-->
+			</div>
+			<div class="col-xs-12 col-sm-4" style="padding-top:50px;">
+					<img src="./img/content_02.png" alt="" class="col-xs-12 col-sm-12">
+			</div>
+		</div>
+		<div class="content2-3">
+			<div class="col-sm-12 hidden-480" style="height:300px;"></div>
+			<div class="col-xs-12 col-sm-8">
+				<h3 id="resize_text_c2">
+					STEP3<br/>
+					オリジナル天気予報の完成！<br/>
+					天気予報データに基づいたイラストが、<br/>
+					２時間ごとに配信されます♪<br/>
+				</h3>
+				<!--
+				step3
+				원본 일기 예보의 완성!
+				일기 예보 데이터에 근거한 일러스트가
+				2시간마다 전달됩니다 ♪
+				-->
+			</div>
+			<div class="col-xs-12 col-sm-4" style="padding-top:50px;">
+					<img src="./img/content_03.png" alt="" class="col-xs-12 col-sm-12">
+			</div>
+		</div>
+		<div class="content2-4">
+			<div class="col-sm-12">
+				<h2 id="resize_text_c2">でも…楽しみ方はそれだけじゃない！</h2>
+				<!-- 하지만…….즐기는 방법은 그것뿐만이 아닌! -->
+			</div>
 		</div>
 		<div class="content3">
-			<h3>
-				<span style="text-decoration: underline;">ポイント１</span><br/>
-				他のユーザーとつながろう！<br/>
-			キャラクターのコラボが楽しめる<br/>
-			</h3>
-			<!--
-			포인트 1
-			다른 사용자와 연결된다.
-			캐릭터의 협업을 즐길 수 있다
-			-->
-			<h3>
-				<span style="text-decoration: underline;">ポイント２</span><br/>
-				アニメーションスタンプも対応<br/>　
-				動くキャラクターでも天気予報を楽しもう<br/>　
-			</h3>
-			<!--
-			포인트 2
-			애니메이션 스탬프도 대응
-			움직이는 캐릭터에서도 날씨 예보를 즐기
-			-->
-			<h3>
-				<span style="text-decoration: underline;">ポイント３</span><br/>
-				スタンプ・アニメーションスタンプの販売で<br/>　
-				目指せ人気クリエイター！！<br/>　
-			</h3>
-			<!--
-			포인트 3
-			스탬프 애니메이션 스탬프 판매로
-				목표로 인기 제작자!!
-			-->
+			<div class="col-sm-12">
+				<h3>
+					<span style="text-decoration: underline;">ポイント１</span><br/>
+					他のユーザーとつながろう！<br/>
+				キャラクターのコラボが楽しめる<br/>
+				</h3>
+				<!--
+				포인트 1
+				다른 사용자와 연결된다.
+				캐릭터의 협업을 즐길 수 있다
+				-->
+				<h3>
+					<span style="text-decoration: underline;">ポイント２</span><br/>
+					アニメーションスタンプも対応<br/>　
+					動くキャラクターでも天気予報を楽しもう<br/>　
+				</h3>
+				<!--
+				포인트 2
+				애니메이션 스탬프도 대응
+				움직이는 캐릭터에서도 날씨 예보를 즐기
+				-->
+				<h3>
+					<span style="text-decoration: underline;">ポイント３</span><br/>
+					スタンプ・アニメーションスタンプの販売で<br/>　
+					目指せ人気クリエイター！！<br/>　
+				</h3>
+				<!--
+				포인트 3
+				스탬프 애니메이션 스탬프 판매로
+					목표로 인기 제작자!!
+				-->
+			</div>
 		</div>
 		<div class="content4">
-			<h3 class="title">
-			近日、アプリ配信開始予定<br/><br/>
-			事前登録受付中<br/>
-			今なら事前登録をされた方の中から抽選で<br>
-			10名様に電子マネー500円分をプレゼント！<br>
-			</h3>
-			<!--
-			조만간 앱 송신 개시 예정
+			<div class="col-sm-12">
+				<h3 class="title">
+				近日、アプリ配信開始予定<br/><br/>
+				事前登録受付中<br/>
+				今なら事前登録をされた方の中から抽選で<br>
+				10名様に電子マネー500円分をプレゼント！<br>
+				</h3>
+				<!--
+				조만간 앱 송신 개시 예정
 
-			사전 등록 접수 중
-			지금이라면 사전 등록을 하신 분 중에서 추첨으로
-			10분에 전자 화폐 500엔 분을 선물!
-			-->
+				사전 등록 접수 중
+				지금이라면 사전 등록을 하신 분 중에서 추첨으로
+				10분에 전자 화폐 500엔 분을 선물!
+				-->
+			</div>
 		</div>
 		<div class="content5">
-			<h1>事前予約登録画面</h1>
 			<div class="col-sm-12">
-				<table class="table">
-					<tr>
-						<th>ユーザーネーム:</th>
-						<td><input type="text" id="name"></td>
-					</tr>
-					<tr>
-						<th>メールアドレス：</th>
-						<td><input type="text" id="mail"></td>
-					</tr>
-					<tr>
-						<th>性別：</th>
-						<td>
-							<label><input type="radio" name="gender" id="gender" value="M" checked="checked"><span>男性</span></label>
-							<label><input type="radio" name="gender" id="gender" value="F"><span>女性</span></label>
-						</td>
-					</tr>
-					<tr>
-						<th>年令：</th>
-						<td>
-							<select name="age" id="age">
+				<h1 id="resize_text_c5">事前予約登録画面</h1>
+				<div class="col-sm-12">
+					<fieldset>
+						<div class="col-xs-12 col-sm-4">
+							<legend>ユーザーネーム</legend>
+						</div>
+						<div class="col-xs-12 col-sm-7">
+							<input type="text" id="name" class="col-xs-12 col-sm-8">
+						</div>
+					</fieldset>
+					<div class="space-16"></div>
+					<fieldset>
+						<div class="col-xs-12 col-sm-4">
+							<legend>メールアドレス</legend>
+						</div>
+						<div class="col-xs-12 col-sm-7">
+							<input type="text" id="mail" class="col-xs-12 col-sm-8">
+						</div>
+					</fieldset>
+					<div class="space-16"></div>
+					<fieldset>
+						<div class="col-xs-12 col-sm-4">
+							<legend>性別</legend>
+						</div>
+						<div class="align-left col-xs-12 col-sm-7">
+							<label><input type="radio" name="gender" id="gender" value="M" class="ace input-lg" checked="checked"><span class="lbl bigger-120">男性</span></label>
+							<label><input type="radio" name="gender" id="gender" value="F" class="ace input-lg"><span class="lbl bigger-120">女性</span></label>
+						</div>
+					</fieldset>
+					<div class="space-16"></div>
+					<fieldset>
+						<div class="col-xs-12 col-sm-4">
+							<legend>年令</legend>
+						</div>
+						<div class="col-xs-12 col-sm-7">
+							<select name="age" id="age" class="input-lg col-xs-12  col-sm-6">
 								<option value="１０代前半">１０代前半</option>
 								<option value="１０代後半">１０代後半</option>
 								<option value="２０代前半">２０代前半</option>
@@ -181,12 +198,15 @@
 								<option value="３０代後半">３０代後半</option>
 								<option value="４０才以上">４０才以上</option>
 							</select>
-						</td>
-					</tr>
-					<tr>
-						<th>都道府県：</th>
-						<td>
-							<select name="location" id="location">
+						</div>
+					</fieldset>
+					<div class="space-16"></div>
+					<fieldset>
+						<div class="col-xs-12 col-sm-4">
+							<legend>都道府県</legend>
+						</div>
+						<div class="col-xs-12 col-sm-7">
+							<select name="location" id="location" class="input-lg col-xs-12 col-sm-6">
 								<option value="北海道">北海道</option>
 								<option value="青森県">青森県</option>
 								<option value="岩手県">岩手県</option>
@@ -234,31 +254,32 @@
 								<option value="宮崎県">宮崎県</option>
 								<option value="鹿児島県">鹿児島県</option>
 								<option value="沖縄県">沖縄県</option>
+								<option value="その他">その他</option>
 							</select>
-						</td>
-					</tr>
-					<tr>
-						<th>あなたが描くキャラクターの特徴：</th>
-						<td>
-							<textarea name="character" id="character" cols="30" rows="3"></textarea>
-						</td>
-					</tr>
-					<tr>
-						<th>携帯のOS：</th>
-						<td>
-							<label><input type="radio" name="os" id="os" value="Android" checked="checked"><span>Android </span></label>
-							<label><input type="radio" name="os" id="os" value="iOS"><span>iOS</span></label>
-						</td>
-					</tr>
-					<tr>
-						<th>ご意見・ご質問：</th>
-						<td>
-							<textarea name="opinion" id="opinion" cols="30" rows="3"></textarea>
-						</td>
-					</tr>
-				</table>
-				<div>
-					<button id="saveBtn" class="btn btn-primary btn-lg">OK</button>
+						</div>
+					</fieldset>
+					<div class="space-16"></div>
+					<fieldset>
+						<div class="col-xs-12 col-sm-4">
+							<legend>あなたが描くキャラクターの特徴</legend>
+						</div>
+						<div class="col-xs-12 col-sm-7">
+							<textarea name="character" id="character" rows="3" class="col-xs-12 col-sm-8"></textarea>
+						</div>
+					</fieldset>
+					<div class="space-16"></div>
+					<fieldset>
+						<div class="col-xs-12 col-sm-4">
+							<legend>ご意見・ご質問</legend>
+						</div>
+						<div class="col-xs-12 col-sm-7">
+							<textarea name="opinion" id="opinion" rows="3" class="col-xs-12 col-sm-8"></textarea>
+						</div>
+					</fieldset>
+				</div>
+				<div class="col-sm-12">
+					<hr/>
+					<button id="saveBtn" class="btn btn-primary btn-lg">送信する</button><!--송신-->
 				</div>
 			</div>
 			<!--
@@ -273,6 +294,7 @@
 			-->
 		</div>
 	</div>
+	<!-- modal -->
 	<div class="modal fade" id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
@@ -280,103 +302,21 @@
 			</div>
 		</div>
 	</div>
-
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="./js/jquery.fittext.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+		<script src="./js/index.js"></script>
+
 		<script>
-			/**
-			 * Author: Heather Corey
-			 * jQuery Simple Parallax Plugin
-			 **/
-			(function($) {
-				$.fn.parallax = function(options) {
-					var windowHeight = $(window).height();
+		$("h3#resize_text_c1").fitText(3,{ minFontSize: '20px', maxFontSize: '40px' });
+		$("h3#resize_text_c2").fitText(1.5,{ minFontSize: '20px', maxFontSize: '60px' });
+		$("h2#resize_text_c2").fitText(1,{ minFontSize: '30px', maxFontSize: '65px' });
 
-					// Establish default settings
-					var settings = $.extend({
-							speed: 0.15
-					}, options);
+		$("h1#resize_text_c5").fitText(1,{ minFontSize: '30px', maxFontSize: '60px' });
 
-					// Iterate over each object in collection
-					return this.each( function() {
-						// Save a reference to the element
-						var $this = $(this);
-						// Set up Scroll Handler
-						$(document).scroll(function(){
-							var scrollTop = $(window).scrollTop();
-							var offset = $this.offset().top;
-							var height = $this.outerHeight();
-
-							// Check if above or below viewport
-							if (offset + height <= scrollTop || offset >= scrollTop + windowHeight) {
-								return;
-							}
-
-							var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
-
-							 // Apply the Y Background Position to Set the Parallax Effect
-							$this.css('background-position', 'center ' + yBgPosition + 'px');
-						});
-					});
-				}
-			}(jQuery));
-
-			$('.content1').parallax({
-				speed : 0.15
-			});
-
-			$('.content2').parallax({
-				speed : 0.3
-			});
-
-			$('.content3').parallax({
-				speed : 0.5
-			});
-
-			$('.content4').parallax({
-				speed : 0.2
-			});
-
-			var msg={
-				 noName:"이름을 입력하세요"
-				,noMail:"메일을 입력하세요"
-				,success:"성공적으로 입력되었습니다."
-			}
-
-			$(document).ready(function(){
-				$("#saveBtn").on("click",function(){
-					if($.trim($("#name").val()) == ""){
-						$("div#modalMsg").text(msg.noName);
-						$("#bs-example-modal-lg").modal("toggle");
-						return false;
-					}else if($.trim($("#mail").val()) == ""){
-						$("div#modalMsg").text(msg.noMail);
-						$("#bs-example-modal-lg").modal("toggle");
-						return false;
-					}
-					$.ajax({
-						 url:"https://script.google.com/macros/s/AKfycbwow4e86Vh8Syq_1fzpct7STCHHpnFkU2etQUVhBE9wN9oqtpE/exec"
-						,data:{name:$("#name").val()
-							, mail:$("#mail").val()
-							, gender:$("input[name='gender']:checked").val()
-							, age:$("select#age option:selected").val()
-							, location:$("select#location option:selected").val()
-							, os:$("input[name='os']:checked").val()
-							, character:$("#character").val()
-							, opinion:$("#opinion").val()
-						}
-						,type:"POST"
-						,success:function(e){
-							console.log(e);
-							$("div#modalMsg").text(msg.success);
-							$("#bs-example-modal-lg").modal("toggle");
-						}
-					});
-				});
-			});
 		</script>
-
 </body>
 </html>
