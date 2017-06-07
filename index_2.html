@@ -28,7 +28,7 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="container">
+	<div class="container" style="padding:0px;">
 		<div class="content1">
 			<div class="col-sm-12">
 				<h3 id="resize_text_c1" class="title">あなただけのオリジナルキャラクターが登場する天気予報</h3>
@@ -103,7 +103,7 @@
 		</div>
 		<div class="content3">
 			<div class="col-sm-12">
-				<h3>
+				<h3 id="resize_text_c3">
 					<span style="text-decoration: underline;">ポイント１</span><br/>
 					他のユーザーとつながろう！<br/>
 				キャラクターのコラボが楽しめる<br/>
@@ -113,7 +113,7 @@
 				다른 사용자와 연결된다.
 				캐릭터의 협업을 즐길 수 있다
 				-->
-				<h3>
+				<h3 id="resize_text_c3">
 					<span style="text-decoration: underline;">ポイント２</span><br/>
 					アニメーションスタンプも対応<br/>　
 					動くキャラクターでも天気予報を楽しもう<br/>　
@@ -123,7 +123,7 @@
 				애니메이션 스탬프도 대응
 				움직이는 캐릭터에서도 날씨 예보를 즐기
 				-->
-				<h3>
+				<h3 id="resize_text_c3">
 					<span style="text-decoration: underline;">ポイント３</span><br/>
 					スタンプ・アニメーションスタンプの販売で<br/>　
 					目指せ人気クリエイター！！<br/>　
@@ -137,7 +137,7 @@
 		</div>
 		<div class="content4">
 			<div class="col-sm-12">
-				<h3 class="title">
+				<h3 id="resize_text_c4">
 				近日、アプリ配信開始予定<br/><br/>
 				事前登録受付中<br/>
 				今なら事前登録をされた方の中から抽選で<br>
@@ -164,7 +164,7 @@
 							<input type="text" id="name" class="col-xs-12 col-sm-8">
 						</div>
 					</fieldset>
-					<div class="space-16"></div>
+					<div class="space-16 hidden-480"></div>
 					<fieldset>
 						<div class="col-xs-12 col-sm-4">
 							<legend>メールアドレス</legend>
@@ -173,7 +173,7 @@
 							<input type="text" id="mail" class="col-xs-12 col-sm-8">
 						</div>
 					</fieldset>
-					<div class="space-16"></div>
+					<div class="space-16 hidden-480"></div>
 					<fieldset>
 						<div class="col-xs-12 col-sm-4">
 							<legend>性別</legend>
@@ -183,7 +183,7 @@
 							<label><input type="radio" name="gender" id="gender" value="F" class="ace input-lg"><span class="lbl bigger-120">女性</span></label>
 						</div>
 					</fieldset>
-					<div class="space-16"></div>
+					<div class="space-16 hidden-480"></div>
 					<fieldset>
 						<div class="col-xs-12 col-sm-4">
 							<legend>年令</legend>
@@ -200,7 +200,7 @@
 							</select>
 						</div>
 					</fieldset>
-					<div class="space-16"></div>
+					<div class="space-16 hidden-480"></div>
 					<fieldset>
 						<div class="col-xs-12 col-sm-4">
 							<legend>都道府県</legend>
@@ -258,7 +258,7 @@
 							</select>
 						</div>
 					</fieldset>
-					<div class="space-16"></div>
+					<div class="space-16 hidden-480"></div>
 					<fieldset>
 						<div class="col-xs-12 col-sm-4">
 							<legend>あなたが描くキャラクターの特徴</legend>
@@ -267,7 +267,7 @@
 							<textarea name="character" id="character" rows="3" class="col-xs-12 col-sm-8"></textarea>
 						</div>
 					</fieldset>
-					<div class="space-16"></div>
+					<div class="space-16 hidden-480"></div>
 					<fieldset>
 						<div class="col-xs-12 col-sm-4">
 							<legend>ご意見・ご質問</legend>
@@ -314,9 +314,9 @@
 		$("h3#resize_text_c1").fitText(3,{ minFontSize: '20px', maxFontSize: '40px' });
 		$("h3#resize_text_c2").fitText(1.5,{ minFontSize: '20px', maxFontSize: '60px' });
 		$("h2#resize_text_c2").fitText(1,{ minFontSize: '30px', maxFontSize: '65px' });
-
+		$("h3#resize_text_c3").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
+		$("h3#resize_text_c4").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
 		$("h1#resize_text_c5").fitText(1,{ minFontSize: '30px', maxFontSize: '60px' });
-
 		</script>
 </body>
 </html>
