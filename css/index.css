@@ -3,7 +3,9 @@ body { background-color: #000;}
 	background:url(../img/bg_01.jpg)  no-repeat center top fixed;
 	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
 }
-.content1 h3 {font-size: 40px; padding-top: 150px; font-weight: 300;  }
+.content1 h3 {
+	padding-top: 250px;
+}
 
 .content2 {
 	background:url(../img/bg_02.jpg)  no-repeat center center fixed;
@@ -12,36 +14,36 @@ body { background-color: #000;}
 
 .content2-1{
 	background:url(../img/bg_05.jpg)  no-repeat center center fixed;
-	height: 1000px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
 }
 .content2-2{
 	background:url(../img/bg_07.jpg)  no-repeat center center fixed;
-	height: 1000px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
 }
 .content2-3{
 	background:url(../img/bg_08.jpg)  no-repeat center center fixed;
-	height: 1000px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
-}
-.content2-4{
-	background:url(../img/bg_09.jpg)  no-repeat center center fixed;
 	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
 }
 .content2-1 h3,
 .content2-2 h3,
 .content2-3 h3{
-	padding:100px 0px 0px 0px; font-weight: 300;
+	padding:100px 0px 0px 0px;
 }
 
-.content3 {
+.content3-1{
+	background:url(../img/bg_09.jpg)  no-repeat center center fixed;
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+}
+.content3-2 {
 	background:url(../img/bg_03.jpg)  no-repeat center top fixed;
-	height: 1400px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
 }
 .content4 {
 	background:url(../img/bg_04.jpg)  no-repeat center center fixed;
 	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
 }
 .content4 h3{
-	font-size: 40px; padding-top: 350px; font-weight: 300;
+	font-size: 40px; padding-top: 250px; font-weight: 300;
 }
 .content5 {
 	background:url(../img/bg_05.jpg)  no-repeat center center fixed;
@@ -57,15 +59,11 @@ body { background-color: #000;}
 	margin-left:10px;
 }
 
-
-h1 {font-size: 75px; padding-top: 250px; font-weight: 300;  }
-h2 {font-size: 65px; padding-top: 400px; font-weight: 300;  }
-
-h3.content{font-size: 40px; padding-top: 300px; font-weight: 300;}
-h3 {font-size: 40px; padding-top: 150px; font-weight: 300;  }
-h4 {font-size: 15px; font-weight: 300;}
+h1 {font-size: 75px; padding-top: 250px; font-weight: 300; margin:0px;}
+h2 {font-size: 65px; padding-top: 400px; font-weight: 300; margin:0px;}
+h3 {font-size: 40px; padding-top: 150px; font-weight: 300; margin:0px;}
+h4 {font-size: 15px; font-weight: 300; margin:0px;}
 p { color: #fff}
-
 .bold{font-weight:bold;}
 table.table tr th,td{
 	font-size:25px; font-weight:300; text-align:left;
