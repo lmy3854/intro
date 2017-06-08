@@ -36,7 +36,7 @@ body { background-color: #000;}
 }
 .content3-2 {
 	background:url(../img/bg_03.jpg)  no-repeat center top fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
 }
 .content4 {
 	background:url(../img/bg_04.jpg)  no-repeat center center fixed;
@@ -47,7 +47,7 @@ body { background-color: #000;}
 }
 .content5 {
 	background:url(../img/bg_05.jpg)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	height: 1100px; text-align: center;font-family: sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
 }
 .content5 h1{
 	font-size: 75px; padding-top: 100px; padding-bottom:50px;  font-weight: 300;

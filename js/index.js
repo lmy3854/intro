@@ -35,43 +35,15 @@
 				}
 			}(jQuery));
 
-			$('.content1').parallax({
-				speed : 0.15
-			});
-
-			$('.content2').parallax({
-				speed : 0.3
-			});
-
-			$('.content2-1').parallax({
-				speed : 0.5
-			});
-			$('.content2-2').parallax({
-				speed : 0.5
-			});
-			$('.content2-3').parallax({
-				speed : 0.5
-			});
-			$('.content3-1').parallax({
-				speed : 0.2
-			});
-			$('.content3-2').parallax({
-				speed : 0.5
-			});
-
-			$('.content4').parallax({
-				speed : 0.2
-			});
-			$('.content5').parallax({
-				speed : 1
-			});
-
-			$("h3#resize_text_c1").fitText(1,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h3#resize_text_c2").fitText(1,{ minFontSize: '20px', maxFontSize: '60px' });
-			$("h2#resize_text_c2").fitText(1,{ minFontSize: '30px', maxFontSize: '65px' });
-			$("h3#resize_text_c3").fitText(1,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h3#resize_text_c4").fitText(1,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h1#resize_text_c5").fitText(1,{ minFontSize: '30px', maxFontSize: '60px' });
+			$('.content1').parallax({speed : 0.3});
+			$('.content2').parallax({speed : 0.3});
+			$('.content2-1').parallax({speed : 0.3});
+			$('.content2-2').parallax({speed : 0.3});
+			$('.content2-3').parallax({speed : 0.3});
+			$('.content3-1').parallax({speed : 0.3});
+			$('.content3-2').parallax({speed : 0.3});
+			$('.content4').parallax({speed : 0.3});
+			$('.content5').parallax({speed : 0.3});
 
 			var msg={
 				 noName:"이름을 입력하세요"
