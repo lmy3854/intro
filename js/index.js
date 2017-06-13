@@ -46,9 +46,8 @@
 			$('.content5').parallax({speed : 0.3});
 
 			var msg={
-				 noName:"이름을 입력하세요"
-				,noMail:"메일을 입력하세요"
-				,noCharacter:"메일을 입력하세요"
+				 noName:"※は必須入力です"
+				,noMail:"※は必須入力です"
 				,success:"送信完了"
 				,error:"正しく入力されていない項目があります。もう一度ご入力ください。"
 			}

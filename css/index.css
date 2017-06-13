@@ -1,59 +1,59 @@
 body { background-color: #000;}
 .content1 {
-	background:url(../img/bg_01.jpg)  no-repeat center top fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_01.png)  no-repeat center top fixed;
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 .content1 h3 {
-	padding-top: 250px;
+	padding-top: 350px;
 }
 
 .content2 {
-	background:url(../img/bg_02.jpg)  no-repeat center center fixed;
-	height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_02.png)  no-repeat center center fixed;
+	height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 
 .content2-1{
-	background:url(../img/bg_05.jpg)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_02.png)  no-repeat center center fixed;
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 .content2-2{
-	background:url(../img/bg_07.jpg)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_03.png)  no-repeat center center fixed;
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 .content2-3{
-	background:url(../img/bg_08.jpg)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_04.png)  no-repeat center center fixed;
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 .content2-1 h3,
 .content2-2 h3,
 .content2-3 h3{
-	padding:100px 0px 0px 0px;
+	padding:150px 0px 0px 0px;
 }
 
 .content3-1{
-	background:url(../img/bg_09.jpg)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_05.png)  no-repeat center center fixed;
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 .content3-2 {
-	background:url(../img/bg_03.jpg)  no-repeat center top fixed;
-	height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_06.png)  no-repeat center top fixed;
+	height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 .content4 {
-	background:url(../img/bg_04.jpg)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_07.png)  no-repeat center center fixed;
+	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 .content4 h3{
 	font-size: 40px; padding-top: 250px; font-weight: 300;
 }
 .content5 {
-	background:url(../img/bg_05.jpg)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: sans-serif; font-weight: 300; color: rgba(255,255,255,0.7);
+	background:url(../img/bg_08.png)  no-repeat center center fixed;
+	height: 1100px; text-align: center;font-family: sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
 }
 .content5 h1{
 	font-size: 75px; padding-top: 100px; padding-bottom:50px;  font-weight: 300;
 }
 .content5 legend{
-	font-size:20px;text-align: left; font-family:sans-serif; font-weight:bold; color:rgba(255,255,255,0.7);
+	font-size:20px;text-align: left; font-family:sans-serif; font-weight:bold; color:rgba(0,0,0,0.7);
 }
 .content5 fieldset>div{
 	margin-left:10px;
