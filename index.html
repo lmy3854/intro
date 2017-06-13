@@ -6,8 +6,9 @@
 	<title>Kayraten Teaser</title>
 	<link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
 	<style>
-		@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+		@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 		@font-face{
 			font-family:"ktegaki";
 			src:url("./css/fonts/KTEGAKI.ttf");
@@ -48,10 +49,11 @@
 		/* Defining each section background and styles
 		* --------------------------------------- */
 		#section1{
-			background-image: url(./img/bg_01.png);
+			background:url(./img/bg_01.png) no-repeat center;
+			background-size:cover;
 		}
 		#section1 h1{
-			font-size: 4em;
+			font-size: 3.5em;
 			color: #333;
 			font-weight: 500;
 			top: 50%;
@@ -59,7 +61,8 @@
 			position: relative;
 		}
 		#section2{
-			background-image: url(img/bg_02.png);
+			background:url(./img/bg_02.png) no-repeat center;
+			background-size:cover;
 			padding: 6% 0 0 0;
 		}
 		#section2 h3
@@ -70,15 +73,18 @@
 			position: relative;
 		}
 		#section3{
-			background-image: url(img/bg_03.png);
+			background:url(./img/bg_03.png) no-repeat center;
+			background-size:cover;
 			padding: 6% 0 0 0;
 		}
 		#section4{
-			background-image: url(img/bg_04.png);
+			background:url(./img/bg_04.png) no-repeat center;
+			background-size:cover;
 			padding: 6% 0 0 0;
 		}
 		#section5{
-			background-image: url(img/bg_05.png);
+			background:url(./img/bg_05.png) no-repeat center;
+			background-size:cover;
 			padding: 6% 0 0 0;
 		}
 		#section5 h1{
@@ -88,7 +94,8 @@
 			position: relative;
 		}
 		#section6{
-			background-image: url(img/bg_06.png);
+			background:url(./img/bg_06.png) no-repeat center;
+			background-size:cover;
 			padding: 6% 0 0 0;
 		}
 		#section6 span{
@@ -101,7 +108,8 @@
 			color: #555;
 		}
 		#section7{
-			background-image: url(img/bg_07.png);
+			background:url(./img/bg_07.png) no-repeat center;
+			background-size:cover;
 			padding: 6% 0 0 0;
 		}
 		#section7 h3{
@@ -110,7 +118,8 @@
 			position: relative;
 		}
 		#section8{
-			background-image: url(img/bg_08.png);
+			background:url(./img/bg_08.png) no-repeat center;
+			background-size:cover;
 			padding: 6% 0 0 0;
 			color: #666;
 			font-family: sans-serif;
@@ -121,24 +130,23 @@
 			font-size: 3em;
 		}
 
-#section8 div.button {
-  flex: 1 1 auto;
-  margin: 10px;
-  padding: 20px;
-  border: 2px solid #666;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  overflow:hidden;
-  transition: .3s;
-  cursor: pointer;
-}
+		#section8 div.button {
+			flex: 1 1 auto;
+			margin: 10px;
+			padding: 20px;
+			border: 2px solid #666;
+			text-align: center;
+			text-transform: uppercase;
+			position: relative;
+			overflow:hidden;
+			transition: .3s;
+			cursor: pointer;
+		}
 
 
 /* input form ------------------------------------------ */
 		* { box-sizing:border-box; }
 		/* basic stylings ------------------------------------------ */
-		body{ background:url(https://scotch.io/wp-content/uploads/2014/07/61.jpg); }
 		.container 		{
 			font-family:'Roboto';
 			width:600px;
@@ -306,53 +314,35 @@
 					</div>
 					<div class="section" id="section8">
 						<h1 id="resize_text_c5">事前予約登録画面</h1>
-<div class="container">
-	<form>
-		<div class="group">
-			<input type="text" name="name" id="name" required>
-			<span class="highlight"></span>
-			<span class="bar"></span>
-			<label>ユーザーネーム</label>
-		</div>
-		<div class="group">
-			<input type="text" name="mail" id="mail" required>
-			<span class="highlight"></span>
-			<span class="bar"></span>
-			<label>メールアドレス</label>
-		</div>
-	</form>
-	<p class="footer">
-		<div class="button">送信する</div>
-	</p>
-</div>
-						<!--
-						<div id="input-form">
-							<form action="">
-								<fieldset>
-									<div class="">
-										<legend>ユーザーネーム</legend>
-									</div>
-									<div class="">
-										<input type="text" id="name" class="" >
-									</div>
-								</fieldset>
-								<fieldset>
-									<div class="">
-										<legend>メールアドレス</legend>
-									</div>
-									<div class="">
-										<input type="email" id="mail" class="" >
-									</div>
-								</fieldset>
-								<div class="col-sm-12">
-									<button id="saveBtn" class="btn btn-primary btn-lg">送信する</button>
+						<div class="container">
+							<form>
+								<div class="group">
+									<input type="text" name="name" id="name" required>
+									<span class="highlight"></span>
+									<span class="bar"></span>
+									<label>ユーザーネーム</label>
+								</div>
+								<div class="group">
+									<input type="text" name="mail" id="mail" required>
+									<span class="highlight"></span>
+									<span class="bar"></span>
+									<label>メールアドレス</label>
 								</div>
 							</form>
+							<p class="footer">
+								<div id="saveBtn" class="button">送信する</div>
+							</p>
 						</div>
-						-->
 					</div>
 				</div>
-
+				<!-- modal -->
+				<div class="modal fade" id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div id="modalMsg" class="modal-body"></div>
+						</div>
+					</div>
+				</div>
 <!--[if IE]>
 	<script type="text/javascript">
 		 var console = { log: function() {} };
@@ -361,12 +351,61 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
 	<script type="text/javascript">
+
+
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				verticalCentered: false
 			});
+
+			var msg={
+				 noName:"※は必須入力です"
+				,noMail:"※は必須入力です"
+				,success:"送信完了"
+				,error:"正しく入力されていない項目があります。もう一度ご入力ください。"
+			}
+
+			$("#saveBtn").on("click",function(){
+				if($.trim($("#name").val()) == ""){
+					$("div#modalMsg").text(msg.noName);
+					$("#bs-example-modal-lg").modal("toggle");
+					return false;
+				}else if($.trim($("#mail").val()) == ""){
+					$("div#modalMsg").text(msg.noMail);
+					$("#bs-example-modal-lg").modal("toggle");
+					return false;
+				}
+				$.ajax({
+					 //url:"https://script.google.com/macros/s/AKfycbwow4e86Vh8Syq_1fzpct7STCHHpnFkU2etQUVhBE9wN9oqtpE/exec"
+					 url:"https://listensoft.slack.com/services/hooks/slackbot?token=FnYtz5bBVRS7i3D7ahE51Yq6&channel=%23fb_teaser_writer"
+					,data:{name:$("#name").val()
+						, mail:$("#mail").val()
+						/*
+						, gender:$("input[name='gender']:checked").val()
+						, age:$("select#age option:selected").val()
+						, location:$("select#location option:selected").val()
+						, os:$("input[name='os']:checked").val()
+						, character:$("#character").val()
+						, opinion:$("#opinion").val()
+						*/
+					}
+					,type:"POST"
+					,success:function(e){
+						$("div#modalMsg").text(msg.success);
+						$("#bs-example-modal-lg").modal("toggle");
+						$("#name").val("");
+						$("#mail").val("");
+					}
+					,error:function(){
+						$("div#modalMsg").text(msg.error);
+						$("#bs-example-modal-lg").modal("toggle");
+					}
+				});
+			});
+
 		});
 	</script>
 </body>
