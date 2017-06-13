@@ -7,212 +7,367 @@
 	<link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
 	<style>
-	@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
-	@font-face{
-		font-family:"ktegaki";
-		src:url("./css/fonts/KTEGAKI.ttf");
-	}
-	/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 4em;
-		font-family: arial,helvetica;
-		color: #222;
-		margin:0;
-		padding:0;
-		font-family: 'ktegaki', sans-serif;
-	}
-	h3{
-		font-size: 3em;
-		font-family: arial,helvetica;
-		color: #444;
-		margin:0;
-		padding:0;
-		font-family: 'ktegaki', sans-serif;
-	}
+		@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+		@font-face{
+			font-family:"ktegaki";
+			src:url("./css/fonts/KTEGAKI.ttf");
+		}
+		/* Style for our header texts
+		* --------------------------------------- */
+		h1{
+			font-size: 4em;
+			font-family: arial,helvetica;
+			color: #222;
+			margin:0;
+			padding:0;
+			font-family: 'ktegaki', sans-serif;
+		}
+		h3{
+			font-size: 3em;
+			font-family: arial,helvetica;
+			color: #444;
+			margin:0;
+			padding:0;
+			font-family: 'ktegaki', sans-serif;
+		}
 
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
+		/* Centered texts in each section
+		* --------------------------------------- */
+		.section{
+			text-align:center;
+		}
+		/* Backgrounds will cover all the section
+		* --------------------------------------- */
+		.section{
+			background-size: cover;
+		}
+		.slide{
+			background-size: cover;
+		}
+
+		/* Defining each section background and styles
+		* --------------------------------------- */
+		#section1{
+			background-image: url(./img/bg_01.png);
+		}
+		#section1 h1{
+			font-size: 4em;
+			color: #333;
+			font-weight: 500;
+			top: 50%;
+			transform: translateY(-40%);
+			position: relative;
+		}
+		#section2{
+			background-image: url(img/bg_02.png);
+			padding: 6% 0 0 0;
+		}
+		#section2 h3
+		,#section3 h3
+		,#section4 h3{
+			top: 30%;
+			transform: translateY(-80%);
+			position: relative;
+		}
+		#section3{
+			background-image: url(img/bg_03.png);
+			padding: 6% 0 0 0;
+		}
+		#section4{
+			background-image: url(img/bg_04.png);
+			padding: 6% 0 0 0;
+		}
+		#section5{
+			background-image: url(img/bg_05.png);
+			padding: 6% 0 0 0;
+		}
+		#section5 h1{
+			font-size: 5em;
+			top: 40%;
+			transform: translateY(-30%);
+			position: relative;
+		}
+		#section6{
+			background-image: url(img/bg_06.png);
+			padding: 6% 0 0 0;
+		}
+		#section6 span{
+			font-size: 1em;
+			font-weight: bold;
+			color: #333;
+		}
+		#section6 p{
+			font-size: 1em;
+			color: #555;
+		}
+		#section7{
+			background-image: url(img/bg_07.png);
+			padding: 6% 0 0 0;
+		}
+		#section7 h3{
+			top: 30%;
+			transform: translateY(-50%);
+			position: relative;
+		}
+		#section8{
+			background-image: url(img/bg_08.png);
+			padding: 6% 0 0 0;
+			color: #666;
+			font-family: sans-serif;
+		}
+		#section8 h1{
+			color: #2;
+			font-family: sans-serif;
+			font-size: 3em;
+		}
+
+#section8 div.button {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #666;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  cursor: pointer;
+}
 
 
-	/* Backgrounds will cover all the section
-	* --------------------------------------- */
-	.section{
-		background-size: cover;
-	}
-	.slide{
-		background-size: cover;
-	}
+/* input form ------------------------------------------ */
+		* { box-sizing:border-box; }
+		/* basic stylings ------------------------------------------ */
+		body{ background:url(https://scotch.io/wp-content/uploads/2014/07/61.jpg); }
+		.container 		{
+			font-family:'Roboto';
+			width:600px;
+			margin:30px auto 0;
+			display:block;
+			padding:10px 50px 50px;
+		}
+		h2{
+			text-align:center;
+			margin-bottom:50px;
+		}
+		h2 small {
+			font-weight:normal;
+			color:#888;
+			display:block;
+		}
+		.footer{ text-align:center; }
+		.footer a{ color:#53B2C8; }
 
-	/* Defining each section background and styles
-	* --------------------------------------- */
-	#section1{
-		background-image: url(./img/bg_01.png);
-	}
-	#section1 h1{
-		font-size: 4em;
-		color: #333;
-		font-weight: bold;
-		top: 50%;
-		transform: translateY(-40%);
-		position: relative;
-	}
-	#section2{
-		background-image: url(img/bg_02.png);
-		padding: 6% 0 0 0;
-	}
-	 #section2 h3
-	,#section3 h3
-	,#section4 h3{
-		top: 30%;
-		transform: translateY(-80%);
-		position: relative;
-	}
-	#section3{
-		background-image: url(img/bg_03.png);
-		padding: 6% 0 0 0;
-	}
-	#section4{
-		background-image: url(img/bg_04.png);
-		padding: 6% 0 0 0;
-	}
-	#section5{
-		background-image: url(img/bg_05.png);
-		padding: 6% 0 0 0;
-	}
-	#section5 h1{
-		font-size: 5em;
-		top: 40%;
-		transform: translateY(-30%);
-		position: relative;
-	}
-	#section6{
-		background-image: url(img/bg_06.png);
-		padding: 6% 0 0 0;
-	}
-	#section6 span{
-		font-size: 1em;
-		font-weight: bold;
-		color: #333;
-	}
-	#section6 p{
-		font-size: 1em;
-		color: #555;
-	}
-	#section7{
-		background-image: url(img/bg_07.png);
-		padding: 6% 0 0 0;
-	}
-	#section7 h3{
-		top: 30%;
-		transform: translateY(-50%);
-		position: relative;
-	}
-	#section8{
-		background-image: url(img/bg_08.png);
-		padding: 6% 0 0 0;
-		color: #666;
-	}
-	#section8 h1{
-		color: #666;
-	}
+		/* form starting stylings ------------------------------- */
+		.group 			  {
+			position:relative;
+			margin-bottom:45px;
+		}
+		input 				{
+			font-size:18px;
+			padding:10px 10px 10px 5px;
+			display:block;
+			width:500px;
+			border:none;
+			border-bottom:1px solid #757575;
+		}
+		input:focus 		{ outline:none; }
+
+		/* LABEL ======================================= */
+		label 				 {
+			color:#999;
+			font-size:18px;
+			font-weight:normal;
+			position:absolute;
+			pointer-events:none;
+			left:5px;
+			top:10px;
+			transition:0.2s ease all;
+			-moz-transition:0.2s ease all;
+			-webkit-transition:0.2s ease all;
+		}
+
+		/* active state */
+		input:focus ~ label, input:valid ~ label 		{
+			top:-20px;
+			font-size:14px;
+			color:#5264AE;
+		}
+
+		/* BOTTOM BARS ================================= */
+		.bar { position:relative; display:block; width:500px; }
+		.bar:before, .bar:after 	{
+			content:'';
+			height:2px;
+			width:0;
+			bottom:1px;
+			position:absolute;
+			background:#5264AE;
+			transition:0.2s ease all;
+			-moz-transition:0.2s ease all;
+			-webkit-transition:0.2s ease all;
+		}
+		.bar:before {
+			left:50%;
+		}
+		.bar:after {
+			right:50%;
+		}
+
+		/* active state */
+		input:focus ~ .bar:before, input:focus ~ .bar:after {
+		  width:50%;
+		}
+
+		/* HIGHLIGHTER ================================== */
+		.highlight {
+			position:absolute;
+			height:60%;
+			width:100px;
+			top:25%;
+			left:0;
+			pointer-events:none;
+			opacity:0.5;
+		}
+
+		/* active state */
+		input:focus ~ .highlight {
+			-webkit-animation:inputHighlighter 0.3s ease;
+			-moz-animation:inputHighlighter 0.3s ease;
+			animation:inputHighlighter 0.3s ease;
+		}
+
+		/* ANIMATIONS ================ */
+		@-webkit-keyframes inputHighlighter {
+			from { background:#5264AE; }
+			to 	{ width:0; background:transparent; }
+		}
+		@-moz-keyframes inputHighlighter {
+			from { background:#5264AE; }
+			to 	{ width:0; background:transparent; }
+		}
+		@keyframes inputHighlighter {
+			from { background:#5264AE; }
+			to 	{ width:0; background:transparent; }
+		}
 	</style>
-
 </head>
 <body>
-<div id="fullpage">
-	<div class="section" id="section1">
-		<h1>あなただけのオリジナルキャラクターが登場する天気予報</h1>
-	</div>
-	<div class="section" id="section2">
-		<h3>
-			STEP1<br/>
-			しみ方はとってもシンプル！<br/>
-			キャラクターとお天気マーク<br/>
-			（例：晴れ、雨など）を描く<br/>
-		</h3>
-	</div>
-	<div class="section" id="section3">
-		<h3>
-			STEP2<br/>
-			「キャラ天」サイト・アプリにて<br/>
-			画像をアップロード<br/>
-		</h3>
-	</div>
-	<div class="section" id="section4">
-		<h3>
-			STEP3<br/>
-			オリジナル天気予報の完成！<br/>
-			天気予報データに基づいたイラストが、<br/>
-			２時間ごとに配信されます♪<br/>
-		</h3>
-	</div>
-	<div class="section" id="section5">
-		<h1>でも…楽しみ方はそれだけじゃない！</h1>
-	</div>
-	<div class="section" id="section6">
-		<h3>
-			<span style="text-decoration: underline;">ポイント１</span><br/>
-			<p>他のユーザーとつながろう！<br/>
-			キャラクターのコラボが楽しめる</p><br/><br/>
-			<span style="text-decoration: underline;">ポイント２</span><br/>
-			<p>アニメーションスタンプも対応<br/>　
-			動くキャラクターでも天気予報を楽しもう</p><br/><br/>
-			<span style="text-decoration: underline;">ポイント３</span><br/>
-			<p>スタンプ・アニメーションスタンプの販売で<br/>　
-			目指せ人気クリエイター！！</p>
-		</h3>
-	</div>
-	<div class="section" id="section7">
-		<h3>
-			近日、アプリ配信開始予定<br/><br/>
-			事前登録受付中<br/>
-			今なら事前登録をされた方の中から抽選で<br>
-			10名様に電子マネー500円分をプレゼント！<br>
-		</h3>
-	</div>
-	<div class="section" id="section8">
-		<h1 id="resize_text_c5">事前予約登録画面</h1>
-		<div id="input-form">
-			<form action="">
-				<fieldset>
-					<div class="">
-						<legend>ユーザーネーム</legend>
-					</div>
-					<div class="">
-						<input type="text" id="name" class="">
-					</div>
-				</fieldset>
-				<fieldset>
-					<div class="">
-						<legend>メールアドレス</legend>
-					</div>
-					<div class="">
-						<input type="email" id="mail" class="">
-					</div>
-				</fieldset>
-			</form>
+	<div id="fullpage">
+		<div class="section" id="section1">
+			<h1>あなただけのオリジナルキャラクターが登場する天気予報</h1>
 		</div>
-	</div>
+		<div class="section" id="section2">
+			<h3>
+				STEP1<br/>
+				しみ方はとってもシンプル！<br/>
+				キャラクターとお天気マーク<br/>
+				（例：晴れ、雨など）を描く<br/>
+			</h3>
+		</div>
+		<div class="section" id="section3">
+			<h3>
+				STEP2<br/>
+				「キャラ天」サイト・アプリにて<br/>
+				画像をアップロード<br/>
+			</h3>
+		</div>
+		<div class="section" id="section4">
+			<h3>
+				STEP3<br/>
+				オリジナル天気予報の完成！<br/>
+				天気予報データに基づいたイラストが、<br/>
+				２時間ごとに配信されます♪<br/>
+			</h3>
+		</div>
+		<div class="section" id="section5">
+			<h1>でも…楽しみ方はそれだけじゃない！</h1>
+		</div>
+		<div class="section" id="section6">
+			<h3>
+				<span style="text-decoration: underline;">ポイント１</span><br/>
+				<p>他のユーザーとつながろう！<br/>
+					キャラクターのコラボが楽しめる</p><br/><br/>
+					<span style="text-decoration: underline;">ポイント２</span><br/>
+					<p>アニメーションスタンプも対応<br/>　
+						動くキャラクターでも天気予報を楽しもう</p><br/><br/>
+						<span style="text-decoration: underline;">ポイント３</span><br/>
+						<p>スタンプ・アニメーションスタンプの販売で<br/>　
+							目指せ人気クリエイター！！</p>
+						</h3>
+					</div>
+					<div class="section" id="section7">
+						<h3>
+							近日、アプリ配信開始予定<br/><br/>
+							事前登録受付中<br/>
+							今なら事前登録をされた方の中から抽選で<br>
+							10名様に電子マネー500円分をプレゼント！<br>
+						</h3>
+					</div>
+					<div class="section" id="section8">
+						<h1 id="resize_text_c5">事前予約登録画面</h1>
+<div class="container">
+	<form>
+		<div class="group">
+			<input type="text" name="name" id="name" required>
+			<span class="highlight"></span>
+			<span class="bar"></span>
+			<label>ユーザーネーム</label>
+		</div>
+		<div class="group">
+			<input type="text" name="mail" id="mail" required>
+			<span class="highlight"></span>
+			<span class="bar"></span>
+			<label>メールアドレス</label>
+		</div>
+	</form>
+	<p class="footer">
+		<div class="button">送信する</div>
+	</p>
 </div>
+						<!--
+						<div id="input-form">
+							<form action="">
+								<fieldset>
+									<div class="">
+										<legend>ユーザーネーム</legend>
+									</div>
+									<div class="">
+										<input type="text" id="name" class="" >
+									</div>
+								</fieldset>
+								<fieldset>
+									<div class="">
+										<legend>メールアドレス</legend>
+									</div>
+									<div class="">
+										<input type="email" id="mail" class="" >
+									</div>
+								</fieldset>
+								<div class="col-sm-12">
+									<button id="saveBtn" class="btn btn-primary btn-lg">送信する</button>
+								</div>
+							</form>
+						</div>
+						-->
+					</div>
+				</div>
+
 <!--[if IE]>
 	<script type="text/javascript">
 		 var console = { log: function() {} };
 	</script>
-<![endif]-->
+	<![endif]-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$('#fullpage').fullpage({
-			verticalCentered: false
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false
+			});
 		});
-	});
-</script>
+	</script>
 </body>
 </html>
