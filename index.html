@@ -17,7 +17,7 @@
 	h1{
 		font-size: 4em;
 		font-family: arial,helvetica;
-		color: #fff;
+		color: #222;
 		margin:0;
 		padding:0;
 		font-family: 'ktegaki', sans-serif;
@@ -25,7 +25,7 @@
 	h3{
 		font-size: 3em;
 		font-family: arial,helvetica;
-		color: #fff;
+		color: #444;
 		margin:0;
 		padding:0;
 		font-family: 'ktegaki', sans-serif;
@@ -53,6 +53,9 @@
 		background-image: url(./img/bg_01.png);
 	}
 	#section1 h1{
+		font-size: 4em;
+		color: #333;
+		font-weight: bold;
 		top: 50%;
 		transform: translateY(-40%);
 		position: relative;
@@ -81,14 +84,23 @@
 		padding: 6% 0 0 0;
 	}
 	#section5 h1{
+		font-size: 5em;
 		top: 40%;
 		transform: translateY(-30%);
 		position: relative;
-		font-size: 6em;
 	}
 	#section6{
 		background-image: url(img/bg_06.png);
 		padding: 6% 0 0 0;
+	}
+	#section6 span{
+		font-size: 1em;
+		font-weight: bold;
+		color: #333;
+	}
+	#section6 p{
+		font-size: 1em;
+		color: #555;
 	}
 	#section7{
 		background-image: url(img/bg_07.png);
@@ -106,13 +118,6 @@
 	}
 	#section8 h1{
 		color: #666;
-	}
-
-
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
 	}
 	</style>
 
@@ -151,14 +156,14 @@
 	<div class="section" id="section6">
 		<h3>
 			<span style="text-decoration: underline;">ポイント１</span><br/>
-			他のユーザーとつながろう！<br/>
-			キャラクターのコラボが楽しめる<br/><br/>
+			<p>他のユーザーとつながろう！<br/>
+			キャラクターのコラボが楽しめる</p><br/><br/>
 			<span style="text-decoration: underline;">ポイント２</span><br/>
-			アニメーションスタンプも対応<br/>　
-			動くキャラクターでも天気予報を楽しもう<br/><br/>
+			<p>アニメーションスタンプも対応<br/>　
+			動くキャラクターでも天気予報を楽しもう</p><br/><br/>
 			<span style="text-decoration: underline;">ポイント３</span><br/>
-			スタンプ・アニメーションスタンプの販売で<br/>　
-			目指せ人気クリエイター！！<br/>　
+			<p>スタンプ・アニメーションスタンプの販売で<br/>　
+			目指せ人気クリエイター！！</p>
 		</h3>
 	</div>
 	<div class="section" id="section7">
@@ -174,20 +179,19 @@
 		<div id="input-form">
 			<form action="">
 				<fieldset>
-					<div class="col-xs-12 col-sm-4">
+					<div class="">
 						<legend>ユーザーネーム</legend>
 					</div>
-					<div class="col-xs-12 col-sm-7">
-						<input type="text" id="name" class="col-xs-12 col-sm-8">
+					<div class="">
+						<input type="text" id="name" class="">
 					</div>
 				</fieldset>
-				<div class="space-16 hidden-480"></div>
 				<fieldset>
-					<div class="col-xs-12 col-sm-4">
+					<div class="">
 						<legend>メールアドレス</legend>
 					</div>
-					<div class="col-xs-12 col-sm-7">
-						<input type="email" id="mail" class="col-xs-12 col-sm-8">
+					<div class="">
+						<input type="email" id="mail" class="">
 					</div>
 				</fieldset>
 			</form>
@@ -200,12 +204,9 @@
 	</script>
 <![endif]-->
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
-<script type="text/javascript" src="./js/examples.js"></script>
-
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
