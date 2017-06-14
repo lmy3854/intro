@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kayraten Teaser</title>
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="./css/examples.css" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+        @font-face{
+            font-family:"ktegaki";
+            src:url("./css/fonts/KTEGAKI.ttf");
+        }
+        /* Style for our header texts
+        * --------------------------------------- */
+        h1{
+            font-size: 4em;
+            font-family: arial,helvetica;
+            color: #222;
+            margin:0;
+            padding:0;
+            font-family: 'ktegaki', sans-serif;
+        }
+        h3{
+            font-size: 3em;
+            font-family: arial,helvetica;
+            color: #444;
+            margin:0;
+            padding:0;
+            font-family: 'ktegaki', sans-serif;
+        }
+
+        /* Centered texts in each section
+        * --------------------------------------- */
+        .section{
+            text-align:center;
+        }
+        /* Backgrounds will cover all the section
+        * --------------------------------------- */
+        .section{
+            background-size: cover;
+        }
+        .slide{
+            background-size: cover;
+        }
+
+        /* Defining each section background and styles
+        * --------------------------------------- */
+        #section1{
+            background:url(./img/bg_01.png) no-repeat center;
+            background-size:cover;
+        }
+        #section1 h1{
+            font-size: 3.5em;
+            color: #333;
+            font-weight: 500;
+            top: 50%;
+            transform: translateY(-40%);
+            position: relative;
+        }
+        #section2{
+            background:url(./img/bg_02.png) no-repeat center;
+            background-size:cover;
+            padding: 6% 0 0 0;
+        }
+        #section2 h3
+        ,#section3 h3
+        ,#section4 h3{
+            top: 30%;
+            transform: translateY(0%);
+            position: relative;
+        }
+        #section3{
+            background:url(./img/bg_03.png) no-repeat center;
+            background-size:cover;
+            padding: 6% 0 0 0;
+        }
+        #section4{
+            background:url(./img/bg_04.png) no-repeat center;
+            background-size:cover;
+            padding: 6% 0 0 0;
+        }
+        #section5{
+            background:url(./img/bg_05.png) no-repeat center;
+            background-size:cover;
+            padding: 6% 0 0 0;
+        }
+        #section5 h1{
+            font-size: 5em;
+            top: 40%;
+            transform: translateY(-30%);
+            position: relative;
+        }
+        #section6{
+            background:url(./img/bg_06.png) no-repeat center;
+            background-size:cover;
+            padding: 6% 0 0 0;
+        }
+        #section6 span{
+            font-size: 1em;
+            font-weight: bold;
+            color: #333;
+        }
+        #section6 p{
+            font-size: 1em;
+            color: #555;
+        }
+        #section7{
+            background:url(./img/bg_07.png) no-repeat center;
+            background-size:cover;
+            padding: 6% 0 0 0;
+        }
+        #section7 h3{
+            top: 30%;
+            transform: translateY(0%);
+            position: relative;
+        }
+        #section8{
+            background:url(./img/bg_08.png) no-repeat center;
+            background-size:cover;
+            padding: 6% 0 0 0;
+            color: #666;
+            font-family: sans-serif;
+        }
+        #section8 h1{
+            color: #2;
+            font-family: sans-serif;
+            font-size: 3em;
+        }
+
+        #section8 div.button {
+            flex: 1 1 auto;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #666;
+            text-align: center;
+            text-transform: uppercase;
+            position: relative;
+            overflow:hidden;
+            transition: .3s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section" id="section1">
+            <h1 id="title">あなただけのオリジナルキャラクターが登場する天気予報</h1>
+        </div>
+<!--  -->
+        <div class="section" id="section2">
+            <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <h3>
+                        STEP1<br/>
+                        しみ方はとってもシンプル！<br/>
+                        キャラクターとお天気マーク<br/>
+                        （例：晴れ、雨など）を描く<br/>
+                    </h3>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-xs-12 col-sm-6">
+                    <img src="./img/item_02.png" alt="" class="col-xs-12 col-sm-12">
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+<!--  -->
+        <div class="section" id="section3">
+            <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <h3>
+                        STEP2<br/>
+                        「キャラ天」サイト・アプリにて<br/>
+                        画像をアップロード<br/>
+                    </h3>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-xs-12 col-sm-6">
+                    <img src="./img/item_03.png" alt="" class="col-xs-12 col-sm-12">
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+<!--  -->
+        <div class="section" id="section4">
+            <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <h3>
+                        STEP3<br/>
+                        オリジナル天気予報の完成！<br/>
+                        天気予報データに基づいたイラストが、<br/>
+                        ２時間ごとに配信されます♪<br/>
+                    </h3>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-xs-12 col-sm-6">
+                    <img src="./img/item_04.png" alt="" class="col-xs-12 col-sm-12">
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+<!--  -->
+        <div class="section" id="section5">
+            <h1>でも…楽しみ方はそれだけじゃない！</h1>
+        </div>
+<!--  -->
+        <div class="section" id="section6">
+            <h3>
+                <span style="text-decoration: underline;">ポイント１</span><br/>
+                    <p>他のユーザーとつながろう！<br/>
+                    キャラクターのコラボが楽しめる</p><br/><br/>
+                <span style="text-decoration: underline;">ポイント２</span><br/>
+                    <p>アニメーションスタンプも対応<br/>　
+                    動くキャラクターでも天気予報を楽しもう</p><br/><br/>
+                <span style="text-decoration: underline;">ポイント３</span><br/>
+                    <p>スタンプ・アニメーションスタンプの販売で<br/>　
+                    目指せ人気クリエイター！！</p>
+            </h3>
+        </div>
+<!--  -->
+        <div class="section" id="section7">
+            <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <h3>
+                        近日、アプリ配信開始予定<br/><br/>
+                        事前登録受付中<br/>
+                        今なら事前登録をされた方の中から抽選で<br>
+                        10名様に電子マネー500円分をプレゼント！<br>
+                    </h3>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-xs-12 col-sm-6">
+                    <img src="./img/item_07.png" alt="" class="col-xs-12 col-sm-12">
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+<!--  -->
+        <div class="section" id="section8">
+            <div class="col-sm-12">
+                <form id="sendForm">
+                    <h1 id="resize_text_c5">事前予約登録画面</h1>
+                    <div class="col-sm-12 hidden-480" style="height:100px;"></div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-xs-12 col-sm-8">
+                        <fieldset>
+                            <div class="col-xs-12 col-sm-3">
+                                <legend><span class="pull-left">ユーザーネーム</span></legend>
+                            </div>
+                            <div class="col-xs-12 col-sm-9">
+                                <input type="text" name="name" id="name" class="col-xs-12 col-sm-8">
+                                <span></span>
+                            </div>
+                        </fieldset>
+                        <div id="errorMsg"></div>
+                        <div class="space-16 hidden-480"></div>
+                        <fieldset>
+                            <div class="col-xs-12 col-sm-3">
+                                <legend><span class="pull-left">メールアドレス</span></legend>
+                            </div>
+                            <div class="col-xs-12 col-sm-9">
+                                <input type="email" name="mail" id="mail" class="col-xs-12 col-sm-8">
+                                <span></span>
+                            </div>
+                        </fieldset>
+                        <div id="errorMsg"></div>
+                        <hr>
+                        <div class="col-xs-1 col-sm-7"></div>
+                        <button id="saveBtn" class="btn btn-primary btn-lg col-xs-10 col-sm-2">送信する</button><!--송신-->
+                        <div class="col-xs-1 col-sm-3"></div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </form>
+            </div>
+<!--
+            <h1 id="resize_text_c5">事前予約登録画面</h1>
+            <div class="container">
+                <form id="sendForm">
+                    <div class="group">
+                        <input type="text" name="name" id="name" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>ユーザーネーム</label>
+                        <span id="errorMsg"></span>
+                    </div>
+                    <div>
+                        <span id="messageBox"></span>
+                    </div>
+                    <div class="group">
+                        <input type="text" name="mail" id="mail" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>メールアドレス</label>
+                        <span id="errorMsg"></span>
+                    </div>
+                    <div>
+                        <span id="messageBox"></span>
+                    </div>
+                </form>
+                <p class="footer">
+                    <div id="saveBtn" class="button">送信する</div>
+                </p>
+            </div>
+-->
+
+        </div>
+    </div>
+    <!-- modal -->
+    <div class="modal fade" id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div id="modalMsg" class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+<!--[if IE]>
+    <script type="text/javascript">
+         var console = { log: function() {} };
+    </script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.fittext.js"></script>
+    <script src="./js/jquery.fullPage.js" type="text/javascript" ></script>
+    <script type="text/javascript">
+        var msg={
+             noName:"※は必須入力です"
+            ,noMail:"※は必須入力です"
+            ,success:"送信完了"
+            ,error:"正しく入力されていない項目があります。もう一度ご入力ください。"
+        }
+
+        $(document).ready(function() {
+
+            $("h1#title").fitText(2,{ minFontSize: '30px', maxFontSize: '50px' });
+
+            $('#fullpage').fullpage({
+                verticalCentered: false
+            });
+
+            $("#saveBtn").on("click",function(){
+                $("#sendForm").submit();
+            });
+
+            $("#sendForm").validate({
+                debug : true,
+                rules : {
+                     name : {required : true, minlength : 2}
+                    ,mail : {required : true, email : true}
+                },
+                message : {
+                     name : {required : "※は必須入力です1", minlength : "※は必須入力です2"}
+                    ,mail : {required : "※は必須入力です3", email : "※は必須入力です4"}
+                },
+                errorPlacement:function(error,element){
+                    error.appendTo( element.closest("fieldset").next("div#errorMsg"));
+                },
+                submitHandler: function() {
+                    sendData();
+                }
+            });
+        });
+
+        function sendData(){
+            $.ajax({
+                 //url:"https://script.google.com/macros/s/AKfycbwow4e86Vh8Syq_1fzpct7STCHHpnFkU2etQUVhBE9wN9oqtpE/exec"
+                 url:"https://listensoft.slack.com/services/hooks/slackbot?token=FnYtz5bBVRS7i3D7ahE51Yq6&channel=%23fb_teaser_writer"
+                ,data:{name:$("#name").val()
+                    , mail:$("#mail").val()
+                }
+                ,type:"POST"
+                ,success:function(e){
+                    $("#name").val("");
+                    $("#mail").val("");
+                    $("div#modalMsg").text(msg.success);
+                    $("#bs-example-modal-lg").modal("toggle");
+                }
+                ,error:function(){
+                    $("div#modalMsg").text(msg.error);
+                    $("#bs-example-modal-lg").modal("toggle");
+                }
+            });
+
+        }
+
+    </script>
+</body>
+</html>
