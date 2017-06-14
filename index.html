@@ -57,9 +57,11 @@
 			font-size: 3.5em;
 			color: #333;
 			font-weight: 500;
+			line-height: 1.5em;
 			top: 50%;
 			transform: translateY(-40%);
 			position: relative;
+			padding: 0 50px 0 50px;
 		}
 		#section2{
 			background:url(./img/bg_02.png) no-repeat center;
@@ -131,6 +133,16 @@
 			background:url(./img/bg_08.png) no-repeat center;
 			background-size:cover;
 			padding: 6% 0 0 0;
+		}
+		#section8 h3{
+			top: 20%;
+			transform: translateY(-25%);
+			position: relative;
+		}
+		#section8 div{
+			top: 50%;
+			transform: translateY(-40%);
+			position: relative;
 		}
 		#section9{
 			background:url(./img/bg_09.png) no-repeat center;
@@ -281,7 +293,7 @@
 			<h1 id="title">あなただけのオリジナルキャラクターが登場する天気予報</h1>
 		</div>
 		<div class="section" id="section2">
-			<h3>
+			<h3 id="s2">
 				STEP1<br/>
 				しみ方はとってもシンプル！<br/>
 				キャラクターとお天気マーク<br/>
@@ -289,14 +301,14 @@
 			</h3>
 		</div>
 		<div class="section" id="section3">
-			<h3>
+			<h3 id="s3">
 				STEP2<br/>
 				「キャラ天」サイト・アプリにて<br/>
 				画像をアップロード<br/>
 			</h3>
 		</div>
 		<div class="section" id="section4">
-			<h3>
+			<h3 id="s4">
 				STEP3<br/>
 				オリジナル天気予報の完成！<br/>
 				天気予報データに基づいたイラストが、<br/>
@@ -304,18 +316,18 @@
 			</h3>
 		</div>
 		<div class="section" id="section5">
-			<h1>でも…楽しみ方はそれだけじゃない！</h1>
+			<h1 id="s5">でも…楽しみ方はそれだけじゃない！</h1>
 		</div>
 		<div class="section" id="section6">
 			<div class="div_table">
-				<h3 class="div_cell">
-					<span style="text-decoration: underline;">ポイント１</span><br/>
+				<h3 id="s6" class="div_cell">
+					<span id="s6" style="text-decoration: underline;">ポイント１</span><br/>
 					<p>他のユーザーとつながろう！<br/>
 					キャラクターのコラボが楽しめる</p><br/><br/>
-					<span style="text-decoration: underline;">ポイント２</span><br/>
+					<span id="s6" style="text-decoration: underline;">ポイント２</span><br/>
 					<p>アニメーションスタンプも対応<br/>　
 					動くキャラクターでも天気予報を楽しもう</p><br/><br/>
-					<span style="text-decoration: underline;">ポイント３</span><br/>
+					<span id="s6" style="text-decoration: underline;">ポイント３</span><br/>
 					<p>スタンプ・アニメーションスタンプの販売で<br/>　
 					目指せ人気クリエイター！！</p>
 				</h3>
@@ -330,12 +342,10 @@
 			</h3>
 		</div>
 		<div class="section" id="section8">
-			<h3>
-				近日、アプリ配信開始予定<br/><br/>
-				事前登録受付中<br/>
-				今なら事前登録をされた方の中から抽選で<br>
-				10名様に電子マネー500円分をプレゼント！<br>
-			</h3>
+			<h3 id="s8">キャラ天公式アカウントを登録をして、一足先に体験してみよう！</h3>
+			<div>
+				<img src="./img/item_04.png" alt="">
+			</div>
 		</div>
 
 <!--
@@ -432,6 +442,14 @@
 		$(document).ready(function() {
 
 			$("h1#title").fitText(0.5,{ minFontSize: '20px', maxFontSize: '60px' });
+			$("h3#s2").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
+			$("h3#s3").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
+			$("h3#s4").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
+			$("h1#s5").fitText(1,{ minFontSize: '50px', maxFontSize: '60px' });
+			$("span#s6").fitText(0.5,{ minFontSize: '40px', maxFontSize: '60px' });
+			$("h3#s6").fitText(0.5,{ minFontSize: '20px', maxFontSize: '50px' });
+			$("h3#s8").fitText(1,{ minFontSize: '20px', maxFontSize: '35px' });
+
 
 			$('#fullpage').fullpage({
 				verticalCentered: false
