@@ -4,9 +4,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Kayraten Teaser</title>
-	<link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
+	<link href="./css/jquery.fullPage.css" rel="stylesheet" type="text/css" />
+	<link href="./css/examples.css" rel="stylesheet" type="text/css" />
 	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/common.css" rel="stylesheet">
 	<style>
 		@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 		@font-face{
@@ -98,6 +99,14 @@
 			background-size:cover;
 			padding: 6% 0 0 0;
 		}
+		#section6 .div_table{
+			display:table;
+			height:100%;
+			width:100%;
+		}
+		#section6 .div_cell{
+
+		}
 		#section6 span{
 			font-size: 1em;
 			font-weight: bold;
@@ -121,16 +130,21 @@
 			background:url(./img/bg_08.png) no-repeat center;
 			background-size:cover;
 			padding: 6% 0 0 0;
+		}
+		#section9{
+			background:url(./img/bg_09.png) no-repeat center;
+			background-size:cover;
+			padding: 6% 0 0 0;
 			color: #666;
 			font-family: sans-serif;
 		}
-		#section8 h1{
+		#section9 h1{
 			color: #2;
 			font-family: sans-serif;
 			font-size: 3em;
 		}
 
-		#section8 div.button {
+		#section9 div.button {
 			flex: 1 1 auto;
 			margin: 10px;
 			padding: 20px;
@@ -263,7 +277,7 @@
 <body>
 	<div id="fullpage">
 		<div class="section" id="section1">
-			<h1>あなただけのオリジナルキャラクターが登場する天気予報</h1>
+			<h1 id="title">あなただけのオリジナルキャラクターが登場する天気予報</h1>
 		</div>
 		<div class="section" id="section2">
 			<h3>
@@ -292,57 +306,108 @@
 			<h1>でも…楽しみ方はそれだけじゃない！</h1>
 		</div>
 		<div class="section" id="section6">
-			<h3>
-				<span style="text-decoration: underline;">ポイント１</span><br/>
-				<p>他のユーザーとつながろう！<br/>
+			<div class="div_table">
+				<h3 class="div_cell">
+					<span style="text-decoration: underline;">ポイント１</span><br/>
+					<p>他のユーザーとつながろう！<br/>
 					キャラクターのコラボが楽しめる</p><br/><br/>
 					<span style="text-decoration: underline;">ポイント２</span><br/>
 					<p>アニメーションスタンプも対応<br/>　
-						動くキャラクターでも天気予報を楽しもう</p><br/><br/>
-						<span style="text-decoration: underline;">ポイント３</span><br/>
-						<p>スタンプ・アニメーションスタンプの販売で<br/>　
-							目指せ人気クリエイター！！</p>
-						</h3>
-					</div>
-					<div class="section" id="section7">
-						<h3>
-							近日、アプリ配信開始予定<br/><br/>
-							事前登録受付中<br/>
-							今なら事前登録をされた方の中から抽選で<br>
-							10名様に電子マネー500円分をプレゼント！<br>
-						</h3>
-					</div>
-					<div class="section" id="section8">
-						<h1 id="resize_text_c5">事前予約登録画面</h1>
-						<div class="container">
-							<form>
-								<div class="group">
-									<input type="text" name="name" id="name" required>
-									<span class="highlight"></span>
-									<span class="bar"></span>
-									<label>ユーザーネーム</label>
+					動くキャラクターでも天気予報を楽しもう</p><br/><br/>
+					<span style="text-decoration: underline;">ポイント３</span><br/>
+					<p>スタンプ・アニメーションスタンプの販売で<br/>　
+					目指せ人気クリエイター！！</p>
+				</h3>
+			</div>
+		</div>
+		<div class="section" id="section7">
+			<h3>
+				近日、アプリ配信開始予定<br/><br/>
+				事前登録受付中<br/>
+				今なら事前登録をされた方の中から抽選で<br>
+				10名様に電子マネー500円分をプレゼント！<br>
+			</h3>
+		</div>
+		<div class="section" id="section8">
+			<h3>
+				近日、アプリ配信開始予定<br/><br/>
+				事前登録受付中<br/>
+				今なら事前登録をされた方の中から抽選で<br>
+				10名様に電子マネー500円分をプレゼント！<br>
+			</h3>
+		</div>
+
+<!--
+			 		<div class="section" id="section9">
+						<div class="col-sm-12">
+							<form id="sendForm">
+								<h1 id="resize_text_c5">事前予約登録画面</h1>
+								<div class="col-sm-12 hidden-480" style="height:100px;"></div>
+								<div class="col-sm-2"></div>
+								<div class="col-xs-12 col-sm-8">
+									<fieldset>
+										<div class="col-xs-12 col-sm-3">
+											<legend><span class="pull-left">ユーザーネーム</span></legend>
+										</div>
+										<div class="col-xs-12 col-sm-9">
+											<input type="text" name="name" id="name" class="col-xs-12 col-sm-8">
+											<span></span>
+										</div>
+									</fieldset>
+									<div id="errorMsg"></div>
+									<div class="space-16 hidden-480"></div>
+									<fieldset>
+										<div class="col-xs-12 col-sm-3">
+											<legend><span class="pull-left">メールアドレス</span></legend>
+										</div>
+										<div class="col-xs-12 col-sm-9">
+											<input type="email" name="mail" id="mail" class="col-xs-12 col-sm-8">
+											<span></span>
+										</div>
+									</fieldset>
+									<div id="errorMsg"></div>
+									<hr>
+									<div class="col-xs-1 col-sm-7"></div>
+									<button id="saveBtn" class="btn btn-primary btn-lg col-xs-10 col-sm-2">送信する</button><!--송신--
+									<div class="col-xs-1 col-sm-3"></div>
 								</div>
-								<div class="group">
-									<input type="text" name="mail" id="mail" required>
-									<span class="highlight"></span>
-									<span class="bar"></span>
-									<label>メールアドレス</label>
-								</div>
+								<div class="col-sm-2"></div>
 							</form>
-							<p class="footer">
-								<div id="saveBtn" class="button">送信する</div>
-							</p>
 						</div>
 					</div>
-				</div>
-				<!-- modal -->
-				<div class="modal fade" id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div id="modalMsg" class="modal-body"></div>
-						</div>
+-->
+		<div class="section" id="section9">
+			<h1 id="resize_text_c5">事前予約登録画面</h1>
+			<div class="container">
+				<form>
+					<div class="group">
+						<input type="text" name="name" id="name" required>
+						<span class="highlight"></span>
+						<span class="bar"></span>
+						<label>ユーザーネーム</label>
 					</div>
-				</div>
+					<div class="group">
+						<input type="text" name="mail" id="mail" required>
+						<span class="highlight"></span>
+						<span class="bar"></span>
+						<label>メールアドレス</label>
+					</div>
+				</form>
+				<p class="footer">
+					<div id="saveBtn" class="button">送信する</div>
+				</p>
+			</div>
+		</div>
+
+	</div>
+	<!-- modal -->
+	<div class="modal fade" id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div id="modalMsg" class="modal-body"></div>
+			</div>
+		</div>
+	</div>
 <!--[if IE]>
 	<script type="text/javascript">
 		 var console = { log: function() {} };
@@ -351,62 +416,72 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/jquery.fittext.js"></script>
 	<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
 	<script type="text/javascript">
-
+		var msg={
+			 noName:"※は必須入力です"
+			,noMail:"※は必須入力です"
+			,success:"送信完了"
+			,error:"正しく入力されていない項目があります。もう一度ご入力ください。"
+		}
 
 		$(document).ready(function() {
+
+			$("h1#title").fitText(0.5,{ minFontSize: '20px', maxFontSize: '60px' });
+
 			$('#fullpage').fullpage({
 				verticalCentered: false
+				,scrollBar:true
 			});
-
-			var msg={
-				 noName:"※は必須入力です"
-				,noMail:"※は必須入力です"
-				,success:"送信完了"
-				,error:"正しく入力されていない項目があります。もう一度ご入力ください。"
-			}
 
 			$("#saveBtn").on("click",function(){
-				if($.trim($("#name").val()) == ""){
-					$("div#modalMsg").text(msg.noName);
-					$("#bs-example-modal-lg").modal("toggle");
-					return false;
-				}else if($.trim($("#mail").val()) == ""){
-					$("div#modalMsg").text(msg.noMail);
-					$("#bs-example-modal-lg").modal("toggle");
-					return false;
-				}
-				$.ajax({
-					 //url:"https://script.google.com/macros/s/AKfycbwow4e86Vh8Syq_1fzpct7STCHHpnFkU2etQUVhBE9wN9oqtpE/exec"
-					 url:"https://listensoft.slack.com/services/hooks/slackbot?token=FnYtz5bBVRS7i3D7ahE51Yq6&channel=%23fb_teaser_writer"
-					,data:{name:$("#name").val()
-						, mail:$("#mail").val()
-						/*
-						, gender:$("input[name='gender']:checked").val()
-						, age:$("select#age option:selected").val()
-						, location:$("select#location option:selected").val()
-						, os:$("input[name='os']:checked").val()
-						, character:$("#character").val()
-						, opinion:$("#opinion").val()
-						*/
-					}
-					,type:"POST"
-					,success:function(e){
-						$("div#modalMsg").text(msg.success);
-						$("#bs-example-modal-lg").modal("toggle");
-						$("#name").val("");
-						$("#mail").val("");
-					}
-					,error:function(){
-						$("div#modalMsg").text(msg.error);
-						$("#bs-example-modal-lg").modal("toggle");
-					}
-				});
+				$("#sendForm").submit();
 			});
 
+			$("#sendForm").validate({
+				debug : true,
+				rules : {
+					 name : {required : true, minlength : 2}
+					,mail : {required : true, email : true}
+				},
+				message : {
+					 name : {required : "※は必須入力です1", minlength : "※は必須入力です2"}
+					,mail : {required : "※は必須入力です3", email : "※は必須入力です4"}
+				},
+				errorPlacement:function(error,element){
+					error.appendTo( element.closest("fieldset").next("div#errorMsg"));
+				},
+				submitHandler: function() {
+					sendData();
+				}
+			});
 		});
+
+		function sendData(){
+			$.ajax({
+				 //url:"https://script.google.com/macros/s/AKfycbwow4e86Vh8Syq_1fzpct7STCHHpnFkU2etQUVhBE9wN9oqtpE/exec"
+				 url:"https://listensoft.slack.com/services/hooks/slackbot?token=FnYtz5bBVRS7i3D7ahE51Yq6&channel=%23fb_teaser_writer"
+				,data:{name:$("#name").val()
+					, mail:$("#mail").val()
+				}
+				,type:"POST"
+				,success:function(e){
+					$("#name").val("");
+					$("#mail").val("");
+					$("div#modalMsg").text(msg.success);
+					$("#bs-example-modal-lg").modal("toggle");
+				}
+				,error:function(){
+					$("div#modalMsg").text(msg.error);
+					$("#bs-example-modal-lg").modal("toggle");
+				}
+			});
+
+		}
+
 	</script>
 </body>
 </html>
