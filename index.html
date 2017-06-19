@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Kayraten Teaser</title>
@@ -146,12 +145,23 @@
 			transform: translateY(-40%);
 			position: relative;
 		}
-		#section10{
+		#section9{
 			background-size:cover;
 			padding: 6% 0 0 0;
 			color: #666;
 			font-family: sans-serif;
 		}
+		#section9 h3{
+			font-size: 1.5em;
+			transform: translateY(-40%);
+			text-align:left;
+			position: relative;
+		}
+		#section9 .text_container1{width:100%;display:block;}
+		#section9 .text_container1 h3{width:50%; margin:0 auto; text-align:left;}
+		#section9 .text_container2{width:100%;display:block;}
+		#section9 .text_block{width:50%; margin:0 auto; text-align:left;}
+
 		#header, #footer{
 			position:fixed;
 			height: 50px;
@@ -181,7 +191,7 @@
 		<div class="section" id="section2">
 			<h3 id="s2">
 				STEP1<br/>
-				しみ方はとってもシンプル！<br/>
+				楽しみ方はとってもシンプル！<br/>
 				キャラクターとお天気マーク<br/>
 				（例：晴れ、雨など）を描く<br/>
 			</h3>
@@ -233,31 +243,35 @@
 				<img src="./img/item_04.png" alt="">
 			</div>
 		</div>
-		<div class="section" id="section10">
+		<div class="section" id="section9">
 			<div class="wrapper" style="height:100%;">
 				<div class="container">
-					<h1>事前予約登録画面</h1>
+					<h1>事前登録</h1>
 					<form id="sendForm" class="form">
 						<input type="text" name="name" id="name" placeholder="ユーザーネーム">
-						<input type="text" name="mail" id="mail" placeholder="E-メールアドレス">
+						<input type="text" name="mail" id="mail" placeholder="Eメールアドレス">
 						<button type="button" id="saveBtn">送信する</button>
 					</form>
 				</div>
-				<div style="display:table;width:100%;">
-					<div style="display:table-cell;">
-
+				<div class="text_container1">
+					<h3>
 						ユーザーネーム（一部非表示の加工を致します）は当ウェブサイト上で当選発表の際、表示をさせていただきます。<br/>
-						ールアドレスは当選品のお受け取り先になりますので、正確にご記入をお願いします。<br/>
+						Eメールアドレスは当選品のお受け取り先になりますので、正確にご記入をお願いします。<br/>
+					</h3>
+				</div>
+				<div class="text_container2">
+					<div class="text_block">
+						<br>
 						<span class="bolder">個人情報の取り扱いについて　</span>
-						<ol>
+						<ul>
 							<li>個人情報の安全管理が図られるよう必要かつ適切な処置を講じます</li>
 							<li>個人情報を本人の同意を得ないで、法で許容されている場合を除いて第三者に提供しません</li>
-						</ol>
+						</ul>
 						<span class="bolder">個人情報の利用目的</span>
-						<ol>
+						<ul>
 							<li>商品に関するサービス改善のためのアンケート・キャンペーンに関する資料や当選品の送付</li>
 							<li>当社の事業に関わる情報の提供</li>
-						</ol>
+						</ul>
 						<span class="bolder">お問い合わせ</span>
 						<a href="mailto:kyaraten@net.com">kyaraten@net.com</a>
 
@@ -277,51 +291,6 @@
 				</ul>
 			</div>
 		</div>
-		<!--
-		<div class="section" id="section9">
-			<h1 id="resize_text_c5">事前予約登録画面</h1>
-			<div class="container">
-				<form>
-					<div class="group">
-						<input type="text" name="name" id="name" required>
-						<span class="highlight"></span>
-						<span class="bar"></span>
-						<label>ユーザーネーム</label>
-					</div>
-					<div>
-						メールアドレスは当選品のお受け取り先になりますので、正確にご記入をお願いします。
-					</div>
-					<div class="group">
-						<input type="text" name="mail" id="mail" required>
-						<span class="highlight"></span>
-						<span class="bar"></span>
-						<label>メールアドレス</label>
-					</div>
-					<div>
-						ユーザーネーム（一部非表示の加工を致します）は当ウェブサイト上で当選発表の際、表示をさせていただきます。
-					</div>
-				</form>
-				<p class="footer">
-					<div id="saveBtn" class="button">送信する</div>
-				</p>
-			</div>
-			<div>
-				<span class="bolder">個人情報の取り扱いについて　</span>
-				<ol>
-					<li>個人情報の安全管理が図られるよう必要かつ適切な処置を講じます</li>
-					<li>個人情報を本人の同意を得ないで、法で許容されている場合を除いて第三者に提供しません</li>
-				</ol>
-				<span class="bolder">個人情報の利用目的</span>
-				<ol>
-					<li>商品に関するサービス改善のためのアンケート・キャンペーンに関する資料や当選品の送付</li>
-					<li>当社の事業に関わる情報の提供</li>
-				</ol>
-				<span class="bolder">お問い合わせ</span>
-				<a href="mailto:kyaraten@net.com">kyaraten@net.com</a>
-
-			</div>
-		</div>
- -->
 	</div>
 	<!-- modal -->
 	<div class="modal fade" id="bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -353,15 +322,14 @@
 
 		$(document).ready(function() {
 
-			$("h1#title").fitText(0.5,{ minFontSize: '20px', maxFontSize: '60px' });
+			$("h1#title").fitText(2,{ minFontSize: '20px', maxFontSize: '45px' });
 			$("h3#s2").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
 			$("h3#s3").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
 			$("h3#s4").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h1#s5").fitText(1,{ minFontSize: '50px', maxFontSize: '60px' });
-			$("span#s6").fitText(0.5,{ minFontSize: '40px', maxFontSize: '60px' });
-			$("h3#s6").fitText(0.5,{ minFontSize: '20px', maxFontSize: '50px' });
+			$("h1#s5").fitText(1,{ minFontSize: '40px', maxFontSize: '60px' });
+			$("span#s6").fitText(2,{ minFontSize: '30px', maxFontSize: '60px' });
+			$("h3#s6").fitText(1.8,{ minFontSize: '18px', maxFontSize: '40px' });
 			$("h3#s8").fitText(1,{ minFontSize: '20px', maxFontSize: '35px' });
-
 
 			$('#fullpage').fullpage({
 				verticalCentered: false
