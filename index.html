@@ -18,8 +18,6 @@
 	</style>
 </head>
 <body>
-<!-- <div id="header">Header</div>
-<div id="footer">Footer</div>-->
 	<div id="fullpage">
 		<div class="section" id="section1">
 			<h1 id="title">えがく天気予報</h1>
@@ -81,21 +79,26 @@
 		</div>
 		<div class="section" id="section9">
 			<div class="wrapper" style="height:100%;">
-				<div class="container">
+				<div style="height:10%;"></div>
+				<div class="container" style="height:60%;">
 					<h1>事前登録</h1>
 					<form id="sendForm" class="form">
 						<input type="text" name="name" id="name" placeholder="ユーザーネーム">
 						<input type="text" name="mail" id="mail" placeholder="Eメールアドレス">
 						<button type="button" id="saveBtn">送信する</button>
 					</form>
+<!--
 				</div>
-				<div class="text_container1">
+				<div class="text_container1" style="height:15%;">
+ -->
 					<h3 id="s9">
 						ユーザーネーム（一部非表示の加工を致します）は当ウェブサイト上で当選発表の際、表示をさせていただきます。<br/>
 						Eメールアドレスは当選品のお受け取り先になりますので、正確にご記入をお願いします。<br/>
 					</h3>
+<!--
 				</div>
-				<div class="text_container2">
+				<div class="text_container2" style="height:10%;">
+ -->
 					<div class="text_block">
 						<br>
 						<span class="bolder">個人情報の取り扱いについて　</span>
@@ -110,24 +113,14 @@
 						</ul>
 						<span class="bolder">お問い合わせ</span>
 						<a href="mailto:kyaraten@net.com">kyaraten@net.com</a>
-
 					</div>
 				</div>
 				<ul class="bg-bubbles">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
 				</ul>
-			</div>
-			<div class="footer">
-			footer
+				<div class="footer" style="height:20%;">
+				footer
+				</div>
 			</div>
 		</div>
 	</div>
@@ -169,7 +162,7 @@
 			$("span#s6").fitText(2,{ minFontSize: '30px', maxFontSize: '60px' });
 			$("h3#s6").fitText(1.8,{ minFontSize: '18px', maxFontSize: '40px' });
 			$("h3#s8").fitText(1,{ minFontSize: '20px', maxFontSize: '35px' });
-			$("h3#s9").fitText(2,{ minFontSize: '20px', maxFontSize: '25px' });
+			$("h3#s9").fitText(2,{ minFontSize: '20px', maxFontSize: '20px' });
 
 			$('#fullpage').fullpage({
 				verticalCentered: false
@@ -183,8 +176,7 @@
 			$("#sendForm").validate({
 				debug : true,
 				rules : {
-					 //name : {required : true, minlength : 2}
-					 name : {required : true}
+					 name : {required : true/*, minlength : 2*/}
 					,mail : {required : true, email : true}
 				},
 				message : {
