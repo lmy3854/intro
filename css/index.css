@@ -1,73 +1,177 @@
-body { background-color: #000;}
-.content1 {
-	background:url(../img/bg_01.png)  no-repeat center top fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
+/* Style for our header texts
+* --------------------------------------- */
+h1{
+	font-size: 4em;
+	font-family: arial,helvetica;
+	color: #222;
+	margin:0;
+	padding:0;
+	font-family: 'ktegaki', sans-serif;
 }
-.content1 h3 {
-	padding-top: 350px;
-}
-
-.content2 {
-	background:url(../img/bg_02.png)  no-repeat center center fixed;
-	height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
-}
-
-.content2-1{
-	background:url(../img/bg_02.png)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
-}
-.content2-2{
-	background:url(../img/bg_03.png)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
-}
-.content2-3{
-	background:url(../img/bg_04.png)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
-}
-.content2-1 h3,
-.content2-2 h3,
-.content2-3 h3{
-	padding:150px 0px 0px 0px;
+h3{
+	font-size: 3em;
+	font-family: arial,helvetica;
+	color: #444;
+	margin:0;
+	padding:0;
+	font-family: 'ktegaki', sans-serif;
 }
 
-.content3-1{
-	background:url(../img/bg_05.png)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+	text-align:center;
 }
-.content3-2 {
-	background:url(../img/bg_06.png)  no-repeat center top fixed;
-	height: 1300px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+.section{
+	background-size: cover;
 }
-.content4 {
-	background:url(../img/bg_07.png)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: 'ktegaki', sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
-}
-.content4 h3{
-	font-size: 40px; padding-top: 250px; font-weight: 300;
-}
-.content5 {
-	background:url(../img/bg_08.png)  no-repeat center center fixed;
-	height: 1100px; text-align: center;font-family: sans-serif; font-weight: 300; color: rgba(0,0,0,0.7);
-}
-.content5 h1{
-	font-size: 75px; padding-top: 100px; padding-bottom:50px;  font-weight: 300;
-}
-.content5 legend{
-	font-size:20px;text-align: left; font-family:sans-serif; font-weight:bold; color:rgba(0,0,0,0.7);
-}
-.content5 fieldset>div{
-	margin-left:10px;
+.slide{
+	background-size: cover;
 }
 
-h1 {font-size: 75px; padding-top: 250px; font-weight: 300; margin:0px;}
-h2 {font-size: 65px; padding-top: 400px; font-weight: 300; margin:0px;}
-h3 {font-size: 40px; padding-top: 150px; font-weight: 300; margin:0px;}
-h4 {font-size: 15px; font-weight: 300; margin:0px;}
-p { color: #fff}
-.bold{font-weight:bold;}
-table.table tr th,td{
-	font-size:25px; font-weight:300; text-align:left;
+/* Defining each section background and styles
+* --------------------------------------- */
+#section1{
+	background:url(../img/bg_01.png) no-repeat center;
+	background-size:cover;
 }
-table input,select,textarea{
-	color:#333;
+#section1 h1{
+	font-size: 5em;
+	color: #333;
+	font-weight: 500;
+	line-height: 1.5em;
+	top: 50%;
+	transform: translateY(-40%);
+	position: relative;
+	padding: 0 50px 0 50px;
+}
+#section2{
+	background:url(../img/bg_02.png) no-repeat center;
+	background-size:cover;
+	padding: 6% 0 0 0;
+}
+#section2 h3
+,#section3 h3
+,#section4 h3{
+	top: 30%;
+	transform: translateY(-80%);
+	position: relative;
+}
+#section3{
+	background:url(../img/bg_03.png) no-repeat center;
+	background-size:cover;
+	padding: 6% 0 0 0;
+}
+#section4{
+	background:url(../img/bg_04.png) no-repeat center;
+	background-size:cover;
+	padding: 6% 0 0 0;
+}
+#section5{
+	background:url(../img/bg_05.png) no-repeat center;
+	background-size:cover;
+	padding: 6% 0 0 0;
+}
+#section5 h1{
+	font-size: 5em;
+	top: 40%;
+	transform: translateY(-30%);
+	position: relative;
+}
+#section6{
+	background:url(../img/bg_06.png) no-repeat center;
+	background-size:cover;
+	padding: 6% 0 0 0;
+}
+#section6 .div_table{
+	display:table;
+	height:100%;
+	width:100%;
+}
+#section6 .div_cell{
+	display: table-cell;
+	vertical-align: middle;
+	transform: translateY(-10%);
+}
+#section6 span{
+	font-size: 1em;
+	font-weight: bold;
+	color: #333;
+}
+#section6 p{
+	font-size: 1em;
+	color: #555;
+}
+#section7{
+	background:url(../img/bg_07.png) no-repeat center;
+	background-size:cover;
+	padding: 6% 0 0 0;
+}
+#section7 h3{
+	top: 30%;
+	transform: translateY(-50%);
+	position: relative;
+}
+#section8{
+	background:url(../img/bg_08.png) no-repeat center;
+	background-size:cover;
+	padding: 6% 0 0 0;
+}
+#section8 h3{
+	top: 20%;
+	transform: translateY(-25%);
+	position: relative;
+}
+#section8 div{
+	top: 50%;
+	transform: translateY(-40%);
+	position: relative;
+}
+#section9{
+	background-size:cover;
+	padding: 6% 0 0 0;
+	color: #666;
+	font-family: sans-serif;
+}
+#section9 h3{
+	font-size: 1.5em;
+	transform: translateY(-40%);
+	text-align:left;
+	position: relative;
+}
+#section9 .text_container1{width:100%;display:block;}
+#section9 .text_container1 h3{width:60%; margin: 5% auto; text-align:left; font-family: sans-serif;}
+#section9 .text_container2{width:100%;display:block;}
+#section9 .text_block{width:50%; margin:0 auto; text-align:left;transform: translateY(-80%);}
+#section9 .footer{
+	position:absolute;
+	height: 100px;
+	display:block;
+	width: 100%;
+	background: #35bbee;
+	z-index:9;
+	text-align:center;
+	color: #ffffff;
+	padding: 20px 0 0 0;
+	bottom:0px;
+}
+
+#header, #footer{
+	position:fixed;
+	height: 50px;
+	display:block;
+	width: 100%;
+	background: #333;
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 20px 0 0 0;
+}
+#header{
+	top:0px;
+}
+#footer{
+	bottom:0px;
 }
