@@ -176,3 +176,14 @@ h3{
 	bottom:0px;
 }
 
+.validate_error {
+	color:#FF0000;
+}
+.validate_valid {
+	color:#FFFFFF;
+}
+div.modal-body{
+	color:#000000;
+	font-size: 1.5em;
+	text-align:center;
+}

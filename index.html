@@ -15,6 +15,7 @@
 			font-family:"ktegaki";
 			src:url("./css/fonts/KTEGAKI.ttf");
 		}
+
 	</style>
 </head>
 <body>
@@ -63,6 +64,12 @@
 				</h3>
 			</div>
 		</div>
+		<div class="section" id="section8">
+			<h3 id="s8">キャラ天公式アカウントを登録をして、一足先に体験してみよう！</h3>
+			<div>
+				<img src="./img/item_04.png" alt="">
+			</div>
+		</div>
 		<div class="section" id="section7">
 			<h3>
 				近日、アプリ配信開始予定<br/><br/>
@@ -70,12 +77,6 @@
 				今なら事前登録をされた方の中から抽選で<br>
 				10名様にAmazonギフトカード500円分をプレゼント！<br>
 			</h3>
-		</div>
-		<div class="section" id="section8">
-			<h3 id="s8">キャラ天公式アカウントを登録をして、一足先に体験してみよう！</h3>
-			<div>
-				<img src="./img/item_04.png" alt="">
-			</div>
 		</div>
 		<div class="section" id="section9">
 			<div class="wrapper" style="height:100%;">
@@ -87,18 +88,10 @@
 						<input type="text" name="mail" id="mail" placeholder="Eメールアドレス">
 						<button type="button" id="saveBtn">送信する</button>
 					</form>
-<!--
-				</div>
-				<div class="text_container1" style="height:15%;">
- -->
 					<h3 id="s9">
 						ユーザーネーム（一部非表示の加工を致します）は当ウェブサイト上で当選発表の際、表示をさせていただきます。<br/>
 						Eメールアドレスは当選品のお受け取り先になりますので、正確にご記入をお願いします。<br/>
 					</h3>
-<!--
-				</div>
-				<div class="text_container2" style="height:10%;">
- -->
 					<div class="text_block">
 						<br>
 						<span class="bolder">個人情報の取り扱いについて　</span>
@@ -112,7 +105,7 @@
 							<li>当社の事業に関わる情報の提供</li>
 						</ul>
 						<span class="bolder">お問い合わせ</span>
-						<a href="mailto:kyaraten@net.com">kyaraten@net.com</a>
+						<a href="mailto:help@kyaraten.com">help@kyaraten.com</a>
 					</div>
 				</div>
 				<ul class="bg-bubbles">
@@ -132,89 +125,18 @@
 			</div>
 		</div>
 	</div>
-<!--[if IE]>
+	<!--[if IE]>
 	<script type="text/javascript">
 		 var console = { log: function() {} };
 	</script>
 	<![endif]-->
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/jquery.fittext.js"></script>
-	<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
-	<script type="text/javascript">
-		var msg={
-			 noName:"※は必須入力です"
-			,noMail:"※は必須入力です"
-			,success:"送信完了"
-			,error:"正しく入力されていない項目があります。もう一度ご入力ください。"
-		}
-
-		$(document).ready(function() {
-
-			$("h1#title").fitText(1,{ minFontSize: '50px', maxFontSize: '80px' });
-			$("h3#s2").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h3#s3").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h3#s4").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h1#s5").fitText(1,{ minFontSize: '40px', maxFontSize: '60px' });
-			$("span#s6").fitText(2,{ minFontSize: '30px', maxFontSize: '60px' });
-			$("h3#s6").fitText(1.8,{ minFontSize: '18px', maxFontSize: '40px' });
-			$("h3#s8").fitText(1,{ minFontSize: '20px', maxFontSize: '35px' });
-			$("h3#s9").fitText(2,{ minFontSize: '20px', maxFontSize: '20px' });
-
-			$('#fullpage').fullpage({
-				verticalCentered: false
-				,scrollBar:true
-			});
-
-			$("#saveBtn").on("click",function(){
-				$("#sendForm").submit();
-			});
-
-			$("#sendForm").validate({
-				debug : true,
-				rules : {
-					 name : {required : true/*, minlength : 2*/}
-					,mail : {required : true, email : true}
-				},
-				message : {
-					 name : {required : "ユーザーネームを入力してください"/*, minlength : "ユーザーネームは〇文字以上入力してください"*/}
-					,mail : {required : "メールアドレスを入力してください", email : "メールアドレスは半角英数字で入力してください"}
-				},
-				errorPlacement:function(error,element){
-					error.appendTo( element.closest("fieldset").next("div#errorMsg"));
-				},
-				submitHandler: function() {
-					sendData();
-				}
-			});
-		});
-
-		function sendData(){
-			$.ajax({
-				 //url:"https://script.google.com/macros/s/AKfycbwow4e86Vh8Syq_1fzpct7STCHHpnFkU2etQUVhBE9wN9oqtpE/exec"
-				 url:"https://listensoft.slack.com/services/hooks/slackbot?token=FnYtz5bBVRS7i3D7ahE51Yq6&channel=%23fb_teaser_writer"
-				,data:{name:$("#name").val()
-					, mail:$("#mail").val()
-				}
-				,type:"POST"
-				,success:function(e){
-					$("#name").val("");
-					$("#mail").val("");
-					$("div#modalMsg").text(msg.success);
-					$("#bs-example-modal-lg").modal("toggle");
-				}
-				,error:function(){
-					$("div#modalMsg").text(msg.error);
-					$("#bs-example-modal-lg").modal("toggle");
-				}
-			});
-
-		}
-
-	</script>
+	<script src="./js/jquery.fullPage.js" type="text/javascript" ></script>
+	<script src="./js/index.js" type="text/javascript"></script>
 </body>
 </html>
 
