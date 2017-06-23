@@ -6,7 +6,7 @@ h1{
 	color: #222;
 	margin:0;
 	padding:0;
-	font-family: 'ktegaki', sans-serif;
+	font-family: "ktegaki","Hiragino Kaku Gothic ProN","Meiryo", sans-serif;
 }
 h3{
 	font-size: 3em;
@@ -14,7 +14,7 @@ h3{
 	color: #444;
 	margin:0;
 	padding:0;
-	font-family: 'ktegaki', sans-serif;
+	font-family: "ktegaki","Hiragino Kaku Gothic ProN","Meiryo", sans-serif;
 }
 
 /* Centered texts in each section
@@ -133,13 +133,13 @@ h3{
 	background-size:cover;
 	padding: 6% 0 0 0;
 	color: #666;
-	font-family: sans-serif;
+	font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
 }
 #section9 h3{
 	font-size: 1.5em;
 	text-align:left;
 	position: relative;
-	font-family: sans-serif;
+	font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
 }
 /*
 #section9 .text_container1{

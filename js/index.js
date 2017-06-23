@@ -71,6 +71,7 @@
 					$("#name").val("");
 					$("#mail").val("");
 					$("div#modalMsg").text(msg.success);
+					$("div#modalMsg").css("color","#000000");
 					$("#bs-example-modal-lg").modal("toggle");
 				}
 				,error:function(){
