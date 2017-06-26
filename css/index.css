@@ -34,7 +34,7 @@ h3{
 /* Defining each section background and styles
 * --------------------------------------- */
 #section1{
-	background:url(../img/bg_01.png) no-repeat center;
+	background:url(../img/bg_01.jpg) no-repeat center;
 	background-size:cover;
 }
 #section1 h1{
@@ -48,7 +48,7 @@ h3{
 	padding: 0 50px 0 50px;
 }
 #section2{
-	background:url(../img/bg_02.png) no-repeat center;
+	background:url(../img/bg_02.jpg) no-repeat center;
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
@@ -60,17 +60,17 @@ h3{
 	position: relative;
 }
 #section3{
-	background:url(../img/bg_03.png) no-repeat center;
+	background:url(../img/bg_03.jpg) no-repeat center;
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
 #section4{
-	background:url(../img/bg_04.png) no-repeat center;
+	background:url(../img/bg_04.jpg) no-repeat center;
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
 #section5{
-	background:url(../img/bg_05.png) no-repeat center;
+	background:url(../img/bg_05.jpg) no-repeat center;
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
@@ -81,7 +81,7 @@ h3{
 	position: relative;
 }
 #section6{
-	background:url(../img/bg_06.png) no-repeat center;
+	background:url(../img/bg_06.jpg) no-repeat center;
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
@@ -104,18 +104,8 @@ h3{
 	font-size: 1em;
 	color: #555;
 }
-#section8{
-	background:url(../img/bg_07.png) no-repeat center;
-	background-size:cover;
-	padding: 6% 0 0 0;
-}
-#section8 h3{
-	top: 30%;
-	transform: translateY(-50%);
-	position: relative;
-}
 #section7{
-	background:url(../img/bg_08.png) no-repeat center;
+	background:url(../img/bg_07.jpg) no-repeat center;
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
@@ -127,6 +117,16 @@ h3{
 #section7 div{
 	top: 50%;
 	transform: translateY(-40%);
+	position: relative;
+}
+#section8{
+	background:url(../img/bg_08.jpg) no-repeat center;
+	background-size:cover;
+	padding: 6% 0 0 0;
+}
+#section8 h3{
+	top: 30%;
+	transform: translateY(-50%);
 	position: relative;
 }
 #section9{

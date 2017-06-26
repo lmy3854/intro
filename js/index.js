@@ -50,7 +50,7 @@
 			$("h1#s5").fitText(1,{ minFontSize: '40px', maxFontSize: '60px' });
 			$("span#s6").fitText(2,{ minFontSize: '30px', maxFontSize: '60px' });
 			$("h3#s6").fitText(1.8,{ minFontSize: '18px', maxFontSize: '40px' });
-			$("h3#s8").fitText(1,{ minFontSize: '20px', maxFontSize: '35px' });
+			$("h3#s7").fitText(1,{ minFontSize: '20px', maxFontSize: '35px' });
 			$("h3#s9").fitText(2,{ minFontSize: '20px', maxFontSize: '20px' });
 		});	//document.ready End
 
