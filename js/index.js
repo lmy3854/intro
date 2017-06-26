@@ -9,11 +9,6 @@
 
 		$(document).ready(function() {
 
-			$('#fullpage').fullpage({
-				verticalCentered: false
-				,scrollBar:true
-			});
-
 			$("#saveBtn").on("click",function(){
 				$("#sendForm").submit();
 			});

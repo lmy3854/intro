@@ -104,27 +104,27 @@ h3{
 	font-size: 1em;
 	color: #555;
 }
-#section7{
+#section8{
 	background:url(../img/bg_07.png) no-repeat center;
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
-#section7 h3{
+#section8 h3{
 	top: 30%;
 	transform: translateY(-50%);
 	position: relative;
 }
-#section8{
+#section7{
 	background:url(../img/bg_08.png) no-repeat center;
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
-#section8 h3{
+#section7 h3{
 	top: 20%;
 	transform: translateY(-25%);
 	position: relative;
 }
-#section8 div{
+#section7 div{
 	top: 50%;
 	transform: translateY(-40%);
 	position: relative;
