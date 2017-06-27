@@ -131,32 +131,15 @@ h3{
 	background-size:cover;
 	padding: 6% 0 0 0;
 	color: #666;
-	/*font-family: "Hiragino Kaku Gothic ProN","Meiryo", sans-serif;*/
+	font-family: "Hiragino Kaku Gothic ProN","Meiryo";
 	font-family: sans-serif;
 }
 #section9 h3{
 	font-size: 1.5em;
 	text-align:left;
 	position: relative;
-	/*font-family: "Hiragino Kaku Gothic ProN","Meiryo", sans-serif;*/
-	font-family: sans-serif;
+	font-family: "Hiragino Kaku Gothic ProN","Meiryo";
 }
-/*
-#section9 .text_container1{
-	width:100%;
-	display:block;
-}
-#section9 .text_container1 h3{
-	width:50%;
-	margin: 0 auto;
-	text-align:left;
-	font-family: sans-serif;
-}
-#section9 .text_container2{
-	width:100%;
-	display:block;
-}
-*/
 #section9 .text_block{
 	width:100%;
 	margin: 5% auto;
@@ -206,3 +189,16 @@ div.modal-body{
 	font-size: 1.5em;
 	text-align:center;
 }
+
+@media (max-width: 991px) {
+  .sendForm>.input_text, .sendForm>.send_button{width: 90%; height: 80px; font-size:3em;}
+  .container {width: 100%; max-width: 90%}
+  .container>h1{font-size:5em;}
+  .container .subscribe{font-size:2.5em !important;}
+  .text_block ul li, .text_block span{font-size:1.5em !important;}
+  #menu li {width:100px;}
+  .menu_wrap{width : 110px;}
+  #menu span{font-size:2em !important;}
+}
+
+
