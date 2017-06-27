@@ -197,8 +197,8 @@ div.modal-body{
   .container .subscribe{font-size:2.5em !important;}
   .text_block ul li, .text_block span{font-size:1.5em !important;}
   #menu li {width:100px;}
-  .menu_wrap{width : 110px;}
   #menu span{font-size:2em !important;}
+  .validate_error {font-size:35px;}
 }
 
 
