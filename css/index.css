@@ -107,14 +107,9 @@ h3{
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
-#section7 h3{
+#section7 div{
 	top: 20%;
 	transform: translateY(-25%);
-	position: relative;
-}
-#section7 div{
-	top: 50%;
-	transform: translateY(-40%);
 	position: relative;
 }
 #section8{
@@ -198,7 +193,7 @@ div.modal-body{
   .text_block ul li, .text_block span{font-size:1.5em !important;}
   #menu li {width:100px;}
   #menu span{font-size:2em !important;}
-  .validate_error {font-size:35px;}
+  .validate_error {font-size:3em;}
 }
 
 
