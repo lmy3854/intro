@@ -176,7 +176,7 @@ h3{
 #menu li {
 	display:inline-block;
 	margin: 0px;
-	width: 90px;
+	width: 120px;
 	background:#666;
 	background: rgba(0,0,0, 0.5);
 	color: #fff;
@@ -190,7 +190,11 @@ h3{
 }
 #menu li a{
 	text-decoration:none;
+	text-align:center;
 	color: #fff;
+}
+#menu li a:hover{
+	color: #000;
 }
 #menu li.active a:hover{
 	/*color: #000;*/
@@ -207,6 +211,9 @@ h3{
 #menu li.active a{
 	/*color: #fff;*/
 	display:none;
+}
+#menu>li>a>span{
+	font-size: 1.5em;
 }
 #menu{
 	position:fixed;
