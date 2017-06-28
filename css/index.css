@@ -384,7 +384,7 @@ div.modal-body {
     #section9 .footer .footer_logo {
     	left:calc(50% - 250px);
     	width:200px;
-		bottom:70px;
+		bottom:80px;
     }
 
     #section9 .footer .footer_logo img,#section9 .footer .footer_logo div{
@@ -392,6 +392,6 @@ div.modal-body {
 		margin-left:50px;
 	}
 	#section9 .footer {
-		height:18%;
+		height:15%;
 	}
 }
