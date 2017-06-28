@@ -160,7 +160,7 @@ h3 {
 #section7 .s7_logo {
     position: relative;
     top: 280px;
-    left: calc(50% - 250px);
+    left:calc(50% - 250px);
     width: 160px;
 }
 
@@ -241,7 +241,19 @@ h3 {
     /*line-height: 36px;
     border-top: 3px double #ACD7F5;*/
 }
-
+#section9 .footer .footer_logo {
+        position: absolute;
+        left:calc(50% - 300px);
+        bottom: 0px;
+        padding: 20px;
+        width:100%;
+        display:inline-flex;
+        z-index:1;
+}
+#section9 .footer .footer_logo div{
+	width:50px;
+	margin-left:10px;
+}
 #menu li {
     display: inline-block;
     margin: 0px;
@@ -335,7 +347,7 @@ div.modal-body {
 @media (max-width: 991px) {
     .sendForm>.input_text,
     .sendForm>.send_button {
-        width: 90%;
+        width: 100%;
         height: 80px;
         font-size: 3em;
     }
@@ -369,11 +381,17 @@ div.modal-body {
     span#footer_cop {
         font-size: 2.5em;
     }
-    .footer_logo {
-        position: absolute;
-        left: 20px;
-        right: 20px;
-        bottom: 80px;
-        padding: 20px;
+    #section9 .footer .footer_logo {
+    	left:calc(50% - 250px);
+    	width:200px;
+		bottom:70px;
     }
+
+    #section9 .footer .footer_logo img,#section9 .footer .footer_logo div{
+		width: 55px;
+		margin-left:50px;
+	}
+	#section9 .footer {
+		height:18%;
+	}
 }
