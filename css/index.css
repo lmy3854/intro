@@ -107,10 +107,37 @@ h3{
 	background-size:cover;
 	padding: 6% 0 0 0;
 }
-#section7 div{
-	top: 20%;
-	transform: translateY(-25%);
+.div_table{display:table;}
+.div_tr {display:table-row;}
+.div_td {display:table-cell;}
+#section7 .container_s7{
+	width:100%;
+}
+#section7 h3{
+	text-align:center;
+	width:100%;
+}
+#section7 .s7_space{
+	height: 50px;
+}
+#section7 .s7_item{
+	text-align:center;
+	width:100%;
+	height:455px;
+	background:url(../img/item07.png) no-repeat center;
 	position: relative;
+}
+#section7 .s7_logo{
+	position: relative;
+	top: 280px;
+	left: calc(50% - 250px);
+	width: 160px;
+}
+#section7 .s7_logo_line{
+	position: relative;
+	bottom: 0px;
+	left: calc(50% + 180px);
+	width: 130px;
 }
 #section8{
 	background:url(../img/bg_08.jpg) no-repeat center;
@@ -146,7 +173,7 @@ h3{
 	height: 10%;
 	display:block;
 	width: 100%;
-	/*background: #35bbee;*/
+	background: #EDF3F7;
 	z-index:9;
 	text-align:center;
 	color: #ffffff;
@@ -169,8 +196,8 @@ h3{
     right: 12px;
     bottom: 4px;
     padding: 20px;
-    line-height: 36px;
-    border-top: 3px double #E5E5E5;
+    /*line-height: 36px;
+    border-top: 3px double #ACD7F5;*/
 }
 
 #menu li {
@@ -214,6 +241,7 @@ h3{
 }
 #menu>li>a>span{
 	font-size: 1.5em;
+	font-family: "Hiragino Kaku Gothic ProN","Meiryo";
 }
 #menu{
 	position:fixed;
@@ -248,8 +276,16 @@ div.modal-body{
   #menu{height: 150px;bottom:50px;}
   #menu li {width: 150px;}
   #menu>li>a>span{font-size: 2em;}
-  .validate_error {font-size:3em;}
+  .validate_error {font-size:2.5em;}
   span#footer_cop{font-size:2.5em;}
+  .footer_logo{
+  	position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 80px;
+    padding: 20px;
+  }
+
 }
 
 
