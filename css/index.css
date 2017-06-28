@@ -173,6 +173,53 @@ h3{
     border-top: 3px double #E5E5E5;
 }
 
+#menu li {
+	display:inline-block;
+	margin: 0px;
+	width: 90px;
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menu li.active{
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+}
+#menu li a{
+	text-decoration:none;
+	color: #fff;
+}
+#menu li.active a:hover{
+	/*color: #000;*/
+	display:none;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	/*color: #fff;*/
+	display:none;
+}
+#menu{
+	position:fixed;
+	bottom:90px;
+	left:0;
+	height: 0px;
+	z-index: 70;
+	width: 100%;
+	padding: 25px;
+	margin:0px;
+	text-align:right;
+}
+
 .validate_error {
 	color:#FF0000;
 }
@@ -191,9 +238,11 @@ div.modal-body{
   .container>h1{font-size:5em;}
   .container .subscribe{font-size:2.5em !important;}
   .text_block ul li, .text_block span{font-size:1.5em !important;}
-  #menu li {width:100px;}
-  #menu span{font-size:2em !important;}
+  #menu{height: 150px;bottom:50px;}
+  #menu li {width: 150px;}
+  #menu>li>a>span{font-size: 2em;}
   .validate_error {font-size:3em;}
+  span#footer_cop{font-size:2.5em;}
 }
 
 
