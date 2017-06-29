@@ -24,6 +24,7 @@
 				}
 				,type:"POST"
 				,success:function(e){
+					ga("send", "event", "send", "name_mail send", "", "4");
 					$("#name").val("");
 					$("#mail").val("");
 					$("div#modalMsg").text(msg.success);
