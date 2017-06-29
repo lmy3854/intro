@@ -8,46 +8,12 @@
 			,ready:"準備中です"
 		}
 
-		$(document).ready(function() {
-
-			$("a#readyBtn").on("click",function(){
-				modalPop(msg.ready);
-			});
-
-			$("#saveBtn").on("click",function(){
-				$("#sendForm").submit();
-			});
-
-			//vaildate
-			$("#sendForm").validate({
-				debug : true,
-				rules : {
-					 name : {required : true}
-					,mail : {required : true, email : true}
-				},
-				messages: {
-					name: {required: msg.emptyName}
-					,mail : {required: msg.emptyMail,email : msg.wrongMail}
-
-				},
-				submitHandler: function() {
-					sendData();
-				},
-				errorClass:"validate_error"
-				,
-				validClass:"validate_valid"
-			});
-
-			//text size
-			$("h1#title").fitText(1,{ minFontSize: '50px', maxFontSize: '80px' });
-			$("h3#s2").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h3#s3").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h3#s4").fitText(2,{ minFontSize: '20px', maxFontSize: '40px' });
-			$("h1#s5").fitText(1.2,{ minFontSize: '40px', maxFontSize: '60px' });
-			$("span#s6").fitText(1,{ minFontSize: '25px', maxFontSize: '45px' });
-			$("h3#s6").fitText(1.8,{ minFontSize: '18px', maxFontSize: '35px' });
-			$("h3#s7").fitText(1.5,{ minFontSize: '20px', maxFontSize: '45px' });
-		});	//document.ready End
+		var url={
+			 instagran : "https://www.instagram.com/kyaraten_app"
+			,facebook : "https://www.facebook.com/%E3%82%AD%E3%83%A3%E3%83%A9%E5%A4%A9-692949480911958"
+			,ameba : "http://ameblo.jp/kyaraten/"
+			,line : "https://line.me/R/ti/p/%40imc9890m"
+		}
 
 		function sendData(){
 			$.ajax({
