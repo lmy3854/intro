@@ -162,7 +162,7 @@
 		</div>
 		<ul id="menu" class="menu">
 			<li data-menuanchor="page9">
-				<a href="#page9">
+				<a href="#page9" id="lastScroll">
 					<span id="moveBtn" class="bolder">事前登録<br/>ページ</span>
 				</a>
 			</li>
@@ -212,38 +212,42 @@
 			});
 
 			$("a#instaBtn").on("click",function(){
-				ga("send", "event", "click", "move", "instagram link", "7");
+				ga("send", "event", "move", "instagram link", "", "7");
 				window.open(url.instagran);
 			});
 
 			$("a#faceBtn").on("click",function(){
-				ga("send", "event", "click", "move", "facebook link", "8");
+				ga("send", "event", "move", "facebook link", "", "8");
 				window.open(url.facebook);
 			});
 
 			$("a#amebaBtn").on("click",function(){
-				ga("send", "event", "click", "move", "ameba link", "9");
+				ga("send", "event", "move", "ameba link", "", "9");
 				window.open(url.ameba);
 			});
 
 			$("a#lineBotBtn").on("click",function(){
-				ga("send", "event", "click", "move", "line link", "3");
+				ga("send", "event", "move", "line link", "", "3");
 				window.open(url.line);
 			});
 
 			$("a#readyBtn_and").on("click",function(){
-				ga("send", "event", "click", "click", "android click", "1");
+				ga("send", "event", "click", "android click", "", "1");
 				modalPop(msg.ready);
 			});
 
 			$("a#readyBtn_ios").on("click",function(){
-				ga("send", "event", "click", "click", "ios click", "2");
+				ga("send", "event", "click", "ios click", "", "2");
 				modalPop(msg.ready);
 			});
 
 			$("#saveBtn").on("click",function(){
-				ga("send", "event", "click", "send", "name_mail send", "4");
+				ga("send", "event", "send", "name_mail send", "", "4");
 				$("#sendForm").submit();
+			});
+
+			$("a#lastScroll").on("click",function(){
+				ga("send", "event", "click", "last scroll", "", "5");
 			});
 
 			//vaildate
