@@ -8,7 +8,6 @@ $(function() {
             this.data();
             this.cacheDom();
             this.bindEvent();
-            this.hash();
         },
         cacheDom: function(){
             this.$body = $('body');
