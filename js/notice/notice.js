@@ -8,6 +8,7 @@ $(function() {
             this.data();
             this.cacheDom();
             this.bindEvent();
+            this.hash();
         },
         cacheDom: function(){
             this.$body = $('body');
@@ -25,6 +26,11 @@ $(function() {
                     $(this).parent().addClass('active');
                 }
             });
+        },
+        hash: function(){
+            var hash = location.hash;
+            if(!hash) return;
+            notice.hash = hash;
         },
         data: function(){
             $.getJSON('https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data.json', function(data) {
