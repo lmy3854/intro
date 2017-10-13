@@ -49,7 +49,9 @@ $(function() {
             });
         },
         endpoint: function(){
-            var country = navigator.language || navigator.userLanguage;
+            var lang = url('?lang');
+            if(!(lang && notice.env.accept_languages.indexOf(lang) >= 0)) lang = undefined;
+            var country = lang || navigator.language || navigator.userLanguage;
             switch (country) {
                 case notice.env.accept_language.japan:
                     return notice.env.endpoint.jp;

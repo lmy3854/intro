@@ -23,6 +23,7 @@
         </div>
     </div>
     <script src="../js/jquery-3.2.1.min.js" ></script>
+    <script src="../js/url.min.js" ></script>
     <script>
         /**
          * Created by okihouse on 2017. 8. 8..
@@ -38,7 +39,8 @@
                     accept_language: {
                         japan: 'ja',
                         korea: 'ko'
-                    }
+                    },
+                    accept_languages: ['ja', 'ko']
                 },
                 init: function(){
                     this.data();
@@ -75,7 +77,9 @@
                     });
                 },
                 endpoint: function(){
-                    var country = navigator.language || navigator.userLanguage;
+                    var lang = url('?lang');
+                    if(!(lang && notice.env.accept_languages.indexOf(lang) >= 0)) lang = undefined;
+                    var country = lang || navigator.language || navigator.userLanguage;
                     console.log(country);
                     switch (country) {
                         case notice.env.accept_language.japan:
