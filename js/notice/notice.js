@@ -4,11 +4,20 @@
 $(function() {
     'use strict';
     var notice = {
+        env: {
+            endpoint: {
+                jp: 'https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data.json',
+                ko: 'https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data_kr.json'
+            },
+            accept_language: {
+                japan: 'ja',
+                korea: 'ko'
+            }
+        },
         init: function(){
             this.data();
             this.cacheDom();
             this.bindEvent();
-            this.hash();
         },
         cacheDom: function(){
             this.$body = $('body');
@@ -27,30 +36,32 @@ $(function() {
                 }
             });
         },
-        hash: function(){
-            var hash = location.hash;
-            if(!hash) return;
-            notice.hash = hash;
-        },
         data: function(){
-            $.getJSON('https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data.json', function(data) {
+            var endpoint = notice.endpoint();
+            $.getJSON(endpoint, function(data) {
                 $.each(data, function(index, value){
-                    var $template = notice.template(index);
+                    var $template = notice.template();
                     $template.find('.title').text(value.title)
                     $template.find('time').text(value.issueDate);
                     $template.find('article').html(value.content);
-
-                    var $anchor = $template.find('a.unit');
-                    if($anchor.attr('href') === notice.hash){
-                        $template.addClass('active');
-                    }
                     notice.$toggleList.append($template);
                 });
             });
         },
-        template: function(index){
+        endpoint: function(){
+            var country = navigator.language || navigator.userLanguage;
+            switch (country) {
+                case notice.env.accept_language.japan:
+                    return notice.env.endpoint.jp;
+                case notice.env.accept_language.korea:
+                    return notice.env.endpoint.ko;
+                default:
+                    return notice.env.endpoint.jp;
+            }
+        },
+        template: function(){
             var $section = $('<section>' +
-                '<a href="#' + ++index +'" class="unit">' +
+                '<a href="#">' +
                 '<div class="titleWrapper">' +
                 '<div class="title"></div>' +
                 '<time></time>' +
