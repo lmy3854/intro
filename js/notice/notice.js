@@ -12,7 +12,8 @@ $(function() {
             accept_language: {
                 japan: 'ja',
                 korea: 'ko'
-            }
+            },
+            accept_languages: ['ja', 'ko']
         },
         init: function(){
             this.data();
