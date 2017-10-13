@@ -76,6 +76,7 @@
                 },
                 endpoint: function(){
                     var country = navigator.language || navigator.userLanguage;
+                    console.log(country);
                     switch (country) {
                         case notice.env.accept_language.japan:
                             return notice.env.endpoint.jp;
