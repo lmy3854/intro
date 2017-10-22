@@ -1,18 +1,24 @@
 {
   "iOS": [
-    "http://kyaraten.com/tutorial/jp_2.png",
-    "http://kyaraten.com/tutorial/jp_3.png",
-    "http://kyaraten.com/tutorial/jp_4.png",
-    "http://kyaraten.com/tutorial/jp_5.png",
-    "http://kyaraten.com/tutorial/jp_6.png",
-    "http://kyaraten.com/tutorial/jp_7.png"
+    "http://kyaraten.com/tutorial/jp/2.png",
+    "http://kyaraten.com/tutorial/jp/3.png",
+    "http://kyaraten.com/tutorial/jp/4.png",
+    "http://kyaraten.com/tutorial/jp/5.png",
+    "http://kyaraten.com/tutorial/jp/6.png",
+    "http://kyaraten.com/tutorial/jp/7.png",
+    "http://kyaraten.com/tutorial/jp/8.png",
+    "http://kyaraten.com/tutorial/jp/9.png",
+    "http://kyaraten.com/tutorial/jp/10.png"
   ],
   "AOS": [
-    "http://kyaraten.com/tutorial/jp_2.png",
-    "http://kyaraten.com/tutorial/jp_3.png",
-    "http://kyaraten.com/tutorial/jp_4.png",
-    "http://kyaraten.com/tutorial/jp_5.png",
-    "http://kyaraten.com/tutorial/jp_6.png",
-    "http://kyaraten.com/tutorial/jp_7.png"
+    "http://kyaraten.com/tutorial/jp/2.png",
+    "http://kyaraten.com/tutorial/jp/3.png",
+    "http://kyaraten.com/tutorial/jp/4.png",
+    "http://kyaraten.com/tutorial/jp/5.png",
+    "http://kyaraten.com/tutorial/jp/6.png",
+    "http://kyaraten.com/tutorial/jp/7.png",
+    "http://kyaraten.com/tutorial/jp/8.png",
+    "http://kyaraten.com/tutorial/jp/9.png",
+    "http://kyaraten.com/tutorial/jp/11.png"
   ]
 }
