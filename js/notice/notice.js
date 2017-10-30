@@ -4,6 +4,17 @@
 $(function() {
     'use strict';
     var notice = {
+        env: {
+            endpoint: {
+                jp: 'https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data.json',
+                ko: 'https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data_kr.json'
+            },
+            accept_language: {
+                japan: 'ja',
+                korea: 'ko'
+            },
+            accept_languages: ['ja', 'ko']
+        },
         init: function(){
             this.data();
             this.cacheDom();
@@ -27,7 +38,8 @@ $(function() {
             });
         },
         data: function(){
-            $.getJSON('https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data.json', function(data) {
+            var endpoint = notice.endpoint();
+            $.getJSON(endpoint, function(data) {
                 $.each(data, function(index, value){
                     var $template = notice.template();
                     $template.find('.title').text(value.title)
@@ -36,6 +48,19 @@ $(function() {
                     notice.$toggleList.append($template);
                 });
             });
+        },
+        endpoint: function(){
+            var lang = url('?lang');
+            if(!(lang && notice.env.accept_languages.indexOf(lang) >= 0)) lang = undefined;
+            var country = lang || navigator.language || navigator.userLanguage;
+            switch (country) {
+                case notice.env.accept_language.japan:
+                    return notice.env.endpoint.jp;
+                case notice.env.accept_language.korea:
+                    return notice.env.endpoint.ko;
+                default:
+                    return notice.env.endpoint.jp;
+            }
         },
         template: function(){
             var $section = $('<section>' +
