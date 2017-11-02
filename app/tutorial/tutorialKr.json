@@ -1,16 +1,16 @@
 {
   "iOS": [
-    "http://kyaraten.com/tutorial/kr/2.png",
-    "http://kyaraten.com/tutorial/kr/3.png",
-    "http://kyaraten.com/tutorial/kr/4.png",
-    "http://kyaraten.com/tutorial/kr/5.png",
-    "http://kyaraten.com/tutorial/kr/6.png"
+    "http://kyaraten.com/app/tutorial/img/kr2.jpg",
+    "http://kyaraten.com/app/tutorial/img/kr3.jpg",
+    "http://kyaraten.com/app/tutorial/img/kr4.jpg",
+    "http://kyaraten.com/app/tutorial/img/kr5.jpg",
+    "http://kyaraten.com/app/tutorial/img/kr6.jpg"
   ],
   "AOS": [
-    "http://kyaraten.com/tutorial/kr/2.png",
-    "http://kyaraten.com/tutorial/kr/3.png",
-    "http://kyaraten.com/tutorial/kr/4.png",
-    "http://kyaraten.com/tutorial/kr/5.png",
-    "http://kyaraten.com/tutorial/kr/6.png"
+    "http://kyaraten.com/app/tutorial/img/kr2.jpg",
+    "http://kyaraten.com/app/tutorial/img/kr3.jpg",
+    "http://kyaraten.com/app/tutorial/img/kr4.jpg",
+    "http://kyaraten.com/app/tutorial/img/kr5.jpg",
+    "http://kyaraten.com/app/tutorial/img/kr6.jpg"
   ]
 }
