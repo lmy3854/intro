@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable = no">
+    <title>notice</title>
+    <link rel="stylesheet" href="../css/notice/redactor.css">
+    <link rel="stylesheet" href="../css/notice/normalize.css">
+    <link rel="stylesheet" href="../css/notice/container.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contentBody">
+            <section class="bodyContainer">
+                <div class="customer-comp">
+                    <div class="componentBox">
+                        <div class="noticeBox">
+                            <div class="toggleList"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="../js/jquery-3.2.1.min.js" ></script>
+    <script src="../js/url.min.js" ></script>
+    <script>
+        /**
+         * Created by okihouse on 2017. 8. 8..
+         */
+        $(function() {
+            'use strict';
+            var notice = {
+                env: {
+                    endpoint: {
+                        jp: 'http://kyaraten.com/notice/helpJp.json',
+                        ko: 'http://kyaraten.com/notice/helpKr.json'
+                    },
+                    accept_language: {
+                        japan: 'ja',
+                        korea: 'ko'
+                    },
+                    accept_languages: ['ja', 'ko']
+                },
+                init: function(){
+                    this.data();
+                    this.cacheDom();
+                    this.bindEvent();
+                },
+                cacheDom: function(){
+                    this.$body = $('body');
+                    this.$el = $('.container');
+
+                    this.$toggleList = this.$el.find('.toggleList');
+                },
+                bindEvent: function(){
+                    notice.$toggleList.on('click', 'a', function(e){
+                        e.preventDefault();
+                        var isActive = $(this).parent().hasClass('active');
+                        if (isActive){
+                            $(this).parent().removeClass('active');
+                        } else {
+                            $(this).parent().addClass('active');
+                        }
+                    });
+                },
+                data: function(){
+                    var endpoint = notice.endpoint();
+                    $.getJSON(endpoint, function(data) {
+                        $.each(data, function(index, value){
+                            var $template = notice.template();
+                            $template.find('.title').text(value.title)
+                            $template.find('time').text(value.issueDate);
+                            $template.find('article').html(value.content);
+                            notice.$toggleList.append($template);
+                        });
+                    });
+                },
+                endpoint: function(){
+                    var lang = url('?lang');
+                    if(!(lang && notice.env.accept_languages.indexOf(lang) >= 0)) lang = undefined;
+                    var country = lang || navigator.language || navigator.userLanguage;
+                    console.log(country);
+                    switch (country) {
+                        case notice.env.accept_language.japan:
+                            return notice.env.endpoint.jp;
+                        case notice.env.accept_language.korea:
+                            return notice.env.endpoint.ko;
+                        default:
+                            return notice.env.endpoint.jp;
+                    }
+                },
+                template: function(){
+                    var $section = $('<section>' +
+                            '<a href="#">' +
+                            '<div class="titleWrapper">' +
+                            '<div class="title"></div>' +
+                            '<time></time>' +
+                            '</div>' +
+                            '</a>' +
+                            '<article></article>' +
+                            '</section>');
+                    return $section;
+                }
+            }
+            notice.init();
+        });
+    </script>
+</body>
+</html>
