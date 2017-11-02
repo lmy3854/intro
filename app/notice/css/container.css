@@ -1,0 +1,407 @@
+main.aboutIdx{overflow: hidden; background: #fff}
+main section.flowSec{overflow: hidden; color: #494949; padding: 0 0 160px 0; text-align: center}
+
+main section.flowSec.parallaxGrid{overflow: hidden; height: 1050px;padding-top: 0}
+main section.flowSec.parallaxGrid{padding-bottom: 30px}
+main section.flowSec.getAppGrid{overflow: hidden; width: 720px; margin: 0 auto;}
+main section.flowSec.figure{overflow: hidden; width: 960px; margin: 0 auto;}
+main section.flowSec.mapjs{overflow: hidden;padding-bottom: 0 }
+
+main section.flowSec .descArea{overflow: hidden; padding: 25px 25px;text-align: center}
+main section.flowSec .descArea.duelDesc{overflow: hidden; padding: 25px 25px;text-align: center}
+
+main section.flowSec .descArea h2{font-size: 40px;line-height: 59px;font-weight: 400}
+main section.flowSec .descArea h3{font-size: 30px;line-height: 44px; font-weight: 400}
+main section.flowSec .descArea p{font-size: 20px;line-height: 30px;font-weight: 200; padding: 22px 0 22px 0}
+main section.flowSec .descArea p a.downloadLink{color: #4b95fe;
+    font-size:18px;}
+main section.flowSec .descArea ul{overflow: hidden;display: inline-block; margin-top: 25px}
+main section.flowSec .descArea ul > li{overflow: hidden; float: left;text-align: center;padding: 0 10px;}
+
+.descArea ul > li > div.caption{color: #494949; font-size: 25px; line-height: 32px}
+.descArea ul > li > div.tailComment{color: #494949; font-size: 17px; line-height: 25px}
+.descArea ul > li > div.values{color: #494949; font-size: 25px; line-height: 32px; font-weight: 700}
+.descArea ul > li > div.values > b {font-size: 54px; line-height: 62px; font-weight: 700}
+.descArea ul.tripleList > li:nth-child(2){margin: 0 100px}
+
+.duelDesc > ul {overflow: hidden;display: inline-block}
+.duelDesc > ul > li {float: left; text-align: center;color: #d0d0d0; font-size: 18px; line-height: 24px; }
+.duelDesc > ul > li.highlight {color: #494949; font-weight: 700; margin-right: 90px }
+.duelDesc > ul > li.highlight >span{border-bottom: solid 3px #ea2751;    display: inline-block;}
+
+.contactForms {max-width: 920px; width: 100%; margin: 0 auto; padding: 0 20px}
+.contactForms .formInput{overflow: hidden; text-align: left;    display: inline;}
+
+.formInput dl {display: inline-block;border: 1px solid #efefef; font-size:16px; line-height: 65px; width: 905px; color: #8e8e8e}
+.formInput dl dt{padding: 0 20px;float: left; width: 130px}
+.formInput dl dd{float: left; width: 690px;padding: 0 20px }
+.formInput dl.harf { width: 450px}
+.formInput dl.harf dt{width: 130px}
+.formInput dl.harf dd{width: 240px;}
+.formInput dl dd input{ border: none;font-size:16px; line-height: 45px; width: 100%}
+.formInput dl dd input::-webkit-input-placeholder{color: #d0d0d0}
+.formInput dl dd input:-moz-placeholder{color: #d0d0d0}
+.formInput dl dd input::-moz-placeholder {color: #d0d0d0}
+.formInput dl dd input:-ms-input-placeholder {color: #d0d0d0}
+
+.formInput dl dd input.fileInfo{ width: 70%}
+.formInput dl dd.textWrapper{padding: 10px 20px;width: 860px}
+.formInput dl dd label.btn {text-align:center;float: right ; width: 25%; border-left:1px #efefef solid;text-indent: 20px;cursor: pointer}
+
+.formInput dl dd textarea{ border: none;font-size:16px; width: 100%; height: 100%; min-height:150px }
+.formInput dl dd textarea::-webkit-input-placeholder{color: #d0d0d0}
+.formInput dl dd textarea:-moz-placeholder{color: #d0d0d0}
+.formInput dl dd textarea::-moz-placeholder{color: #d0d0d0}
+.formInput dl dd textarea:-ms-input-placeholder{color: #d0d0d0}
+.formInput .sendBnt{padding: 10px 0;text-align: center}
+.formInput button{background-color: #e8e8e8;border: none; color: white; padding: 25px 100px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;line-height: 15px;}
+
+main section.flowSec.parallaxGrid div.prevService{overflow: hidden; height: 850px; width: 100%; text-align: center;background:url("/src/images/common/main_bg.jpg") no-repeat; background-position: center; background-size: cover}
+div.prevService > div.prevTitle{margin: 150px 0 45px 0;color: #fff}
+div.prevTitle > span.thinTitle {font-size: 73px; font-weight: 200}
+div.prevTitle > h2 {font-size: 73px; font-weight: 700; padding: 10px 0 25px 0}
+
+div.virtualDevice {overflow: hidden; position: absolute; width: 100%;}
+div.virtualDevice > .deviceWrapper {overflow: hidden; margin: 0 auto; max-width: 350px}
+.deviceWrapper img {max-width: 100%}
+
+.getAppGrid > .storeShortCut{ overflow: hidden;display: inline-block; margin: 0 auto}
+.storeShortCut > a.radiusBtn{display:inline-block; width: 230px; height: 70px; border-radius: 35px;background:#f3f3f3; margin: 0 15px}
+.storeShortCut > a {display:inline-block; margin: 0 10px}
+
+a.radiusBtn > div {text-indent: 100%; white-space: nowrap; display: inline-block; overflow: hidden}
+a.radiusBtn > div.googlePlay{width: 100%;height: 100%; background:url("/src/images/common/img_android.png") no-repeat; background-position: center; background-size: inherit}
+a.radiusBtn > div.appleStore{width: 100%;height: 100%; background:url("/src/images/common/img_appstore.png") no-repeat; background-position: center; background-size: inherit}
+
+.aboutService > div.triples {overflow: hidden; margin: 0 auto; display: inline-block}
+div.triples > article {width: 300px; padding: 15px 0px;float: left; overflow: hidden}
+div.triples > article:nth-child(2) {padding: 15px 15px;}
+div.triples > article >figure {overflow: hidden; width: 100%; text-align: center}
+div.triples > article >figure > img{width: auto;max-height: 200px}
+div.triples > article >figure > figcaption {overflow: hidden;color: #8e8e8e; margin-top: 80px;}
+div.triples > article >figure > figcaption div.caption {color:#494949; font-size: 26px; line-height: 32px; margin-bottom: 35px}
+div.triples > article >figure >figcaption p {font-size: 16px; line-height: 24px}
+div.triples > article >figure >figcaption p {font-size: 16px; line-height: 24px;font-weight: 200}
+
+div.figureWrap{margin: 0 auto}
+div.figureWrap.w540max{width: 540px}
+div.figureWrap.w720max{width: 720px; border-bottom: 1px solid #efefef}
+div.figureWrap >figure{overflow: hidden;width: 100%;margin-top: 20px}
+div.figureWrap >figure >img{overflow: hidden;width: 100%;float: left;}
+
+div.gridView {overflow: hidden; display: inline-block}
+div.gridView > .viewerArea{overflow: hidden; display: inline-block;width: 400px; height: 550px; float: left }
+div.headCaption{height:110px;font-size: 25px; line-height: 34px; text-align: center}
+.viewerImg {width: auto; height: 440px}
+.viewerImg img{width: auto; height: 100%}
+div.headCaption span,div.headCaption strong{display: block}
+div.headCaption  strong#viewerCnt{font-size: 55px; line-height: 70px}
+div.gridView >.thumbArea {overflow: hidden; display: inline-block; width: 100px; padding:110px  20px 0 20px; float: left }
+div.gridView >.thumbArea ul li{overflow: hidden; display: inline-block; width:100px; height: 135px;position: relative;padding-bottom: 10px; }
+div.gridView >.thumbArea ul li img{width: 98%; height: auto;border: 1px solid #b4b4b4}
+div.gridView >.thumbArea .thumbCover{overflow: hidden; position: absolute; top:0;bottom: 0; left: 0;right: 0;background: rgba( 255, 255, 255, 0.70);}
+div.gridView >.thumbArea ul li.active  img{border: 1px solid #ea2751}
+div.gridView >.thumbArea ul li.active .thumbCover{display: none}
+
+
+div.container{overflow: hidden}
+
+header {overflow: hidden; width: 100%;background: #ea2751;height: 70px}
+header > .siteHead{overflow:hidden;max-width: 1140px; margin: 0 auto;height: 70px; padding: 0 20px}
+.siteHead > .prdSymbol{padding:15px 0px;display: block;width: 95px; height: 40px;float: left}
+.siteHead > .prdSymbol > h1{text-indent: 100%;white-space: nowrap;display: inline-block;overflow: hidden;width: 100%;height: 100%;background: url("/src/images/common/logo-title.png") no-repeat;background-position: center;background-size: 100%}
+.siteHead > .prdSymbol > h1 > a {width: 100%;height: 100%;display: block}
+.siteHelper {overflow: hidden;height: 100%;float: right}
+nav.siteNavigator,.listWrapper,ul.siteMap{overflow: hidden}
+nav.siteNavigator > .listHelper {display: none}
+ul.siteMap {padding-top: 6px}
+ul.siteMap > li {float: left; padding-bottom: 6px;line-height: 58px}
+ul.siteMap > li a {overflow: hidden}
+ul.siteMap > li.active,ul.siteMap > li.current {background: #fff}
+ul.siteMap > li span {color:#fff; display: block; padding: 0 15px;height: 100%; background: #ea2751;text-align: center; font-size: 18px;font-weight: 200}
+
+.fade-menu {position: fixed; top:0;left: 0;right: 0;bottom:0;z-index: 100}
+.fade-menu.fadeOut {display: none}
+.fade-menu  > .fade-bg{position: fixed; top:0px;left: 0;right: 0;bottom:0; background: rgba(255,255,255,0.95)}
+.fade-menu > .fade-map {position: relative; text-align: center;margin-top:85px}
+.fade-menu > .fade-map > li {line-height: 2.0rem;font-size: 1.4rem}
+.fade-menu > .fade-map > li:nth-child(1) span {text-indent: 100%;white-space: nowrap;display: inline-block;overflow: hidden;width: 100%;background: url("/src/images/common/btn-close-fader.png") no-repeat; background-position: center;background-size: contain;height: 22px;margin-bottom: 55px}
+
+.listHelper {padding-top: 4px;line-height: 52px}
+.listHelper > a {padding: 7px 15px; color: #fff}
+.listHelper > a.helperBtn {border: 1px solid #fff; border-radius: 14px}
+.listHelper > a.menuBtn {display:inline-flex;height:13px;background: url("/src/images/common/ic-menu.png") no-repeat; background-size: contain;background-position: center;}
+.listHelper > a.menuBtn span{text-indent: 100%;white-space: nowrap;display: inline-block;overflow: hidden;width: 100%}
+
+.contentBody {overflow: hidden; background-color: #f3f3f3}
+.contentBody > .bodyContainer{overflow: hidden;  margin: 0 auto; min-height: 150px;background-color: #f3f3f3}
+.contentBody > .bodyContainer > iframe.flickingFrames{overflow: hidden;max-width: 720px; height: 690px; width: 720px; margin: 0 auto;display: inherit; background: #fff}
+
+.bodyContainer > .floatingHelper { position: fixed; top:120px;bottom: 0; left:0}
+.floatingHelper > .shareChanels {overflow: hidden; width: 48px;background: #fff; }
+.floatingHelper > .shareChanels > a {display: block; height: 50px;line-height: 50px}
+.floatingHelper > .shareChanels > a > span{text-indent: 100%;white-space: nowrap;display: inline-block;overflow: hidden;width: 100%}
+a.chanel span.fb {background: url("/src/images/common/shareFB.png") no-repeat;background-size: cover}
+a.chanel span.kakao {background: url("/src/images/common/shareKakao.png") no-repeat;background-size: cover}
+a.chanel span.naver {background: url("/src/images/common/shareNaver.png") no-repeat;background-size: cover}
+a.chanel span.url {background: url("/src/images/common/pasteUrl.png") no-repeat;background-size: cover}
+
+footer{background: #494949; width: 100%;overflow: hidden}
+footer >.quickIco {overflow: hidden; max-width: 720px; margin: 0 auto; padding: 40px 0}
+footer >.footerMap {overflow: hidden; max-width: 720px; margin: 0 auto}
+footer >.cc {overflow: hidden; max-width: 720px; margin: 0 auto; padding: 15px 0 30px 0; color: #8e8e8e; font-size: 13px}
+
+.quickIco > .prdSymbol {overflow: hidden; display: block; width: 120px; height: 50px; float: left;background: url("/src/images/common/logo-title-gr.png") no-repeat;background-position: center;background-size: 100%}
+.quickIco > .prdSymbol > strong {text-indent: 100%;white-space: nowrap;display: inline-block;overflow: hidden}
+
+.quickIco > .appLink {overflow: hidden; display: block; height: 50px; float: right; line-height: 50px}
+.appLink > ul {overflow: hidden}
+.appLink > ul >li {overflow: hidden; float: left; width: 50px; height: 50px;border-radius: 25px;background: rgba(0,0,0,0.2); margin-right: 10px}
+.appLink > ul >li span{text-indent: 100%;white-space: nowrap;display: inline-block;overflow: hidden;width: 100%}
+.appLink > ul >li span.and-foo{background: url("/src/images/common/and-foo-gg.png") no-repeat;background-size: cover;background-position: center}
+.appLink > ul >li span.ios-foo{background: url("/src/images/common/ios-foo-gg.png") no-repeat;background-size: cover;background-position: center}
+
+.footerMap > ul {overflow: hidden}
+.footerMap > ul >li {float: left;line-height: 25px }
+.footerMap > ul >li  span{color: #8e8e8e;border-right: 1px solid #8e8e8e;padding: 0 10px }
+
+.footerMap > ul > li:last-child span {border-right: none}
+
+/*authenticator Component*/
+.authComp {overflow: hidden; padding: 50px 0; margin: 0 auto}
+.customer {overflow: hidden; padding: 50px 0; margin: 0 auto}
+.customer.terms {overflow: hidden; padding: 50px 0; margin: 0 auto;width: 100%;background: #fff}
+.componentBox {overflow: hidden; padding: 10px 10px; max-width:410px; margin: 0 auto }
+.customer > .componentBox {max-width:690px;width: auto}
+.componentBox > .formBox,.componentBox > .onBoardMsg {overflow: hidden}
+.componentBox > .formBox strong{font-size: 16px; color: #8e8e8e; line-height: 20px;padding: 15px 0}
+
+.onBoardMsg > .terms{overflow: hidden}
+.onBoardMsg > .terms > h2{font-size: 1.5rem;line-height: 2rem}
+.onBoardMsg > .terms > p{font-size: 1rem;line-height: 1.8rem}
+
+.componentBox > .formBox dl{padding: 12px 0;overflow: hidden}
+.componentBox > .formBox dt{display: none}
+.componentBox > .formBox dd{height: 48px;line-height: 48px; background: #fff;border: 1px solid #e6e6e6; padding: 0 15px}
+.componentBox > .formBox dd input[type="password"]{line-height: 48px;background: none; border: none;width: 100%; font-size: 16px}
+.componentBox > .formBox p {padding: 10px 15px; font-size: 12px; color: #ff0000}
+.componentBox > .formBox p.confirmed {color: #31c04e}
+
+.componentBox > .onBoardMsg{background: #fff}
+.componentBox > .onBoardMsg.error{background: none}
+.componentBox > .onBoardMsg .msgBox{overflow: hidden;text-align: center;color: #494949;padding-top: 80px; padding-bottom: 70px}
+
+.componentBox > .onBoardMsg .msgBox > strong {font-size: 38px; line-height: 48px; color: #494949;display: block}
+.componentBox > .onBoardMsg .msgBox > strong.default {color: #ea2751}
+.componentBox > .onBoardMsg .msgBox > p {font-size: 18px; line-height: 28px; padding: 0 35px; margin-top: 30px}
+
+.componentBox > .onBoardMsg.error .msgBox > strong {font-size: 24px; line-height: 34px}
+.componentBox > .onBoardMsg.error .msgBox > p {margin-top: 0;font-size: 15px; line-height: 23px;padding: 0 15px;}
+.componentBox > .onBoardMsg.error .msgBox > p a{color: #4b95fe}
+.componentBox > .onBoardMsg.error .msgBox > .brLink {overflow: hidden}
+
+.brLink > a.downloadLink{width: 33.3%; text-align: center;float: left; height:100px;margin-top: 40px }
+.brLink > a.downloadLink .square-box{width: 100%; height: 70px}
+.brLink > a.downloadLink .square-box.chrome{background: url("/src/images/common/google-chrome-col.png") no-repeat;background-size: contain;background-position: center}
+.brLink > a.downloadLink .square-box.msie{background: url("/src/images/common/internet-explorer-col.png") no-repeat;background-size: contain;background-position: center}
+.brLink > a.downloadLink .square-box.firefox{background: url("/src/images/common/mozilla-firefox-col.png") no-repeat;background-size: contain;background-position: center}
+.brLink > a.downloadLink span{font-size: 14px; line-height: 30px}
+
+.componentBox > .onBoardMsg .btnWrap {padding: 30px 75px;overflow: hidden}
+.componentBox > .onBoardMsg .btnWrap > a.actBtn{overflow: hidden; display: inline-block; width: 100%; padding: 15px 0; text-align: center}
+
+.componentBox div.btnArea {overflow: hidden}
+.componentBox div.btnArea > a.actBtn{overflow: hidden; display:block;padding: 15px 0; text-align: center}
+
+.componentBox > .onBoardMsg.error .errorImg{width: 100%; height: 135px; margin-bottom: 15px}
+.errorImg.cd-dep{background: url("/src/images/common/error-deprecate.png") no-repeat; background-position: center;background-size: contain}
+.errorImg.cd-404{background: url("/src/images/common/error-404.png") no-repeat; background-position: center;background-size: contain}
+.errorImg.cd-406{background: url("/src/images/common/error-406.png") no-repeat; background-position: center;background-size: contain}
+.errorImg.cd-500{background: url("/src/images/common/error-500.png") no-repeat; background-position: center;background-size: contain}
+
+a.actBtn span{font-weight: bold}
+a.actBtn.deemGray{background: #494949;color: #fff; border: #494949 1px solid}
+a.actBtn.deemGray.lockBtn{background: #fff;color: #c5c5c5;border: #efefef 1px solid}
+a.actBtn.default{background: #ea2751;color: #fff}
+
+.noscript {position: fixed; top:0;bottom:0;left: 0; right: 0; background: #fff}
+.not-support {position: fixed; top:0;bottom:0;left: 0; right: 0; background: #fff}
+
+
+.customer-comp {overflow: hidden;position: absolute; top:0; bottom: 0;left: 0; right: 0; overflow-y: scroll;background: #f3f3f3;}
+.componentBox > .noticeBox{overflow: hidden;background: #efefef}
+.componentBox > .noticeBox .harfTab{overflow: hidden;width: 100% }
+.componentBox > .noticeBox .harfTab ul{overflow: hidden;background: #fff; height: 48px;}
+.componentBox > .noticeBox .harfTab ul li{float: left; width: 50%; height: 48px; line-height: 45px; background: #a3a3a3;text-align: center;position: relative}
+.componentBox > .noticeBox .harfTab ul li span{width: 100%;display: inline-block; height: 46px; line-height: 43px; background: #fff; position: absolute;top: 0;left: 0;}
+
+.componentBox > .noticeBox .harfTab ul li.active{background: #494949}
+.componentBox > .noticeBox .harfTab ul li.active span{height: 43px; line-height: 43px;}
+
+.componentBox > .noticeBox .toggleList{overflow: hidden;background: #f5f5f5;}
+.componentBox > .noticeBox .toggleList section{overflow: hidden; position: relative;background: #fff}
+.componentBox > .noticeBox .toggleList section > a {overflow: hidden; display: block;padding: 10px 15px; text-align: left; font-size: 16px; line-height: 24px;border-bottom: 1px #d0d0d0 solid;background: url("../../img/arrowdown.gif") no-repeat 95% 50%}
+.componentBox > .noticeBox .toggleList section.active > a {background: url("../../img/arrowup.gif") no-repeat 95% 50%}
+.componentBox > .noticeBox .toggleList section .caret-handle{position: absolute; right: 15px; top: 40%}
+.noticeBox .titleWrapper {overflow: hidden;float: left; width: 90%}
+.noticeBox .titleWrapper time {font-size: 12px; line-height: 20px; color:#8e8e8e}
+.noticeBox article {font-size: 14px; line-height: 22px; color:#494949;padding: 10px 15px;display: none; background: #f3f3f3}
+.noticeBox article img {width: 100%; margin-bottom: 15px;}
+.noticeBox article.answers {border-top: #fff solid 2px}
+.componentBox > .noticeBox .toggleList section.active article {display: block}
+
+.combo-box{position: relative;min-height: 30px;line-height: 30px;border: 1px solid #494949;  padding: 0 10px;  display: inline-block;background: #494949}
+.combo-box label{position: absolute;  font-size: 0.7rem; color: #fff;letter-spacing: 1px;}
+.combo-box span{text-align: left;}
+.combo-box select {  width: 100%;height: 30px;min-height: 30px;line-height: 30px;padding: 0 10px;opacity: 0;}
+
+.combo-box.h50{min-height: 50px;line-height: 50px; max-width: 100%;display: block}
+.combo-box.h50 label{font-size: 1.3rem;}
+.combo-box.h50 select{height: 50px;line-height: 50px;min-height: 50px}
+
+.inq-form {overflow: hidden;}
+.inq-form .inq-param-wrap{padding: 12px 15px; background: #fff; border-bottom: 1px #d0d0d0 solid}
+.inq-form .inq-param-wrap.no-pad{padding: 0}
+.inq-form .inq-param-wrap.grayLabel{background: #efefef;}
+.inq-form .inq-param-wrap button{background: #efefef;color: #fff;width:100%; height: 50px; border: none; font-size: 1.3rem}
+.inq-form .inq-param-wrap input[type=text]{font-size: 0.9rem;border: none; line-height: 24px;width: 100%;}
+.inq-form .inq-param-wrap textarea{font-size: 0.9rem;border: none; line-height: 24px;width: 100%;height: 72px}
+
+.tabView.fadeOut{display: none}
+
+.no-scroll{overflow: hidden !important;}
+
+@media screen and (max-width: 1080px) {
+    main section.flowSec.figure{width: 100% }
+    main section.flowSec .descArea ul > li.highlight{margin-right: 40px}
+    div.triples > article {width: 30%}
+    div.triples > article:nth-child(2) {padding: 15px 5%;}
+    div.triples > article >figure > img{max-width: 320px}
+
+    .descArea ul > li > div.caption{font-size: 22px; line-height: 30px}
+    .descArea ul > li > div.tailComment{font-size: 15px; line-height: 23px}
+    .descArea ul > li > div.values{font-size: 22px; line-height: 30px;}
+    .descArea ul > li > div.values > b {font-size: 44px; line-height: 52px; }
+    .descArea ul.tripleList > li:nth-child(2){margin: 0 80px}
+
+    .contactForms{padding: 0}
+
+    .formInput dl {width: 690px; font-size: 14px}
+    .formInput dl dt{padding: 0 5px;float: left; width: 140px}
+    .formInput dl dd{float: left; width: 530px;padding: 0 5px }
+    .formInput dl.harf { width: 342px}
+    .formInput dl.harf dt{width: 97px}
+    .formInput dl.harf dd{width: 220px;}
+    .formInput dl dd input{ border: none;font-size:16px; line-height: 45px; width: 100%}
+    .formInput dl dd.textWrapper{padding: 10px 15px;width: 660px}
+    .formInput dl dd textarea{ border: none;font-size:16px; width: 100%; height: 100%}
+
+
+}
+
+
+
+@media screen and (max-width: 768px){
+    main section.flowSec{padding: 45px 0}
+    main section.flowSec.parallaxGrid{height: 800px}
+    main section.flowSec.parallaxGrid div.prevService{height: 640px}
+    main section.flowSec .descArea.duelDesc ul > li{width: 100%;margin-bottom: 10px }
+    div.virtualDevice > .deviceWrapper {max-width: 300px}
+    div.prevService > div.prevTitle{margin: 80px 0 35px 0;color: #fff}
+
+    div.prevTitle > span.thinTitle {font-size: 55px;}
+    div.prevTitle > h2 {font-size: 55px; font-weight: 700; padding: 15px 0}
+
+    div.triples > article {width: 100%; margin-bottom: 40px}
+    div.triples > article:nth-child(2) {padding: 0;}
+    div.triples > article >figure > img{max-width: 320px}
+    div.triples > article >figure > figcaption{margin-top: 30px; padding: 0 20px}
+
+    .descArea ul > li > div.caption{font-size: 20px; line-height: 28px}
+    .descArea ul > li > div.tailComment{font-size: 13px; line-height: 20px}
+    .descArea ul > li > div.values{font-size: 20px; line-height: 28px;}
+    .descArea ul > li > div.values > b {font-size: 34px; line-height: 42px; }
+    .descArea ul.tripleList > li:nth-child(2){margin: 0 50px}
+
+    header {height: 60px}
+    .siteHead > .prdSymbol{width: 80px; height: 30px}
+    ul.siteMap {padding-top: 4px}
+    ul.siteMap > li {float: left; padding-bottom: 4px;line-height: 52px}
+    ul.siteMap > li span {font-size: 14px}
+
+    footer >.quickIco {padding: 25px 25px}
+    footer >.footerMap {padding: 25px 25px}
+    footer >.cc {padding: 15px 25px 15px 25px; color: #8e8e8e; font-size: 13px}
+}
+
+@media screen and (max-width: 720px) {
+    main section.flowSec{padding: 25px 0}
+    main section.flowSec.getAppGrid{width: 100%;}
+    main section.flowSec .descArea.duelDesc{padding: 5px 25px}
+    main section.flowSec .descArea p a.downloadLink{font-size: 16px;line-height: 22px}
+    .duelDesc > ul > li.highlight {margin-right: 0; }
+    div.figureWrap.w540max{max-width: 540px;width: 85%;}
+    div.figureWrap.w720max{max-width: 720px;width: 85%;}
+
+
+    .storeShortCut > a.radiusBtn{width: 200px; height: 60px; border-radius: 30px;margin: 0 8px}
+    .storeShortCut > a.radiusBtn > div{    background-size: 60%;}
+    .descArea ul.tripleList > li:nth-child(2){margin: 0 0}
+
+    .formInput dl {width: 100%; font-size: 14px}
+    .formInput dl dt{padding: 0 5%; width: 20%}
+    .formInput dl dd{ width: 60%;padding: 0 5% }
+    .formInput dl.harf { width: 100%}
+    .formInput dl.harf dt{width: 20%}
+    .formInput dl.harf dd{width: 60%;}
+    .formInput dl dd input{ border: none;font-size:16px; line-height: 45px; width: 100%}
+    .formInput dl dd.textWrapper{padding: 10px 5%;width: 90%}
+    .formInput dl dd textarea{ border: none;font-size:16px; width: 100%; height: 100%}
+
+
+    div.gridView > .viewerArea{width: 100%; height: 450px; float: left }
+    div.headCaption{height:100px;font-size: 22px; line-height: 28px}
+    div.headCaption  strong#viewerCnt{font-size: 45px; line-height: 53px}
+
+    .viewerImg {width: auto; height: 340px}
+    .viewerImg img {width: auto; height: 100%}
+    div.gridView >.thumbArea {width: 100%; padding:20px 0; float: left }
+
+
+    nav.siteNavigator > .listWrapper{display: none}
+    nav.siteNavigator >.listHelper {display: inline-block}
+    .contentBody > .bodyContainer > iframe.flickingFrames{max-width: 720px; max-height: 690px; width: 100%}
+    .bodyContainer > .floatingHelper { display: none}
+    .listHelper > a {padding: 5px 10px;font-size: 13px}
+}
+
+@media screen and (max-width: 620px) {
+    main section.flowSec .descArea ul > li{width: 100%; margin: 10px 0;padding: 0 0;    font-size: 15px;}
+}
+
+@media screen and (max-width: 440px) {
+
+    main section.flowSec.parallaxGrid{height: 640px}
+    main section.flowSec.parallaxGrid div.prevService{height: 500px}
+    main section.flowSec .descArea ul{margin-top: 0}
+    div.virtualDevice > .deviceWrapper {max-width: 250px}
+    main section.flowSec{padding: 20px 0}
+    div.prevTitle > span.thinTitle {font-size: 32px;}
+    div.prevTitle > h2 {font-size: 32px; font-weight: 700; padding: 5px 0}
+
+    div.figureWrap.w540max{margin-bottom: 40px}
+
+    main section.flowSec .descArea h2{font-size: 20px;line-height: 29px}
+    main section.flowSec .descArea h3{font-size: 18px;line-height: 26px}
+    main section.flowSec .descArea p{font-size: 16px;line-height: 22px;padding: 15px 0 15px 0}
+    .storeShortCut > a.radiusBtn{ margin: 10px 8px}
+    .formInput dl dt{display: none}
+    .formInput dl dd{ width: 90%;padding: 0 5%}
+    .formInput dl dd label.btn {font-size: 12px}
+    .formInput dl dd input.fileInfo{max-width: 200px}
+
+    .authComp > .componentBox {overflow: hidden; padding: 10px 10px; width: 100%; max-width:300px; margin: 0 auto }
+
+    .componentBox > .onBoardMsg.error .msgBox > p {padding: 0 5px;}
+
+}
