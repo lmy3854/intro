@@ -1,28 +1,28 @@
 {
   "iOS": [
-    "http://kyaraten.com/tutorial/jp/2.png",
-    "http://kyaraten.com/tutorial/jp/3.png",
-    "http://kyaraten.com/tutorial/jp/4.png",
-    "http://kyaraten.com/tutorial/jp/5.png",
-    "http://kyaraten.com/tutorial/jp/6.png",
-    "http://kyaraten.com/tutorial/jp/7.png",
-    "http://kyaraten.com/tutorial/jp/8.png",
-    "http://kyaraten.com/tutorial/jp/9.png",
-    "http://kyaraten.com/tutorial/jp/10.png",
-    "http://kyaraten.com/tutorial/jp/11.png",
-    "http://kyaraten.com/tutorial/jp/12.png"
+    "http://kyaraten.com/app/tutorial/img/jp2.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp3.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp4.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp5.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp6.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp7.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp8.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp9.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp10.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp11.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp12.jpg"
   ],
   "AOS": [
-    "http://kyaraten.com/tutorial/jp/2.png",
-    "http://kyaraten.com/tutorial/jp/3.png",
-    "http://kyaraten.com/tutorial/jp/4.png",
-    "http://kyaraten.com/tutorial/jp/5.png",
-    "http://kyaraten.com/tutorial/jp/6.png",
-    "http://kyaraten.com/tutorial/jp/7.png",
-    "http://kyaraten.com/tutorial/jp/8.png",
-    "http://kyaraten.com/tutorial/jp/9.png",
-    "http://kyaraten.com/tutorial/jp/10.png",
-    "http://kyaraten.com/tutorial/jp/11.png",
-    "http://kyaraten.com/tutorial/jp/12.png"
+    "http://kyaraten.com/app/tutorial/img/jp2.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp3.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp4.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp5.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp6.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp7.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp8.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp9.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp10.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp11.jpg",
+    "http://kyaraten.com/app/tutorial/img/jp12.jpg"
   ]
 }
