@@ -240,8 +240,8 @@ a.actBtn.default{background: #ea2751;color: #fff}
 
 .componentBox > .noticeBox .toggleList{overflow: hidden;background: #f5f5f5;}
 .componentBox > .noticeBox .toggleList section{overflow: hidden; position: relative;background: #fff}
-.componentBox > .noticeBox .toggleList section > a {overflow: hidden; display: block;padding: 10px 15px; text-align: left; font-size: 16px; line-height: 24px;border-bottom: 1px #d0d0d0 solid;background: url("./img/arrowdown.gif") no-repeat 95% 50%}
-.componentBox > .noticeBox .toggleList section.active > a {background: url("./img/arrowup.gif") no-repeat 95% 50%}
+.componentBox > .noticeBox .toggleList section > a {overflow: hidden; display: block;padding: 10px 15px; text-align: left; font-size: 16px; line-height: 24px;border-bottom: 1px #d0d0d0 solid;background: url("img/arrowdown.gif") no-repeat 95% 50%}
+.componentBox > .noticeBox .toggleList section.active > a {background: url("img/arrowup.gif") no-repeat 95% 50%}
 .componentBox > .noticeBox .toggleList section .caret-handle{position: absolute; right: 15px; top: 40%}
 .noticeBox .titleWrapper {overflow: hidden;float: left; width: 90%}
 .noticeBox .titleWrapper time {font-size: 12px; line-height: 20px; color:#8e8e8e}
