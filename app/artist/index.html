@@ -1,1 +1,260 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta charset="utf-8" />
+	<meta name="description" content="overview &amp; stats" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<title>Kyaraten / GreenWeather</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./css/fonts.googleapis.com.css" />
+	<link rel="stylesheet" href="./css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+	<link rel="stylesheet" href="./css/artist.css" />
+</head>
+<body>
+	<div class="main-container ace-save-state" id="main-container">
+		<div class="main-content">
+			<div class="main-content-inner">
+				<div class="page-content no-padding">
+					<div class="row no-margin">
+						<div class="col-xs-12 no-padding">
+							<!-- PAGE CONTENT BEGINS -->
+								<input type="hidden" id="userNo">
+								<input type="hidden" id="lang">
+								<div id="top-image" class="col-xs-12 no-padding">
+									<img src="./imgs/top_img.png" class="col-xs-12 no-padding">
+								</div>
+								<div class="space-32"></div>
+								<div class="col-xs-12 no-padding">
+									<div class="tabbable">
+										<ul class="nav nav-tabs" id="myTab">
+											<li class="active">
+												<a data-toggle="tab" href="#notice">공지사항</a>
+											</li>
+											<li>
+												<a data-toggle="tab" href="#static">통계</a>
+											</li>
+											<li>
+												<a data-toggle="tab" href="#account">정산</a>
+											</li>
+										</ul>
+										<div class="tab-content no-padding">
+											<div id="notice" class="tab-pane fade in active">
+												<div class="col-xs-12 no-padding">
+													<div id="accordion" class="accordion-style1 panel-group">
+<!-- notice/  -->
+														<div class="panel panel-default">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#notice1">
+																		&nbsp;첫 공지
+																	</a>
+																</h4>
+															</div>
+															<div class="panel-collapse collapse in" id="notice1">
+																<div class="panel-body">
+
+																	<p>안녕하세요.&nbsp;</p>
+																	<p>그린날씨(내가 그린 그림이 구름 그린 그림인가 날씨 그린 그림인가)를 설치해주셔서 감사합니다.</p>
+																	<p>재미있는 서비스가 되도록 노력하겠습니다.</p>
+																	<p>감사합니다 :D</p>
+
+																</div>
+															</div>
+														</div>
+														<!--  -->
+														<div class="panel panel-default">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#notice2">
+																		&nbsp;ご挨拶
+																	</a>
+																</h4>
+															</div>
+															<div class="panel-collapse collapse" id="notice2">
+																<div class="panel-body">
+
+																	<p>アプリをリリースしました。<br></p><p>不足する部分等あるとは思いますが改良を重ね、皆様に喜んでいただけるアプリ作りをこれからも目指します。<br>今後ともどうぞよろしくお願いします。<br>-キャラ天運営者-</p><p><br></p><figure><img src="https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/notice/b979dab9-7ffa-4d59-ba08-56527610f688.png" data-image=""></figure><p><br></p>
+
+																</div>
+															</div>
+														</div>
+<!-- =/= /notice data -->
+													</div>
+												</div>
+											</div>
+											<div id="static" class="tab-pane fade">
+												<div class="col-xs-12 no-padding">
+													<table class="table table-bordered">
+														<thead>
+															<tr>
+																<th class="center">제목</th>
+																<th class="center">썸네일</th>
+																<th class="center">가격</th>
+																<th class="center">view</th>
+																<th class="center">dw</th>
+																<th class="center">buy</th>
+																<th class="center">상태</th>
+															</tr>
+														</thead>
+														<tbody>
+<!-- =/= static data/ -->
+															<tr>
+																<td class="left">SKIN TITLE1</td>
+																<td class="center">-</td>
+																<td class="right">100 coin</td>
+																<td class="right">12</td>
+																<td class="right">4</td>
+																<td class="right">3</td>
+																<td class="center">승인 대기</td>
+															</tr>
+															<tr>
+																<td class="left"></td>
+																<td class="center"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="center"></td>
+															</tr>
+															<tr>
+																<td class="left"></td>
+																<td class="center"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="center"></td>
+															</tr>
+															<tr>
+																<td class="left"></td>
+																<td class="center"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="center"></td>
+															</tr>
+															<tr>
+																<td class="left"></td>
+																<td class="center"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="center"></td>
+															</tr>
+															<tr>
+																<td class="left"></td>
+																<td class="center"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="center"></td>
+															</tr>
+															<tr>
+																<td class="left"></td>
+																<td class="center"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="right"></td>
+																<td class="center"></td>
+															</tr>
+<!--=/= /static data -->
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div id="account" class="tab-pane fade">
+												<div class="col-xs-12 no-padding">
+													<table class="table table-bordered">
+														<thead>
+															<tr>
+																<th class="center">판매일</th>
+																<th class="center">판매 스킨</th>
+																<th class="center">판매 금액</th>
+																<th class="center">적용 비율</th>
+																<th class="center">환급 금액</th>
+																<th class="center">정산 여부</th>
+															</tr>
+														</thead>
+														<tbody>
+<!-- =/= account data/ -->
+															<tr>
+																<td class="left">2017-12-28</td>
+																<td class="left">skin12</td>
+																<td class="right">10 coin</td>
+																<td class="right">0.3</td>
+																<td class="right">3 coin</td>
+																<td class="center">N</td>
+															</tr>
+															<tr>
+																<td class="left">2017-12-28</td>
+																<td class="left">skin12</td>
+																<td class="right">10 coin</td>
+																<td class="right">0.3</td>
+																<td class="right">3 coin</td>
+																<td class="center">N</td>
+															</tr>
+															<tr>
+																<td class="left">2017-12-28</td>
+																<td class="left">skin12</td>
+																<td class="right">10 coin</td>
+																<td class="right">0.3</td>
+																<td class="right">3 coin</td>
+																<td class="center">N</td>
+															</tr>
+															<tr>
+																<td class="left">2017-12-28</td>
+																<td class="left">skin12</td>
+																<td class="right">10 coin</td>
+																<td class="right">0.3</td>
+																<td class="right">3 coin</td>
+																<td class="center">N</td>
+															</tr>
+															<tr>
+																<td class="left">2017-12-28</td>
+																<td class="left">skin12</td>
+																<td class="right">10 coin</td>
+																<td class="right">0.3</td>
+																<td class="right">3 coin</td>
+																<td class="center">N</td>
+															</tr>
+															<tr>
+																<td class="left">2017-12-28</td>
+																<td class="left">skin12</td>
+																<td class="right">10 coin</td>
+																<td class="right">0.3</td>
+																<td class="right">3 coin</td>
+																<td class="center">N</td>
+															</tr>
+<!-- =/= /account data-->
+														</tbody>
+													</table>
+												</div>
+												<a href="javascript:void(0);" id="accountBtn" class="btn btn-lg account-btn col-xs-12">정산하기</a>
+											</div>
+										</div>
+									</div>
+								</div><!-- /.col -->
+							<!-- PAGE CONTENT ENDS -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.page-content -->
+			</div>
+		</div><!-- /.main-content -->
+		<!-- <div id="loding-layer" class="ajax-loading-overlay hide center middle"><img src="./imgs/loader.gif"></div> -->
+		<div class="mask hide"></div>
+	</div><!-- /.main-container -->
+	<!--[if !IE]> -->
+		<script src="./js/jquery-2.1.4.min.js"></script>
+	<!-- <![endif]-->
+	<!--[if IE]>
+		<script src="./js/jquery-1.11.3.min.js"></script>
+	<![endif]-->
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/artist.js"></script>
+</body>
+</html>
