@@ -1,250 +1,110 @@
-[
-  {
-    "tagNo": 1,
-    "title": "title1",
-    "subtags": [
-      {
-        "categoryNo": "101",
-        "categoryName": "title101"
-      },
-      {
-        "categoryNo": "102",
-        "categoryName": "title102"
-      },
-      {
-        "categoryNo": "103",
-        "categoryName": "title103"
-      },
-      {
-        "categoryNo": "104",
-        "categoryName": "title104"
-      },
-      {
-        "categoryNo": "105",
-        "categoryName": "title105"
-      },
-      {
-        "categoryNo": "106",
-        "categoryName": "title106"
-      },
-      {
-        "categoryNo": "107",
-        "categoryName": "title107"
-      },
-      {
-        "categoryNo": "108",
-        "categoryName": "title108"
-      },
-      {
-        "categoryNo": "109",
-        "categoryName": "title109"
-      },
-      {
-        "categoryNo": "110",
-        "categoryName": "title110"
-      },
-      {
-        "categoryNo": "111",
-        "categoryName": "title111"
-      },
-      {
-        "categoryNo": "112",
-        "categoryName": "title112"
-      },
-      {
-        "categoryNo": "113",
-        "categoryName": "title113"
-      },
-      {
-        "categoryNo": "114",
-        "categoryName": "title114"
-      }
-    ]
-  },
-  {
-    "tagNo": 2,
-    "title": "title2",
-    "subtags": [
-      {
-        "categoryNo": "201",
-        "categoryName": "title201"
-      },
-      {
-        "categoryNo": "202",
-        "categoryName": "title202"
-      },
-      {
-        "categoryNo": "203",
-        "categoryName": "title203"
-      },
-      {
-        "categoryNo": "204",
-        "categoryName": "title204"
-      },
-      {
-        "categoryNo": "205",
-        "categoryName": "title205"
-      },
-      {
-        "categoryNo": "206",
-        "categoryName": "title206"
-      },
-      {
-        "tagcategoryNoNo": "207",
-        "categoryName": "title207"
-      },
-      {
-        "categoryNo": "208",
-        "categoryName": "title208"
-      },
-      {
-        "categoryNo": "209",
-        "categoryName": "title209"
-      },
-      {
-        "categoryNo": "210",
-        "categoryName": "title210"
-      },
-      {
-        "categoryNo": "211",
-        "categoryName": "title211"
-      },
-      {
-        "categoryNo": "212",
-        "categoryName": "title212"
-      },
-      {
-        "categoryNo": "213",
-        "categoryName": "title213"
-      },
-      {
-        "categoryNo": "214",
-        "categoryName": "title214"
-      }
-    ]
-  },
-  {
-    "tagNo": 3,
-    "title": "title3",
-    "subtags": [
-      {
-        "categoryNo": "301",
-        "categoryName": "title301"
-      },
-      {
-        "categoryNo": "302",
-        "categoryName": "title302"
-      },
-      {
-        "categoryNo": "303",
-        "categoryName": "title303"
-      },
-      {
-        "categoryNo": "304",
-        "categoryName": "title304"
-      },
-      {
-        "categoryNo": "305",
-        "categoryName": "title305"
-      },
-      {
-        "categoryNo": "306",
-        "categoryName": "title306"
-      },
-      {
-        "categoryNo": "307",
-        "categoryName": "title307"
-      },
-      {
-        "categoryNo": "308",
-        "categoryName": "title308"
-      },
-      {
-        "categoryNo": "309",
-        "categoryName": "title309"
-      },
-      {
-        "categoryNo": "310",
-        "categoryName": "title310"
-      },
-      {
-        "categoryNo": "311",
-        "categoryName": "title311"
-      },
-      {
-        "categoryNo": "312",
-        "categoryName": "title312"
-      },
-      {
-        "categoryNo": "313",
-        "categoryName": "title313"
-      },
-      {
-        "categoryNo": "314",
-        "categoryName": "title314"
-      }
-    ]
-  },
-  {
-    "tagNo": 4,
-    "title": "title4",
-    "subtags": [
-      {
-        "categoryNo": "201",
-        "categoryName": "title201"
-      },
-      {
-        "categoryNo": "202",
-        "categoryName": "title202"
-      },
-      {
-        "categoryNo": "203",
-        "categoryName": "title203"
-      },
-      {
-        "categoryNo": "204",
-        "categoryName": "title204"
-      },
-      {
-        "categoryNo": "205",
-        "categoryName": "title205"
-      },
-      {
-        "categoryNo": "206",
-        "categoryName": "title206"
-      },
-      {
-        "categoryNo": "207",
-        "categoryName": "title207"
-      },
-      {
-        "categoryNo": "208",
-        "categoryName": "title208"
-      },
-      {
-        "categoryNo": "209",
-        "categoryName": "title209"
-      },
-      {
-        "categoryNo": "210",
-        "categoryName": "title210"
-      },
-      {
-        "categoryNo": "211",
-        "categoryName": "title211"
-      },
-      {
-        "categoryNo": "212",
-        "categoryName": "title212"
-      },
-      {
-        "categoryNo": "213",
-        "categoryName": "title213"
-      },
-      {
-        "categoryNo": "214",
-        "categoryName": "title214"
-      }
-    ]
-  }
+{
+"code": 0,
+"message": "success",
+"innerContents": [
+{
+"categoryGroupNo": 103,
+"categoryName": "풍경",
+"subcategories": [
+{
+"categoryNo": 2,
+"categoryName": "uQdEQ"
+},
+{
+"categoryNo": 3,
+"categoryName": "nTgZi"
+},
+{
+"categoryNo": 4,
+"categoryName": "2tqbl"
+},
+{
+"categoryNo": 5,
+"categoryName": "8aZ0y"
+},
+{
+"categoryNo": 6,
+"categoryName": "HUgLz"
+}
 ]
+},
+{
+"categoryGroupNo": 104,
+"categoryName": "연예인",
+"subcategories": [
+{
+"categoryNo": 7,
+"categoryName": "4O7gt"
+},
+{
+"categoryNo": 8,
+"categoryName": "lD1uA"
+},
+{
+"categoryNo": 9,
+"categoryName": "uZVBp"
+},
+{
+"categoryNo": 10,
+"categoryName": "x8BOj"
+},
+{
+"categoryNo": 11,
+"categoryName": "VoFC4"
+}
+]
+},
+{
+"categoryGroupNo": 105,
+"categoryName": "동물",
+"subcategories": [
+{
+"categoryNo": 12,
+"categoryName": "3pb8U"
+},
+{
+"categoryNo": 13,
+"categoryName": "u5BCw"
+},
+{
+"categoryNo": 14,
+"categoryName": "AsxzD"
+},
+{
+"categoryNo": 15,
+"categoryName": "XJki9"
+},
+{
+"categoryNo": 16,
+"categoryName": "S73qq"
+}
+]
+},
+{
+"categoryGroupNo": 106,
+"categoryName": "애니",
+"subcategories": [
+{
+"categoryNo": 17,
+"categoryName": "PJmJH"
+},
+{
+"categoryNo": 18,
+"categoryName": "eeTu0"
+},
+{
+"categoryNo": 19,
+"categoryName": "m8RTU"
+},
+{
+"categoryNo": 20,
+"categoryName": "rZ44c"
+},
+{
+"categoryNo": 21,
+"categoryName": "uxFds"
+}
+]
+}
+]
+}
