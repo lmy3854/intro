@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	getNoticeInfos();
 	$("#accountBtn").on("click",function(){
 		alert("In Ready!!!");
 		loading();
@@ -6,7 +7,6 @@ $(document).ready(function(){
 	$("#myTab").find("a").on("click",function(){
 		var $this = $(this);
 		if($this.attr("href") == "#notice"){
-
 		}else if($this.attr("href") == "#static"){
 			$("#static").find("tbody").html("");
 			$("div#static").data("page","1");
@@ -28,6 +28,53 @@ $(document).ready(function(){
 		getAccountInfos(page);
 	});
 }); //document.ready End
+
+function getNoticeInfos(){
+	loading();
+	$("#accordion").html("");
+	//var endpoint = "https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data-artist_kr.json";
+	var endpoint = "https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data-artist.json";
+	$.getJSON(endpoint, function(data) {
+		var i = 1;
+		$.each(data, function(index, value){
+			title = value.title;
+			issueDate = value.issueDate;
+			content = value.content;
+
+			var $template = template(i);
+			$template.find("#title").text(title);
+			$template.find("#issueDate").text("["+issueDate+"]");
+
+			$template.find("#content").html(content);
+			$("#accordion").append($template);
+			if(i==1){
+				$template.find("div.panel-collapse").addClass("in");
+			}
+			i += 1;
+		});
+	});
+	loading();
+}
+
+function template(i){
+	var $template =$(
+		'<div class="panel panel-default">'+
+			'<div class="panel-heading">'+
+				'<h4 class="panel-title">'+
+					'<a id="title" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#notice'+i+'">'+
+					'</a>'+
+				'</h4>'+
+			'</div>'+
+			'<div class="panel-collapse collapse" id="notice'+i+'">'+
+				'<div class="panel-body">'+
+					'<div id="issueDate" class="pull-right"></div>'+
+					'<div id="content" class="col-xs-12"></div>'+
+				'</div>'+
+			'</div>'+
+		'</div>'
+	);
+	return $template
+}
 
 function getStaticInfos(page){
 	if(page == undefined || page == null)page = 1;
@@ -133,29 +180,81 @@ function loading(){
 	$("div.mask").toggleClass("hide");
 }
 
+/*
+$(function() {
+	'use strict';
+	var notice = {
+		env: {
+			endpoint: {
+				jp: 'https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data.json',
+				ko: 'https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data_kr.json'
+			},
+			accept_language: {
+				japan: 'ja',
+				korea: 'ko'
+			},
+			accept_languages: ['ja', 'ko']
+		},
+		init: function(){
+			this.data();
+			this.cacheDom();
+			this.bindEvent();
+		},
+		cacheDom: function(){
+			this.$body = $('body');
+			this.$el = $('.container');
 
-Date.prototype.format = function(f) {
-	if (!this.valueOf()) return " ";
-
-	var weekName = ["일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"];
-	var d = this;
-
-	return f.replace(/(yyyy|yy|MM|dd|E|hh|mm|ss|a\/p)/gi, function($1) {
-		switch ($1) {
-			case "yyyy": return d.getFullYear();
-			case "yy": return (d.getFullYear() % 1000).zf(2);
-			case "MM": return (d.getMonth() + 1).zf(2);
-			case "dd": return d.getDate().zf(2);
-			case "E": return weekName[d.getDay()];
-			case "HH": return d.getHours().zf(2);
-			case "hh": return ((h = d.getHours() % 12) ? h : 12).zf(2);
-			case "mm": return d.getMinutes().zf(2);
-			case "ss": return d.getSeconds().zf(2);
-			case "a/p": return d.getHours() < 12 ? "오전" : "오후";
-			default: return $1;
+			this.$toggleList = this.$el.find('.toggleList');
+		},
+		bindEvent: function(){
+			notice.$toggleList.on('click', 'a', function(e){
+				e.preventDefault();
+				var isActive = $(this).parent().hasClass('active');
+				if (isActive){
+					$(this).parent().removeClass('active');
+				} else {
+					$(this).parent().addClass('active');
+				}
+			});
+		},
+		data: function(){
+			var endpoint = notice.endpoint();
+			$.getJSON(endpoint, function(data) {
+				$.each(data, function(index, value){
+					var $template = notice.template();
+					$template.find('.title').text(value.title)
+					$template.find('time').text(value.issueDate);
+					$template.find('article').html(value.content);
+					notice.$toggleList.append($template);
+				});
+			});
+		},
+		endpoint: function(){
+			var lang = url('?lang');
+			if(!(lang && notice.env.accept_languages.indexOf(lang) >= 0)) lang = undefined;
+			var country = lang || navigator.language || navigator.userLanguage;
+			switch (country) {
+				case notice.env.accept_language.japan:
+					return notice.env.endpoint.jp;
+				case notice.env.accept_language.korea:
+					return notice.env.endpoint.ko;
+				default:
+					return notice.env.endpoint.jp;
+			}
+		},
+		template: function(){
+			var $section = $('<section>' +
+				'<a href="#">' +
+				'<div class="titleWrapper">' +
+				'<div class="title"></div>' +
+				'<time></time>' +
+				'</div>' +
+				'</a>' +
+				'<article></article>' +
+				'</section>');
+			return $section;
 		}
-	});
-};
-String.prototype.string = function(len){var s = '', i = 0; while (i++ < len) { s += this; } return s;};
-String.prototype.zf = function(len){return "0".string(len - this.length) + this;};
-Number.prototype.zf = function(len){return this.toString().zf(len);};
+	}
+	notice.init();
+});
+*/
