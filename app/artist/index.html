@@ -20,7 +20,7 @@
 						<div class="col-xs-12 no-padding">
 							<!-- PAGE CONTENT BEGINS -->
 								<input type="hidden" id="userNo">
-								<input type="hidden" id="lang">
+								<input type="hidden" id="lang" value="ko-KR">
 								<div id="top-image" class="col-xs-12 no-padding">
 									<img src="./imgs/top_img.png" class="col-xs-12 no-padding">
 								</div>
@@ -83,7 +83,7 @@
 													</div>
 												</div>
 											</div>
-											<div id="static" class="tab-pane fade">
+											<div id="static" class="tab-pane fade" data-page="1">
 												<div class="col-xs-12 no-padding">
 													<table class="table table-bordered">
 														<thead>
@@ -98,76 +98,16 @@
 															</tr>
 														</thead>
 														<tbody>
-<!-- =/= static data/ -->
-															<tr>
-																<td class="left">SKIN TITLE1</td>
-																<td class="center">-</td>
-																<td class="right">100 coin</td>
-																<td class="right">12</td>
-																<td class="right">4</td>
-																<td class="right">3</td>
-																<td class="center">승인 대기</td>
-															</tr>
-															<tr>
-																<td class="left"></td>
-																<td class="center"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="center"></td>
-															</tr>
-															<tr>
-																<td class="left"></td>
-																<td class="center"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="center"></td>
-															</tr>
-															<tr>
-																<td class="left"></td>
-																<td class="center"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="center"></td>
-															</tr>
-															<tr>
-																<td class="left"></td>
-																<td class="center"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="center"></td>
-															</tr>
-															<tr>
-																<td class="left"></td>
-																<td class="center"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="center"></td>
-															</tr>
-															<tr>
-																<td class="left"></td>
-																<td class="center"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="right"></td>
-																<td class="center"></td>
-															</tr>
-<!--=/= /static data -->
+															<!-- =/= static/ -->
 														</tbody>
 													</table>
+													<div class="col-xs-12">
+														<button type="button" id="staticMore" class="btn btn-info btn-block">더보기</button>
+														<div class="space-16"></div>
+													</div>
 												</div>
 											</div>
-											<div id="account" class="tab-pane fade">
+											<div id="account" class="tab-pane fade" data-page="1">
 												<div class="col-xs-12 no-padding">
 													<table class="table table-bordered">
 														<thead>
@@ -181,58 +121,13 @@
 															</tr>
 														</thead>
 														<tbody>
-<!-- =/= account data/ -->
-															<tr>
-																<td class="left">2017-12-28</td>
-																<td class="left">skin12</td>
-																<td class="right">10 coin</td>
-																<td class="right">0.3</td>
-																<td class="right">3 coin</td>
-																<td class="center">N</td>
-															</tr>
-															<tr>
-																<td class="left">2017-12-28</td>
-																<td class="left">skin12</td>
-																<td class="right">10 coin</td>
-																<td class="right">0.3</td>
-																<td class="right">3 coin</td>
-																<td class="center">N</td>
-															</tr>
-															<tr>
-																<td class="left">2017-12-28</td>
-																<td class="left">skin12</td>
-																<td class="right">10 coin</td>
-																<td class="right">0.3</td>
-																<td class="right">3 coin</td>
-																<td class="center">N</td>
-															</tr>
-															<tr>
-																<td class="left">2017-12-28</td>
-																<td class="left">skin12</td>
-																<td class="right">10 coin</td>
-																<td class="right">0.3</td>
-																<td class="right">3 coin</td>
-																<td class="center">N</td>
-															</tr>
-															<tr>
-																<td class="left">2017-12-28</td>
-																<td class="left">skin12</td>
-																<td class="right">10 coin</td>
-																<td class="right">0.3</td>
-																<td class="right">3 coin</td>
-																<td class="center">N</td>
-															</tr>
-															<tr>
-																<td class="left">2017-12-28</td>
-																<td class="left">skin12</td>
-																<td class="right">10 coin</td>
-																<td class="right">0.3</td>
-																<td class="right">3 coin</td>
-																<td class="center">N</td>
-															</tr>
-<!-- =/= /account data-->
+															<!-- =/= account -->
 														</tbody>
 													</table>
+													<div class="col-xs-12 center">
+														<button type="button" id="accountMore" class="btn btn-info btn-block">더보기</button>
+														<div class="space-32"></div>
+													</div>
 												</div>
 												<a href="javascript:void(0);" id="accountBtn" class="btn btn-lg account-btn col-xs-12">정산하기</a>
 											</div>
