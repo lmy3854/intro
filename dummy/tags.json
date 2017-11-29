@@ -1,0 +1,110 @@
+{
+"code": 0,
+"message": "success",
+"innerContents": [
+{
+"categoryGroupNo": 103,
+"categoryName": "풍경",
+"subcategories": [
+{
+"categoryNo": 2,
+"categoryName": "uQdEQ"
+},
+{
+"categoryNo": 3,
+"categoryName": "nTgZi"
+},
+{
+"categoryNo": 4,
+"categoryName": "2tqbl"
+},
+{
+"categoryNo": 5,
+"categoryName": "8aZ0y"
+},
+{
+"categoryNo": 6,
+"categoryName": "HUgLz"
+}
+]
+},
+{
+"categoryGroupNo": 104,
+"categoryName": "연예인",
+"subcategories": [
+{
+"categoryNo": 7,
+"categoryName": "4O7gt"
+},
+{
+"categoryNo": 8,
+"categoryName": "lD1uA"
+},
+{
+"categoryNo": 9,
+"categoryName": "uZVBp"
+},
+{
+"categoryNo": 10,
+"categoryName": "x8BOj"
+},
+{
+"categoryNo": 11,
+"categoryName": "VoFC4"
+}
+]
+},
+{
+"categoryGroupNo": 105,
+"categoryName": "동물",
+"subcategories": [
+{
+"categoryNo": 12,
+"categoryName": "3pb8U"
+},
+{
+"categoryNo": 13,
+"categoryName": "u5BCw"
+},
+{
+"categoryNo": 14,
+"categoryName": "AsxzD"
+},
+{
+"categoryNo": 15,
+"categoryName": "XJki9"
+},
+{
+"categoryNo": 16,
+"categoryName": "S73qq"
+}
+]
+},
+{
+"categoryGroupNo": 106,
+"categoryName": "애니",
+"subcategories": [
+{
+"categoryNo": 17,
+"categoryName": "PJmJH"
+},
+{
+"categoryNo": 18,
+"categoryName": "eeTu0"
+},
+{
+"categoryNo": 19,
+"categoryName": "m8RTU"
+},
+{
+"categoryNo": 20,
+"categoryName": "rZ44c"
+},
+{
+"categoryNo": 21,
+"categoryName": "uxFds"
+}
+]
+}
+]
+}
