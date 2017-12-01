@@ -1,0 +1,41 @@
+{    
+"code": 0,
+"message": "success",
+"categories": [
+        {
+            "categoryGroupNo": 100,
+            "categoryName": "전체보기",
+            "image":"http://kyaraten.com/dummy/100.png"
+        },
+        {
+            "categoryGroupNo": 101,
+            "categoryName": "인기글",
+            "image":"http://kyaraten.com/dummy/101.png"
+        },
+        {
+            "categoryGroupNo": 102,
+            "categoryName": "작가",
+            "image":"http://kyaraten.com/dummy/102.png"
+        },
+        {
+            "categoryGroupNo": 103,
+            "categoryName": "풍경",
+            "image":"http://kyaraten.com/dummy/103.png"
+        },
+        {
+            "categoryGroupNo": 104,
+            "categoryName": "연예인",
+            "image":"http://kyaraten.com/dummy/104.png"
+        },
+        {
+            "categoryGroupNo": 105,
+            "categoryName": "동물",
+            "image":"http://kyaraten.com/dummy/105.png"
+        },
+        {
+            "categoryGroupNo": 106,
+            "categoryName": "애니",
+            "image":"http://kyaraten.com/dummy/106.png"
+        }
+    ]
+}
