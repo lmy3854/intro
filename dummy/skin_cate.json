@@ -4,43 +4,50 @@
 "categories": [
         {
             "categoryGroupNo": 100,
-            "categoryName": "전체보기",
+            "categoryName": "신규",
+            "categoryTitle": "새로운 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/dummy/100.png",
             "color":"#ffba00"
         },
         {
             "categoryGroupNo": 101,
-            "categoryName": "인기글",
+            "categoryName": "인기",
+            "categoryTitle": "인기 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/dummy/101.png",
             "color":"#f09559"
         },
         {
             "categoryGroupNo": 102,
             "categoryName": "작가",
+            "categoryTitle": "작가 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/dummy/102.png",
             "color":"#48a5e0"
         },
         {
             "categoryGroupNo": 103,
             "categoryName": "풍경",
+            "categoryTitle": "새로운 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/dummy/103.png",
             "color":"#56b478"
         },
         {
             "categoryGroupNo": 104,
             "categoryName": "연예인",
+            "categoryTitle": "연예인 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/dummy/104.png",
             "color":"#ad73c3"
         },
         {
             "categoryGroupNo": 105,
             "categoryName": "동물",
+            "categoryTitle": "동물 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/dummy/105.png",
             "color":"#70d9da"
         },
         {
             "categoryGroupNo": 106,
             "categoryName": "애니",
+            "categoryTitle": "애니 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/dummy/106.png",
             "color":"#e785c6"
         }
