@@ -179,23 +179,23 @@ function createTable(type, data, lastYn){
 		$.each(data, function(index, item){
 			var $tr = $("<tr>");
 			if(type=="static"){""
-				var $img = $("<img>",{"src":item.image,"width":"100px"});
+				var $img = $("<img>",{"src":item.image,"class":"col-xs-12 no-padding"});
 				var buy = Number(item.price) * Number(item.downloadCount);
-				$tr.append($("<td>").text(item.name));
-				$tr.append($("<td>").append($img));
-				$tr.append($("<td>").text(item.price));
-				$tr.append($("<td>").text(item.viewCount));
-				$tr.append($("<td>").text(item.downloadCount));
-				$tr.append($("<td>").text(buy));
-				$tr.append($("<td>").text(item.status));
+				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(item.name));
+				$tr.append($("<td>",{"class":"align-middle"}).append($img));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).text(item.price+" coin"));
+				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.viewCount));
+				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.downloadCount));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).text(buy+" coin"));
+				$tr.append($("<td>",{"class":"align-middle"}).text(item.status));
 			}else if(type=="account"){
 				var issueDate = new Date(item.issueDate).format("yyyy-MM-dd");
-				$tr.append($("<td>").text(issueDate));
-				$tr.append($("<td>").text(item.name));
-				$tr.append($("<td>").text(item.price));
-				$tr.append($("<td>").text(item.ratio));
-				$tr.append($("<td>").text(item.sales));
-				$tr.append($("<td>").text(item.purchase));
+				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(issueDate));
+				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(item.name));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).text(item.price+" coin"));
+				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.ratio));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).text(item.sales+" coin"));
+				$tr.append($("<td>",{"class":"align-middle"}).text(item.purchase));
 			}
 			$("#"+type).find("tbody").append($tr);
 		});
