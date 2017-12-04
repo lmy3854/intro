@@ -16,7 +16,10 @@ var lang_k = {
 	"th_account_5":"환급금액",
 	"page_more":"더보기",
 	"account_button":"정산하기",
-	"no_data":"조회된 내용이 없습니다."
+	"no_data":"조회된 내용이 없습니다.",
+	"no_id" : "회원정보가 없습니다.",
+	"account_complete":"정산신청이 완료되었습니다."
+
 
 }
 var lang_j = {
@@ -37,10 +40,14 @@ var lang_j = {
 	"th_account_5":"お支払い金額",
 	"page_more":"次へ",
 	"account_button":"清算する",
-	"no_data":"表示する項目がありません"
+	"no_data":"表示する項目がありません",
+	"no_id" : "회원정보가 없습니다.",
+	"account_complete":"정산신청이 완료되었습니다."
 }
 var env_prd="https://api.kyaraten.com";
 var env_dev="http://112.216.240.202:18888";
 var s3_url="https://s3-ap-northeast-1.amazonaws.com";
+var slack_webhook = "https://hooks.slack.com/services/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";
 var notice_json_k = s3_url + "/kyaraten-notice/data-artist_kr.json";
 var notice_json_j = s3_url + "/kyaraten-notice/data-artist.json";
+

@@ -11,6 +11,10 @@ $(document).ready(function(){
 		var page = $("div#account").data("page");
 		getAccountInfos(page);
 	});
+	$("#accountBtn").on("click",function(){
+		var id = $("input#id").val();
+		sendAccountSlack(id);
+	});
 	init();
 }); //document.ready End
 
@@ -34,17 +38,36 @@ function init(){
 	if(urlParam("env")=="prd"){
 		$("#env").val(urlParam("prd"));
 	}
+	$("#id").val(urlParam("id"));
 	$("#appCode").val(urlParam("appcode"));
 	$("#accessToken").val(urlParam("accesstoken"));
-	$("#accountBtn").on("click",function(){
-		loading();
-		alert("In Ready!!!");
-		loading();
-	});
 	getNoticeInfos();
 	setHtmlLang();
 }
 
+function sendAccountSlack(id){
+	loading();
+	if($.trim(id) == "" || id == 0){
+		alert(lang_data.no_id);
+		loading();
+		return;
+	}
+	var url = slack_webhook;
+	var text = "request from " + id;
+	$.ajax({
+		data: 'payload=' + JSON.stringify({
+			"text": text
+		}),
+		dataType: 'json',
+		processData: false,
+		type: 'POST',
+		url: url,
+		complete : function(){
+			loading();
+			alert(lang_data.account_complete);
+		}
+	});
+}
 function getNoticeInfos(){
 	loading();
 	$("#accordion").html("");
