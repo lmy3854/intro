@@ -27,6 +27,7 @@ function selectTab($this){
 }
 
 function init(){
+	$("img#mainImg").attr("src",mainImg);
 	if(urlParam("lang")!=null){
 		$("#lang").val(urlParam("lang"));
 	}
@@ -124,9 +125,8 @@ function getStaticInfos(page){
 			loading();
 		},
 		error : function(e){
-			alert("error");
-			console.log(e);
-			loading();
+			alert(e.responseJSON.message+"[code:"+e.responseJSON.code+"]");
+			location.reload();
 		}
 	});
 }
@@ -162,38 +162,44 @@ function getAccountInfos(page){
 			loading();
 		},
 		error : function(e){
-			alert("error");
-			console.log(e);
-			loading();
+			alert(e.responseJSON.message+"[code:"+e.responseJSON.code+"]");
+			location.reload();
 		}
 
 	});
 }
 
 function createTable(type, data, lastYn){
-	$.each(data, function(index, item){
-		var $tr = $("<tr>");
-		if(type=="static"){""
-			var $img = $("<img>",{"src":item.image,"width":"100px"});
-			var buy = Number(item.price) * Number(item.downloadCount);
-			$tr.append($("<td>").text(item.name));
-			$tr.append($("<td>").append($img));
-			$tr.append($("<td>").text(item.price));
-			$tr.append($("<td>").text(item.viewCount));
-			$tr.append($("<td>").text(item.downloadCount));
-			$tr.append($("<td>").text(buy));
-			$tr.append($("<td>").text(item.status));
-		}else if(type=="account"){
-			var issueDate = new Date(item.issueDate).format("yyyy-MM-dd");
-			$tr.append($("<td>").text(issueDate));
-			$tr.append($("<td>").text(item.name));
-			$tr.append($("<td>").text(item.price));
-			$tr.append($("<td>").text(item.ratio));
-			$tr.append($("<td>").text(item.sales));
-			$tr.append($("<td>").text(item.purchase));
-		}
+	if(data.length == 0){
+		var $tr = $("<tr>")
+		var $td = $("<td>",{"colspan":"10"}).text("조회된내역이 없습니다.");
+		$tr.append($td);
 		$("#"+type).find("tbody").append($tr);
-	});
+	}else{
+		$.each(data, function(index, item){
+			var $tr = $("<tr>");
+			if(type=="static"){""
+				var $img = $("<img>",{"src":item.image,"width":"100px"});
+				var buy = Number(item.price) * Number(item.downloadCount);
+				$tr.append($("<td>").text(item.name));
+				$tr.append($("<td>").append($img));
+				$tr.append($("<td>").text(item.price));
+				$tr.append($("<td>").text(item.viewCount));
+				$tr.append($("<td>").text(item.downloadCount));
+				$tr.append($("<td>").text(buy));
+				$tr.append($("<td>").text(item.status));
+			}else if(type=="account"){
+				var issueDate = new Date(item.issueDate).format("yyyy-MM-dd");
+				$tr.append($("<td>").text(issueDate));
+				$tr.append($("<td>").text(item.name));
+				$tr.append($("<td>").text(item.price));
+				$tr.append($("<td>").text(item.ratio));
+				$tr.append($("<td>").text(item.sales));
+				$tr.append($("<td>").text(item.purchase));
+			}
+			$("#"+type).find("tbody").append($tr);
+		});
+	}
 	if(lastYn!="Y"){
 		$("button.btn-block").addClass("hide");
 	}else{
