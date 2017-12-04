@@ -170,6 +170,7 @@ function getAccountInfos(page){
 }
 
 function createTable(type, data, lastYn){
+
 	if(data.length == 0){
 		var $tr = $("<tr>")
 		var $td = $("<td>",{"colspan":"10"}).text("조회된내역이 없습니다.");
@@ -178,24 +179,28 @@ function createTable(type, data, lastYn){
 	}else{
 		$.each(data, function(index, item){
 			var $tr = $("<tr>");
-			if(type=="static"){""
+			if(type=="static"){
 				var $img = $("<img>",{"src":item.image,"class":"col-xs-12 no-padding"});
-				var buy = Number(item.price) * Number(item.downloadCount);
+				var $price = $("<p>",{"class":"coin no-margin"}).text(item.price);
+				var $buy = $("<p>",{"class":"coin no-margin"}).text(Number(item.price) * Number(item.downloadCount));
 				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(item.name));
 				$tr.append($("<td>",{"class":"align-middle"}).append($img));
-				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).text(item.price+" coin"));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($price));
 				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.viewCount));
 				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.downloadCount));
-				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).text(buy+" coin"));
-				$tr.append($("<td>",{"class":"align-middle"}).text(item.status));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($buy));
+				//$tr.append($("<td>",{"class":"align-middle"}).text(item.status));
 			}else if(type=="account"){
 				var issueDate = new Date(item.issueDate).format("yyyy-MM-dd");
+				var $price = $("<p>",{"class":"coin no-margin"}).text(item.price);
+				var $sales = $("<p>",{"class":"coin no-margin"}).text(item.sales);
+				var ration = (item.ratio * 100)+" %";
 				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(issueDate));
 				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(item.name));
-				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).text(item.price+" coin"));
-				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.ratio));
-				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).text(item.sales+" coin"));
-				$tr.append($("<td>",{"class":"align-middle"}).text(item.purchase));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($price));
+				$tr.append($("<td>",{"class":"align-right align-middle"}).text(ration));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($sales));
+				//$tr.append($("<td>",{"class":"align-middle"}).text(item.purchase));
 			}
 			$("#"+type).find("tbody").append($tr);
 		});
