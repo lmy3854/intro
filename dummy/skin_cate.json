@@ -35,7 +35,7 @@
             "categoryName": "연예인",
             "categoryTitle": "연예인 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/app/category/star.png",
-            "color":"#ad73c3"
+            "color":"#e785c6"
         },
         {
             "categoryGroupNo": 105,
@@ -49,7 +49,7 @@
             "categoryName": "애니",
             "categoryTitle": "애니 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/app/category/ani.png",
-            "color":"#e785c6"
+            "color":"#ad73c3"
         }
     ]
 }
