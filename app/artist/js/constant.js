@@ -1,38 +1,46 @@
-lang_k = {
+var lang_k = {
 	"tab_1":"공지사항",
 	"tab_2":"통계",
 	"tab_3":"정산",
 	"th_static_1":"제목",
 	"th_static_2":"썸네일",
 	"th_static_3":"가격",
-	"th_static_4":"view",
-	"th_static_5":"dw",
-	"th_static_6":"buy",
+	"th_static_4":"조회수",
+	"th_static_5":"다운로드수",
+	"th_static_6":"판매금액",
 	"th_static_7":"상태",
 	"th_account_1":"판매일",
 	"th_account_2":"판매스킨",
 	"th_account_3":"판매금액",
 	"th_account_4":"적용비율",
-	"th_account_5":"환급금액"
-}
-lang_k = {
-	"tab_1":"Notice",
-	"tab_2":"Static",
-	"tab_3":"Account",
-	"th_static_1":"Title",
-	"th_static_2":"Thumbnail",
-	"th_static_3":"Price",
-	"th_static_4":"View",
-	"th_static_5":"Down",
-	"th_static_6":"Buy",
-	"th_static_7":"State",
-	"th_account_1":"Date",
-	"th_account_2":"Skin",
-	"th_account_3":"Price",
-	"th_account_4":"Ratio",
-	"th_account_5":"Refund"
-}
-env_prd="https://api.kyaraten.com";
-env_dev="http://112.216.240.202:18888";
-s3_url="https://s3-ap-northeast-1.amazonaws.com";
+	"th_account_5":"환급금액",
+	"page_more":"더보기",
+	"account_button":"정산하기",
+	"no_data":"조회된 내용이 없습니다."
 
+}
+var lang_j = {
+	"tab_1":"お知らせ",
+	"tab_2":"合計",
+	"tab_3":"清算",
+	"th_static_1":"タイトル",
+	"th_static_2":"イメージ",
+	"th_static_3":"価格",
+	"th_static_4":"閲覧数",
+	"th_static_5":"ダウンロード数",
+	"th_static_6":"販売価格",
+	"th_static_7":"ステータス",
+	"th_account_1":"販売日",
+	"th_account_2":"販売スタンプ",
+	"th_account_3":"販売金額",
+	"th_account_4":"適用率",
+	"th_account_5":"お支払い金額",
+	"page_more":"次へ",
+	"account_button":"清算する",
+	"no_data":"表示する項目がありません"
+}
+var env_prd="https://api.kyaraten.com";
+var env_dev="http://112.216.240.202:18888";
+var s3_url="https://s3-ap-northeast-1.amazonaws.com";
+var notice_json_k = s3_url + "/kyaraten-notice/data-artist_kr.json";
+var notice_json_j = s3_url + "/kyaraten-notice/data-artist.json";

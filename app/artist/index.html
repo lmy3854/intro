@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="description" content="overview &amp; stats" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	<title>Kyaraten / GreenWeather</title>
+	<title>artist webview</title>
 	<link rel="stylesheet" href="./css/bootstrap.min.css" />
 	<link rel="stylesheet" href="./css/fonts.googleapis.com.css" />
 	<link rel="stylesheet" href="./css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
@@ -22,10 +22,10 @@
 					<div class="row no-margin">
 						<div class="col-xs-12 no-padding">
 							<!-- PAGE CONTENT BEGINS -->
-								<input type="hidden" id="lang" value="js-JP">
-								<input type="hidden" id="env" value="dev">
-								<input type="hidden" id="appCode">
-								<input type="hidden" id="accessToken">
+								<input type="hidden" id="lang" value="ja-JP"/>
+								<input type="hidden" id="env" value="dev"/>
+								<input type="hidden" id="appCode"/>
+								<input type="hidden" id="accessToken"/>
 								<div id="top-image" class="col-xs-12 no-padding">
 									<img src="" id="mainImg" class="col-xs-12 no-padding">
 								</div>
@@ -34,13 +34,13 @@
 									<div class="tabbable">
 										<ul class="nav nav-tabs" id="myTab">
 											<li class="active">
-												<a data-toggle="tab" href="#notice">공지사항</a>
+												<a data-toggle="tab" href="#notice" id="tab_1">공지사항</a>
 											</li>
 											<li>
-												<a data-toggle="tab" href="#static">통계</a>
+												<a data-toggle="tab" href="#static" id="tab_2">통계</a>
 											</li>
 											<li>
-												<a data-toggle="tab" href="#account">정산</a>
+												<a data-toggle="tab" href="#account" id="tab_3">정산</a>
 											</li>
 										</ul>
 										<div class="tab-content no-padding">
@@ -56,13 +56,13 @@
 													<table class="table table-bordered">
 														<thead>
 															<tr>
-																<th class="center">제목</th>
-																<th class="center">썸네일</th>
-																<th class="center">가격</th>
-																<th class="center">view</th>
-																<th class="center">dw</th>
-																<th class="center">buy</th>
-																<!-- <th class="center">상태</th> -->
+																<th class="center" id="th_static_1">제목</th>
+																<th class="center" id="th_static_2">썸네일</th>
+																<th class="center" id="th_static_3">가격</th>
+																<th class="center" id="th_static_4">view</th>
+																<th class="center" id="th_static_5">download</th>
+																<!-- <th class="center" id="th_static_6">buy</th> -->
+																<!-- <th class="center" id="th_static_7">상태</th> -->
 															</tr>
 														</thead>
 														<tbody>
@@ -80,12 +80,12 @@
 													<table class="table table-bordered">
 														<thead>
 															<tr>
-																<th class="center">판매일</th>
-																<th class="center">판매 스킨</th>
-																<th class="center">판매 금액</th>
-																<th class="center">적용 비율</th>
-																<th class="center">환급 금액</th>
-																<!-- <th class="center">정산 여부</th> -->
+																<th class="center" id="th_account_1">판매일</th>
+																<th class="center" id="th_account_2">판매 스킨</th>
+																<th class="center" id="th_account_3">판매 금액</th>
+																<th class="center" id="th_account_4">적용 비율</th>
+																<th class="center" id="th_account_5">환급 금액</th>
+																<!-- <th class="center" id="th_account_6">정산 여부</th> -->
 															</tr>
 														</thead>
 														<tbody>
@@ -119,6 +119,8 @@
 	<![endif]-->
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/script.js"></script>
+	<script src="./js/constant.js"></script>
+	<script src="./js/lang_sel.js"></script>
 	<script src="./js/artist.js"></script>
 </body>
 </html>

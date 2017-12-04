@@ -42,17 +42,13 @@ function init(){
 		loading();
 	});
 	getNoticeInfos();
+	setHtmlLang();
 }
 
 function getNoticeInfos(){
 	loading();
 	$("#accordion").html("");
-	var endpoint;
-	if($("#lang").val() == "ko-KR"){
-		endpoint = "https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data-artist_kr.json";
-	}else{
-		endpoint = "https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data-artist.json";
-	}
+	var endpoint = notice_json;
 
 	$.getJSON(endpoint, function(data) {
 		var i = 1;
@@ -98,12 +94,7 @@ function notice_template(i){
 
 function getStaticInfos(page){
 	if(page == undefined || page == null)page = 1;
-	if($("#env").val() == "prd"){
-		apiUrl = "https://api.kyaraten.com/api/";
-	}else{
-		apiUrl = "http://112.216.240.202:18888/api/";
-	}
-	apiUrl += "v1/user/info/sales/"+page;
+	var apiUrl = api_url + "/api/v1/user/info/sales/"+page;
 	loading();
 	$.ajax({
 		type:"get",
@@ -134,14 +125,7 @@ function getStaticInfos(page){
 function getAccountInfos(page){
 	loading();
 	if(page == undefined || page == null)page = 1;
-	var apiUrl;
-	if($("#env").val() == "prd"){
-		apiUrl = "https://api.kyaraten.com/api/";
-	}else{
-		apiUrl = "http://112.216.240.202:18888/api/";
-	}
-	apiUrl += "v1/user/sales/"+page;
-
+	var apiUrl = api_url + "/api/v1/user/sales/"+page;
 	$.ajax({
 		type:"get",
 		url: apiUrl,
@@ -172,7 +156,7 @@ function getAccountInfos(page){
 function createTable(type, data, lastYn){
 	if(data.length == 0){
 		var $tr = $("<tr>")
-		var $td = $("<td>",{"colspan":"10"}).text("조회된내역이 없습니다.");
+		var $td = $("<td>",{"colspan":"10"}).text(lang_data.no_data);
 		$tr.append($td);
 		$("#"+type).find("tbody").append($tr);
 	}else{
@@ -191,7 +175,7 @@ function createTable(type, data, lastYn){
 				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($price));
 				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.viewCount));
 				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.downloadCount));
-				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($buy));
+				/*$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($buy));*/
 				//$tr.append($("<td>",{"class":"align-middle"}).text(item.status));
 			}else if(type=="account"){
 				var issueDate = new Date(item.issueDate).format("yyyy-MM-dd");
@@ -224,4 +208,29 @@ function createTable(type, data, lastYn){
 function loading(){
 	$("body").toggleClass("loading");
 	$("div.mask").toggleClass("hide");
+}
+
+function setHtmlLang(){
+	$("a#tab_1").text(lang_data.tab_1);
+	$("a#tab_2").text(lang_data.tab_2);
+	$("a#tab_3").text(lang_data.tab_3);
+
+	$("th#th_static_1").text(lang_data.th_static_1);
+	$("th#th_static_2").text(lang_data.th_static_2);
+	$("th#th_static_3").text(lang_data.th_static_3);
+	$("th#th_static_4").text(lang_data.th_static_4);
+	$("th#th_static_5").text(lang_data.th_static_5);
+	/*$("th#th_static_6").text(lang_data.th_static_6);
+	$("th#th_static_7").text(lang_data.th_static_7);*/
+	$("button#staticMore").text(lang_data.page_more);
+
+	$("th#th_account_1").text(lang_data.th_account_1);
+	$("th#th_account_2").text(lang_data.th_account_2);
+	$("th#th_account_3").text(lang_data.th_account_3);
+	$("th#th_account_4").text(lang_data.th_account_4);
+	$("th#th_account_5").text(lang_data.th_account_5);
+	/*$("th#th_account_6").text(lang_data.th_account_6);*/
+	$("button#accountMore").text(lang_data.page_more);
+
+	$("a#accountBtn").text(lang_data.account_button);
 }
