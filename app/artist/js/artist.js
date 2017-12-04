@@ -170,7 +170,6 @@ function getAccountInfos(page){
 }
 
 function createTable(type, data, lastYn){
-
 	if(data.length == 0){
 		var $tr = $("<tr>")
 		var $td = $("<td>",{"colspan":"10"}).text("조회된내역이 없습니다.");
@@ -183,7 +182,11 @@ function createTable(type, data, lastYn){
 				var $img = $("<img>",{"src":item.image,"class":"col-xs-12 no-padding"});
 				var $price = $("<p>",{"class":"coin no-margin"}).text(item.price);
 				var $buy = $("<p>",{"class":"coin no-margin"}).text(Number(item.price) * Number(item.downloadCount));
-				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(item.name));
+				var name = item.name;
+				if(name.length > 20){
+					name = name.substring(0,20) + "...";
+				}
+				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(name));
 				$tr.append($("<td>",{"class":"align-middle"}).append($img));
 				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($price));
 				$tr.append($("<td>",{"class":"align-right align-middle"}).text(item.viewCount));
@@ -195,8 +198,12 @@ function createTable(type, data, lastYn){
 				var $price = $("<p>",{"class":"coin no-margin"}).text(item.price);
 				var $sales = $("<p>",{"class":"coin no-margin"}).text(item.sales);
 				var ration = (item.ratio * 100)+" %";
+				var name = item.name;
+				if(name.length > 20){
+					name = name.substring(0,20) + "...";
+				}
 				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(issueDate));
-				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(item.name));
+				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(name));
 				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($price));
 				$tr.append($("<td>",{"class":"align-right align-middle"}).text(ration));
 				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($sales));
