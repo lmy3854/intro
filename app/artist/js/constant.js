@@ -41,9 +41,10 @@ var lang_j = {
 	"page_more":"次へ",
 	"account_button":"清算する",
 	"no_data":"表示する項目がありません",
-	"no_id" : "회원정보가 없습니다.",
-	"account_complete":"정산신청이 완료되었습니다."
+	"no_id" : "会員情報がありません.",
+	"account_complete":"お支払手続きが完了しました."
 }
+
 var env_prd="https://api.kyaraten.com";
 var env_dev="http://112.216.240.202:18888";
 var s3_url="https://s3-ap-northeast-1.amazonaws.com";
