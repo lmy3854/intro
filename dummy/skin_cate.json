@@ -25,8 +25,8 @@
         },
         {
             "categoryGroupNo": 103,
-            "categoryName": "풍경",
-            "categoryTitle": "새로운 날씨! 무엇이 있을까?",
+            "categoryName": "사진",
+            "categoryTitle": "새로운 사진! 무엇이 있을까?",
             "image":"http://kyaraten.com/app/category/pic.png",
             "color":"56b478"
         },
@@ -50,6 +50,13 @@
             "categoryTitle": "애니 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/app/category/ani.png",
             "color":"ad73c3"
+        },
+        {
+            "categoryGroupNo": 107,
+            "categoryName": "손그림",
+            "categoryTitle": "새로운 손그림! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/pic.png",
+            "color":"56b478"
         }
     ]
 }
