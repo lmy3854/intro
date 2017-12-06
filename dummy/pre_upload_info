@@ -1,0 +1,140 @@
+{
+  "code": 0,
+  "message": "success",
+  "uploadInfo": {
+    "availableUploadCnt": 10,
+    "UploadedCnt": 3
+  },
+  "categories": [
+    {
+      "categoryGroupNo": 103,
+      "categoryName": "사진",
+      "subcategories": [
+        {
+          "categoryNo": 31,
+          "categoryName": "4O7gt"
+        },
+        {
+          "categoryNo": 32,
+          "categoryName": "lD1uA"
+        },
+        {
+          "categoryNo": 33,
+          "categoryName": "uZVBp"
+        },
+        {
+          "categoryNo": 34,
+          "categoryName": "x8BOj"
+        },
+        {
+          "categoryNo": 35,
+          "categoryName": "VoFC4"
+        }
+      ]
+    },
+    {
+      "categoryGroupNo": 104,
+      "categoryName": "연예인",
+      "subcategories": [
+        {
+          "categoryNo": 41,
+          "categoryName": "3pb8U"
+        },
+        {
+          "categoryNo": 42,
+          "categoryName": "u5BCw"
+        },
+        {
+          "categoryNo": 43,
+          "categoryName": "AsxzD"
+        },
+        {
+          "categoryNo": 44,
+          "categoryName": "XJki9"
+        },
+        {
+          "categoryNo": 45,
+          "categoryName": "S73qq"
+        }
+      ]
+    },
+    {
+      "categoryGroupNo": 105,
+      "categoryName": "동물",
+      "subcategories": [
+        {
+          "categoryNo": 51,
+          "categoryName": "PJmJH"
+        },
+        {
+          "categoryNo": 52,
+          "categoryName": "eeTu0"
+        },
+        {
+          "categoryNo": 53,
+          "categoryName": "m8RTU"
+        },
+        {
+          "categoryNo": 54,
+          "categoryName": "rZ44c"
+        },
+        {
+          "categoryNo": 55,
+          "categoryName": "uxFds"
+        }
+      ]
+    },
+    {
+      "categoryGroupNo": 106,
+      "categoryName": "애니",
+      "subcategories": [
+        {
+          "categoryNo": 61,
+          "categoryName": "3pb8U"
+        },
+        {
+          "categoryNo": 62,
+          "categoryName": "u5BCw"
+        },
+        {
+          "categoryNo": 63,
+          "categoryName": "AsxzD"
+        },
+        {
+          "categoryNo": 64,
+          "categoryName": "XJki9"
+        },
+        {
+          "categoryNo": 65,
+          "categoryName": "S73qq"
+        }
+      ]
+    },
+    {
+      "categoryGroupNo": 107,
+      "categoryName": "손그림",
+      "subcategories": [
+        {
+          "categoryNo": 71,
+          "categoryName": "uQdEQ"
+        },
+        {
+          "categoryNo": 72,
+          "categoryName": "nTgZi"
+        },
+        {
+          "categoryNo": 73,
+          "categoryName": "2tqbl"
+        },
+        {
+          "categoryNo": 74,
+          "categoryName": "8aZ0y"
+        },
+        {
+          "categoryNo": 75,
+          "categoryName": "HUgLz"
+        }
+      ]
+    }
+  ]
+}
