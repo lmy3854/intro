@@ -1,0 +1,55 @@
+{    
+"code": 0,
+"message": "success",
+"categories": [
+        {
+            "categoryGroupNo": 100,
+            "categoryName": "신규",
+            "categoryTitle": "새로운 날씨! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/new.png",
+            "color":"ffba00"
+        },
+        {
+            "categoryGroupNo": 101,
+            "categoryName": "인기",
+            "categoryTitle": "인기 날씨! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/favorite.png",
+            "color":"f09559"
+        },
+        {
+            "categoryGroupNo": 102,
+            "categoryName": "작가",
+            "categoryTitle": "작가 날씨! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/artist.png",
+            "color":"48a5e0"
+        },
+        {
+            "categoryGroupNo": 103,
+            "categoryName": "사진",
+            "categoryTitle": "새로운 사진! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/pic.png",
+            "color":"56b478"
+        },
+        {
+            "categoryGroupNo": 104,
+            "categoryName": "연예인",
+            "categoryTitle": "연예인 날씨! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/star.png",
+            "color":"e785c6"
+        },
+        {
+            "categoryGroupNo": 105,
+            "categoryName": "동물",
+            "categoryTitle": "동물 날씨! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/animal.png",
+            "color":"70d9da"
+        },
+        {
+            "categoryGroupNo": 106,
+            "categoryName": "애니",
+            "categoryTitle": "애니 날씨! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/ani.png",
+            "color":"ad73c3"
+        }
+    ]
+}
