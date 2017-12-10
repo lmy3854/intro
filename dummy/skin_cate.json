@@ -50,6 +50,13 @@
             "categoryTitle": "애니 날씨! 무엇이 있을까?",
             "image":"http://kyaraten.com/app/category/ani.png",
             "color":"ad73c3"
+        },
+        {
+            "categoryGroupNo": 107,
+            "categoryName": "애니",
+            "categoryTitle": "애니 날씨! 무엇이 있을까?",
+            "image":"http://kyaraten.com/app/category/ani.png",
+            "color":"ad73c3"
         }
     ]
 }
