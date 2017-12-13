@@ -186,7 +186,7 @@ function createTable(type, data, lastYn){
 		$.each(data, function(index, item){
 			var $tr = $("<tr>");
 			if(type=="static"){
-				var $img = $("<img>",{"src":item.image,"class":"col-xs-12 no-padding"});
+				var $img = $("<img>",{"src":item.image,"class":"width-50p no-padding"});
 				var $price = $("<p>",{"class":"coin no-margin"}).text(item.price);
 				var $buy = $("<p>",{"class":"coin no-margin"}).text(Number(item.price) * Number(item.downloadCount));
 				var name = item.name;

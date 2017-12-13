@@ -5,3 +5,4 @@ body.loading .mask {display: block;}
 p.coin:before{ background-image:url("../imgs/skiCoin@3x.png");background-repeat:no-repeat; background-size:15px; display:inline-block; width:17px; height:15px; content:""; vertical-align: middle;}
 .nowrap {white-space:nowrap;}
 .overflow-auto {overflow:auto;}
+.width-50p{width:50px;}
