@@ -67,14 +67,9 @@
                             $(this).parent().addClass('active');
                         }
                     });
-                    notice.$noticeBox.on('click', 'a.inner', notice.inner_link);
-                    notice.$noticeBox.on('click', 'a.outer', notice.outer_link);
+                    notice.$noticeBox.on('click', 'a.scheme', notice.scheme);
                 },
-                inner_link: function(e){
-                    e.preventDefault();
-                    notice.mobile(this.getAttribute('href'));
-                },
-                outer_link: function(e){
+                scheme: function(e){
                     e.preventDefault();
                     notice.mobile(this.getAttribute('href'));
                 },
