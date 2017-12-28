@@ -1,6 +1,10 @@
 
 		$(function(){
 			init();
+			$("#goKyaraten, #tailMore").on("click",function(){
+				var kyaratenUrl = "https://play.google.com/store/apps/details?id=net.listensoft.kyaraten";
+				window.open(kyaratenUrl);
+			});
 		});
 
 		function init(){

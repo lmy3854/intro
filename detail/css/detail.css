@@ -1,3 +1,8 @@
 div.mask {display: none; position: fixed; z-index: 1000; top: 0; left: 0; height: 100%; width: 100%;background: rgba( 255, 255, 255, .8 ) url('../imgs/loader.gif') 50% 50% no-repeat;}
 body.loading {overflow: hidden;}
 body.loading .mask {display: block;}
+div.button_parent{padding:13px 10px;}
+button.kyaraten_go {border-radius: 10px;font-weight:bold;border-color:white;background-color:#36BAEC!important;border-width:medium;}
+div.padding_20_tb{padding:20px 0 20px 0;}
+div.img_parent{overflow:hidden;}
+img.img_crop{min-width:100%; min-height:100%;}
