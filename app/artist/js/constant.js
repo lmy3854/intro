@@ -51,4 +51,5 @@ var s3_url="https://s3-ap-northeast-1.amazonaws.com";
 var slack_webhook = "https://hooks.slack.com/services/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";
 var notice_json_k = s3_url + "/kyaraten-notice/data-artist_kr.json";
 var notice_json_j = s3_url + "/kyaraten-notice/data-artist.json";
-
+var agreement_txt_k = "http://kyaraten.com/app/artist/file/agreement_kr.txt";
+var agreement_txt_j = "http://kyaraten.com/app/artist/file/agreement_jp.txt";

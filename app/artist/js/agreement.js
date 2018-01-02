@@ -4,16 +4,20 @@ $(document).ready(function(){
 		setArtistAgree();
 	});
 	init();
-	$.get("http://kyaraten.com/app/agreement/terms.html", function(data){
-		$("#agree_content").append($(data).fadeIn());
+	$.get(agreement_txt, function(data){
+		var agreement = data.split("\n");
+		$.each(agreement,function(n,text){
+			$("#agree_content").append(text+"<br/>");
+		});
+
 	});
 	$('.scrollable').each(function () {
 		var window_h = $(window).height();
 		var img_h = $("img#mainImg").height();
-		var agree_h = window_h - (img_h + 40);
+		var agree_h = window_h - (img_h + 70);
 		var $this = $(this);
 		$(this).ace_scroll({
-			size : agree_h || 500,
+			size : agree_h,
 			//size: $this.attr('data-size') || 400,
 			//styleClass: 'scroll-left scroll-margin scroll-thin scroll-dark scroll-light no-track scroll-visible'
 		});
