@@ -18,7 +18,8 @@ var lang_k = {
 	"account_button":"정산하기",
 	"no_data":"조회된 내용이 없습니다.",
 	"no_id" : "회원정보가 없습니다.",
-	"account_complete":"정산신청이 완료되었습니다."
+	"account_complete":"정산신청이 완료되었습니다.",
+	"agree_button" : "동의합니다"
 
 
 }
@@ -42,7 +43,8 @@ var lang_j = {
 	"account_button":"清算する",
 	"no_data":"表示する項目がありません",
 	"no_id" : "会員情報がありません.",
-	"account_complete":"お支払手続きが完了しました."
+	"account_complete":"お支払手続きが完了しました.",
+	"agree_button" : "동의합니다(ja)"
 }
 
 var env_prd="https://api.kyaraten.com";

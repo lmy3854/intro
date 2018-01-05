@@ -35,6 +35,7 @@ function init(){
 	$("#id").val(urlParam("id"));
 	$("#appCode").val(urlParam("appcode"));
 	$("#accessToken").val(urlParam("accesstoken"));
+	setHtmlLang();
 }
 
 function loading(){
@@ -84,4 +85,8 @@ function goWebview(){
 		url += "&env="+$("#env").val();
 		url += "&lang="+$("#lang").val();
 	location.href = url;
+}
+
+function setHtmlLang(){
+	$("a#agreeBtn").text(lang_data.agree_button);
 }
