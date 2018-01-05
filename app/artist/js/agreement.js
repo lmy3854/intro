@@ -9,9 +9,8 @@ $(document).ready(function(){
 		$.each(agreement,function(n,text){
 			$("#agree_content").append(text+"<br/>");
 		});
-
 	});
-	$('.scrollable').each(function () {
+	/*$('.scrollable').each(function () {
 		var window_h = $(window).height();
 		var img_h = $("img#mainImg").height();
 		var agree_h = window_h - (img_h + 70);
@@ -21,7 +20,7 @@ $(document).ready(function(){
 			//size: $this.attr('data-size') || 400,
 			//styleClass: 'scroll-left scroll-margin scroll-thin scroll-dark scroll-light no-track scroll-visible'
 		});
-	});
+	});*/
 }); //document.ready End
 
 function init(){
