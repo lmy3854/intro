@@ -19,9 +19,9 @@ var lang_k = {
 	"no_data":"조회된 내용이 없습니다.",
 	"no_id" : "회원정보가 없습니다.",
 	"account_complete":"정산신청이 완료되었습니다.",
-	"agree_button" : "동의합니다"
-
-
+	"agree_button" : "동의합니다",
+	"agree_error" : "회원정보가 없습니다. 앱을 다시 시작하세요",
+	"agree_success" : "약관에 동의하셨습니다. 정산페이지로 이동합니다"
 }
 var lang_j = {
 	"tab_1":"お知らせ",
@@ -44,7 +44,9 @@ var lang_j = {
 	"no_data":"表示する項目がありません",
 	"no_id" : "会員情報がありません.",
 	"account_complete":"お支払手続きが完了しました.",
-	"agree_button" : "동의합니다(ja)"
+	"agree_button" : "同意する",
+	"agree_error" : "会員情報が存在しません。もう一度アプリを起動してください。",
+	"agree_success" : "約款に同意されました。精算ページに移動します。"
 }
 
 var env_prd="https://api.kyaraten.com";

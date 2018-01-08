@@ -47,7 +47,7 @@ function setArtistAgree(){
 	var appCode = $("#appCode").val();
 	var accessToken = $("#accessToken").val();
 	if(appCode == "" || accessToken == ""){
-		alert("회원정보가 없습니다. 다시 접속해주세요.");
+		alert(lang_data.agree_error);
 		return;
 	}
 	loading();
@@ -65,7 +65,7 @@ function setArtistAgree(){
 				loading();
 				return false;
 			}
-			alert("약관에 동의하셨습니다.");
+			alert(lang_data.agree_success);
 			goWebview();
 		},
 		error : function(e){
