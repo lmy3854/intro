@@ -15,8 +15,8 @@
 		function getDetailInfo(){
 			loading();
 			var skinNo = urlParam("k");
-			//var apiUrl = "https://api.kyaraten.com/api/v1/skin/"+skinNo;
-			var apiUrl = "http://112.216.240.202:18888/api/v1/skin/"+skinNo;
+			var apiUrl = "https://api.kyaraten.com/api/v1/skin/"+skinNo;
+			//var apiUrl = "http://112.216.240.202:18888/api/v1/skin/"+skinNo;
 			$.ajax({
 				type:"get",
 				url: apiUrl,
