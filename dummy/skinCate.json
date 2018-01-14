@@ -2,69 +2,72 @@
   "code": 0,
   "message": "success",
   "last": true,
-  "category": [
-    {
-      "categoryNo": 100,
-      "categoryName": "신규",
-      "description": "새로 올라온 스킨을 확인해보세요 ",
-      "background": "http://kyaraten.com/app/category/new.png",
-      "backgroundColor": "f6c358"
-    },
-    {
-      "categoryNo": 101,
-      "categoryName": "인기",
-      "description": "가장 인기있는 스킨들을 만나보세요",
-      "background": "http://kyaraten.com/app/category/favorite.png",
-      "backgroundColor": "f09559"
-    },
-    {
-      "categoryNo": 102,
-      "categoryName": "작가",
-      "description": "인증 작가만을 공간",
-      "background": "http://kyaraten.com/app/category/artist.png",
-      "backgroundColor": "48a5e0"
-    },
-    {
-      "categoryNo": 103,
-      "categoryName": "손그림",
-      "description": "손으로 그린 감성 스킨",
-      "background": "http://kyaraten.com/app/category/drawing.png",
-      "backgroundColor": "88c264"
-    },
-    {
-      "categoryNo": 104,
-      "categoryName": "사진",
-      "description": "사진 스킨 컬렉션",
-      "background": "http://kyaraten.com/app/category/pic.png",
-      "backgroundColor": "56b478"
-    },
-    {
-      "categoryNo": 105,
-      "categoryName": "연예인",
-      "description": "아이돌 컬렉션",
-      "background": "http://kyaraten.com/app/category/star.png",
-      "backgroundColor": "e785c6"
-    },
-    {
-      "categoryNo": 106,
-      "categoryName": "동물",
-      "description": "고양이&댕댕이 컬렉션",
-      "background": "http://kyaraten.com/app/category/animal.png",
-      "backgroundColor": "70d9da"
-    },
-    {
-      "categoryNo": 107,
-      "categoryName": "애니",
-      "description": "나만의 최애캐 스킨 컬렉션",
-      "background": "http://kyaraten.com/app/category/ani.png",
-      "backgroundColor": "ad73c3"
-    }
-  ],
   "pageInfo": {
     "currentPage": 1,
     "nextPage": 2
   },
   "innerContents": [
+    {
+      "type": "CATEGORY",
+      "category": [
+        {
+          "categoryNo": 100,
+          "categoryName": "신규",
+          "description": "새로 올라온 스킨을 확인해보세요 ",
+          "background": "http://kyaraten.com/app/category/new.png",
+          "backgroundColor": "f6c358"
+        },
+        {
+          "categoryNo": 101,
+          "categoryName": "인기",
+          "description": "가장 인기있는 스킨들을 만나보세요",
+          "background": "http://kyaraten.com/app/category/favorite.png",
+          "backgroundColor": "f09559"
+        },
+        {
+          "categoryNo": 102,
+          "categoryName": "작가",
+          "description": "인증 작가만을 공간",
+          "background": "http://kyaraten.com/app/category/artist.png",
+          "backgroundColor": "48a5e0"
+        },
+        {
+          "categoryNo": 103,
+          "categoryName": "손그림",
+          "description": "손으로 그린 감성 스킨",
+          "background": "http://kyaraten.com/app/category/drawing.png",
+          "backgroundColor": "88c264"
+        },
+        {
+          "categoryNo": 104,
+          "categoryName": "사진",
+          "description": "사진 스킨 컬렉션",
+          "background": "http://kyaraten.com/app/category/pic.png",
+          "backgroundColor": "56b478"
+        },
+        {
+          "categoryNo": 105,
+          "categoryName": "연예인",
+          "description": "아이돌 컬렉션",
+          "background": "http://kyaraten.com/app/category/star.png",
+          "backgroundColor": "e785c6"
+        },
+        {
+          "categoryNo": 106,
+          "categoryName": "동물",
+          "description": "고양이&댕댕이 컬렉션",
+          "background": "http://kyaraten.com/app/category/animal.png",
+          "backgroundColor": "70d9da"
+        },
+        {
+          "categoryNo": 107,
+          "categoryName": "애니",
+          "description": "나만의 최애캐 스킨 컬렉션",
+          "background": "http://kyaraten.com/app/category/ani.png",
+          "backgroundColor": "ad73c3"
+        }
+      ]
+    },
     {
       "type": "SKIN",
       "skinNo": 223,
