@@ -1,0 +1,511 @@
+{
+  "code": 0,
+  "message": "success",
+  "innerContents": [
+    {
+      "type": "HOME_SKINS",
+      "title": "2018년 개띠라고?",
+      "desc": "응 알겠어 시바견 나와라",
+      "link": "",
+      "skinList": [
+        {
+          "type": "SKIN",
+          "skinNo": 223,
+          "weatherNo": 1,
+          "name": "ㄴㅍㄴㅍㄷㅍ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484799000,
+          "id": "cfsefve",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/9a61b86ecef7f4f8978d90273acfe0236bae7479/16659869-f513-11e7-ab7a-21eca26c24c7.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 222,
+          "weatherNo": 2,
+          "name": "호ㅗ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484588000,
+          "id": "cfsefve",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/9a61b86ecef7f4f8978d90273acfe0236bae7479/988c0918-f512-11e7-ab7a-1bee36dbdc79.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 221,
+          "weatherNo": 1,
+          "name": "ㄹㅎㅎㄹ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484587000,
+          "id": "yji6d4u5",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/d5f0d9102728577dfc9eec0a84867f75afbdfe46/983c6277-f512-11e7-ab7a-110c038d3aa6.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 217,
+          "weatherNo": 1,
+          "name": "ㅎㄴㄷ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515407559000,
+          "id": "grhhehveegg",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/81ecfd4383a1b3f7805215da769e4bb7e368451e/3f81a235-f45f-11e7-84bc-3f02b6f5a454.png",
+              "width": 750,
+              "height": 750
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 215,
+          "weatherNo": 51,
+          "name": "거뎨디거",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515398702000,
+          "id": "fhfhrrh",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/9c900261-f44a-11e7-84bc-b3ad03949d65.jpg",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/7a3d1540-f44a-11e7-84bc-57ee58f0845a.jpg",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/77ce5f2f-f44a-11e7-84bc-eb899a97285f.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HOME_SKINS",
+      "title": "최신 스킨",
+      "desc": "",
+      "link": "krt://skin/tab/new",
+      "skinList": [
+        {
+          "type": "SKIN",
+          "skinNo": 223,
+          "weatherNo": 1,
+          "name": "ㄴㅍㄴㅍㄷㅍ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484799000,
+          "id": "cfsefve",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/9a61b86ecef7f4f8978d90273acfe0236bae7479/16659869-f513-11e7-ab7a-21eca26c24c7.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 222,
+          "weatherNo": 2,
+          "name": "호ㅗ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484588000,
+          "id": "cfsefve",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/9a61b86ecef7f4f8978d90273acfe0236bae7479/988c0918-f512-11e7-ab7a-1bee36dbdc79.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 221,
+          "weatherNo": 1,
+          "name": "ㄹㅎㅎㄹ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484587000,
+          "id": "yji6d4u5",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/d5f0d9102728577dfc9eec0a84867f75afbdfe46/983c6277-f512-11e7-ab7a-110c038d3aa6.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 217,
+          "weatherNo": 1,
+          "name": "ㅎㄴㄷ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515407559000,
+          "id": "grhhehveegg",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/81ecfd4383a1b3f7805215da769e4bb7e368451e/3f81a235-f45f-11e7-84bc-3f02b6f5a454.png",
+              "width": 750,
+              "height": 750
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 215,
+          "weatherNo": 51,
+          "name": "거뎨디거",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515398702000,
+          "id": "fhfhrrh",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/9c900261-f44a-11e7-84bc-b3ad03949d65.jpg",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/7a3d1540-f44a-11e7-84bc-57ee58f0845a.jpg",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/77ce5f2f-f44a-11e7-84bc-eb899a97285f.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HOME_SLIDE",
+      "slides": [
+        {
+          "title": "새로운 소식을 만나보세요1",
+          "link": "krt://web/%7B%22title%22%3A%22%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%22%2C%22url%22%3A%22http%3A%2F%2Fkyaraten.com%2Fnotice%2Fnotice.html%22%7D"
+        },
+        {
+          "title": "새로운 소식을 만나보세요2",
+          "link": "krt://web/%7B%22title%22%3A%22%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%22%2C%22url%22%3A%22http%3A%2F%2Fkyaraten.com%2Fnotice%2Fnotice.html%22%7D"
+        }
+      ]
+    },
+    {
+      "type": "HOME_SKINS",
+      "title": "인기 스킨",
+      "desc": "",
+      "link": "krt://skin/tab/favorite",
+      "skinList": [
+        {
+          "type": "SKIN",
+          "skinNo": 223,
+          "weatherNo": 1,
+          "name": "ㄴㅍㄴㅍㄷㅍ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484799000,
+          "id": "cfsefve",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/9a61b86ecef7f4f8978d90273acfe0236bae7479/16659869-f513-11e7-ab7a-21eca26c24c7.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 222,
+          "weatherNo": 2,
+          "name": "호ㅗ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484588000,
+          "id": "cfsefve",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/9a61b86ecef7f4f8978d90273acfe0236bae7479/988c0918-f512-11e7-ab7a-1bee36dbdc79.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 221,
+          "weatherNo": 1,
+          "name": "ㄹㅎㅎㄹ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484587000,
+          "id": "yji6d4u5",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/d5f0d9102728577dfc9eec0a84867f75afbdfe46/983c6277-f512-11e7-ab7a-110c038d3aa6.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 217,
+          "weatherNo": 1,
+          "name": "ㅎㄴㄷ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515407559000,
+          "id": "grhhehveegg",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/81ecfd4383a1b3f7805215da769e4bb7e368451e/3f81a235-f45f-11e7-84bc-3f02b6f5a454.png",
+              "width": 750,
+              "height": 750
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 215,
+          "weatherNo": 51,
+          "name": "거뎨디거",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515398702000,
+          "id": "fhfhrrh",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/9c900261-f44a-11e7-84bc-b3ad03949d65.jpg",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/7a3d1540-f44a-11e7-84bc-57ee58f0845a.jpg",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/77ce5f2f-f44a-11e7-84bc-eb899a97285f.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HOME_SKINS",
+      "title": "그린날씨 인증 작가를 만나보세요",
+      "desc": "",
+      "link": "krt://skin/tab/artist",
+      "skinList": [
+        {
+          "type": "SKIN",
+          "skinNo": 223,
+          "weatherNo": 1,
+          "name": "ㄴㅍㄴㅍㄷㅍ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484799000,
+          "id": "cfsefve",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/9a61b86ecef7f4f8978d90273acfe0236bae7479/16659869-f513-11e7-ab7a-21eca26c24c7.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 222,
+          "weatherNo": 2,
+          "name": "호ㅗ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484588000,
+          "id": "cfsefve",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/9a61b86ecef7f4f8978d90273acfe0236bae7479/988c0918-f512-11e7-ab7a-1bee36dbdc79.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 221,
+          "weatherNo": 1,
+          "name": "ㄹㅎㅎㄹ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515484587000,
+          "id": "yji6d4u5",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/d5f0d9102728577dfc9eec0a84867f75afbdfe46/983c6277-f512-11e7-ab7a-110c038d3aa6.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 217,
+          "weatherNo": 1,
+          "name": "ㅎㄴㄷ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515407559000,
+          "id": "grhhehveegg",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/81ecfd4383a1b3f7805215da769e4bb7e368451e/3f81a235-f45f-11e7-84bc-3f02b6f5a454.png",
+              "width": 750,
+              "height": 750
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 215,
+          "weatherNo": 51,
+          "name": "거뎨디거",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1515398702000,
+          "id": "fhfhrrh",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/9c900261-f44a-11e7-84bc-b3ad03949d65.jpg",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/7a3d1540-f44a-11e7-84bc-57ee58f0845a.jpg",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/45cbe19f37712e7f4e2fcfe27422a2410971f95f/77ce5f2f-f44a-11e7-84bc-eb899a97285f.jpg",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
