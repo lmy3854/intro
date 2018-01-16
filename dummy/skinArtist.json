@@ -8,31 +8,6 @@
   },
   "innerContents": [
     {
-      "type": "CATEGORY",
-      "category": [
-        {
-          "categoryNo": 103,
-          "categoryName": "손그림"
-        },
-        {
-          "categoryNo": 104,
-          "categoryName": "사진"
-        },
-        {
-          "categoryNo": 105,
-          "categoryName": "연예인"
-        },
-        {
-          "categoryNo": 106,
-          "categoryName": "동물"
-        },
-        {
-          "categoryNo": 107,
-          "categoryName": "애니"
-        }
-      ]
-    },
-    {
       "type": "SKIN",
       "skinNo": 223,
       "weatherNo": 1,
