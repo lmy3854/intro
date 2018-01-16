@@ -11,6 +11,10 @@
       "type": "CATEGORY",
       "category": [
         {
+          "categoryNo": 0,
+          "categoryName": "전체"
+        },
+        {
           "categoryNo": 103,
           "categoryName": "손그림"
         },
