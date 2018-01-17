@@ -1,7 +1,8 @@
 {
   "kr": {
 	"url": "http://naver.com",
-	"msg": "kr_testsfadfadsfadfasfdsfsdfsfsdfsf"
+	"msg_1": "1kr_testsfadfadsfadfasfdsfsdfsfsdfsf",
+	"msg_2": "2kr_testsfadfadsfadfasfdsfsdfsfsdfsf"
   },
   "jp": {
 	"url": "http://onelink.to/gwcvvj",
