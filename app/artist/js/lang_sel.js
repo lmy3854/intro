@@ -9,7 +9,7 @@ if(lang == "ko"){
 	notice_json = notice_json_k;
 	agreement_txt = agreement_txt_k;
 }
-var api_url = env_dev;
-if (env == "prd"){
-	api_url = env_prd;
+var api_url = env_prd;
+if (env == "dev"){
+	api_url = env_dev;
 }
