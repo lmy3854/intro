@@ -123,7 +123,7 @@ function getStaticInfos(page){
 		type:"get",
 		url: apiUrl,
 		beforeSend : function(xhr){
-			xhr.setRequestHeader("Accept-Language",$("input#lang").val());
+			xhr.setRequestHeader("Accept-Language",accept_lang);
 			xhr.setRequestHeader("appCode",$("#appCode").val());
 			xhr.setRequestHeader("accessToken",$("#accessToken").val());
 		},
@@ -153,7 +153,7 @@ function getAccountInfos(page){
 		type:"get",
 		url: apiUrl,
 		beforeSend : function(xhr){
-			xhr.setRequestHeader("Accept-Language",$("input#lang").val());
+			xhr.setRequestHeader("Accept-Language",accept_lang);
 			xhr.setRequestHeader("appCode",$("#appCode").val());
 			xhr.setRequestHeader("accessToken",$("#accessToken").val());
 		},
@@ -212,8 +212,8 @@ function createTable(type, data, lastYn){
 				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(issueDate));
 				$tr.append($("<td>",{"class":"align-middle nowrap"}).text(name));
 				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($price));
-				$tr.append($("<td>",{"class":"align-right align-middle"}).text(ration));
-				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($sales));
+				/*$tr.append($("<td>",{"class":"align-right align-middle"}).text(ration));
+				$tr.append($("<td>",{"class":"align-right align-middle nowrap"}).append($sales));*/
 				//$tr.append($("<td>",{"class":"align-middle"}).text(item.purchase));
 			}
 			$("#"+type).find("tbody").append($tr);

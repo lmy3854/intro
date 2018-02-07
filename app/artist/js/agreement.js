@@ -55,7 +55,7 @@ function setArtistAgree(){
 		type:"post",
 		url: apiUrl,
 		beforeSend : function(xhr){
-			xhr.setRequestHeader("Accept-Language",$("input#lang").val());
+			xhr.setRequestHeader("Accept-Language",accept_lang);
 			xhr.setRequestHeader("appCode", appCode);
 			xhr.setRequestHeader("accessToken", accessToken);
 		},
