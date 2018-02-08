@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable = no">
     <title>notice</title>
-    <link rel="stylesheet" href="../css/notice/redactor.css">
-    <link rel="stylesheet" href="../css/notice/normalize.css">
     <link rel="stylesheet" href="../css/notice/container.css">
 </head>
 <body>
@@ -14,8 +12,8 @@
             <section class="bodyContainer">
                 <div class="customer-comp">
                     <div class="componentBox">
-                        <div class="noticeBox">
-<div>test1</div>
+
+                            <div>test1</div>
                             <div>test2</div>
                             <div>test3</div>
                             <div>test4</div>
@@ -215,115 +213,11 @@
                             <div>test198</div>
                             <div>test199</div>
                             <div>test200</div>
-                        </div>
+
                     </div>
                 </div>
             </section>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.0/mobile-detect.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/2.5.2/url.min.js" ></script>
-    <script>
-        /**
-         * Created by okihouse on 2017. 8. 8..
-         */
-        $(function() {
-            'use strict';
-            var notice = {
-                env: {
-                    endpoint: {
-                        jp: 'https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data_dev.json',
-                        ko: 'https://s3-ap-northeast-1.amazonaws.com/kyaraten-notice/data_kr_dev.json'
-                    },
-                    accept_language: {
-                        japan: 'ja',
-                        korea: 'ko'
-                    },
-                    accept_languages: ['ja', 'ko']
-                },
-                init: function(){
-                    this.data();
-                    this.cacheDom();
-                    this.bindEvent();
-                },
-                cacheDom: function(){
-                    this.$body = $('body');
-                    this.$el = $('.container');
-
-                    this.$toggleList = this.$el.find('.toggleList');
-                    this.$noticeBox = this.$el.find('.noticeBox');
-                    this.md = new MobileDetect(window.navigator.userAgent);
-                },
-                bindEvent: function(){
-                    notice.$toggleList.on('click', 'a', function(e){
-                        e.preventDefault();
-                        var isActive = $(this).parent().hasClass('active');
-                        if (isActive){
-                            $(this).parent().removeClass('active');
-                        } else {
-                            $(this).parent().addClass('active');
-                        }
-                    });
-                    notice.$noticeBox.on('click', 'a.scheme', notice.scheme);
-                },
-                scheme: function(e){
-                    e.preventDefault();
-                    notice.mobile(this.getAttribute('href'));
-                },
-                data: function(){
-                    var endpoint = notice.endpoint();
-                    $.getJSON(endpoint, function(data) {
-                        $.each(data, function(index, value){
-                            var $template = notice.template();
-                            $template.find('.title').text(value.title)
-                            $template.find('time').text(value.issueDate);
-                            $template.find('article').html(value.content);
-                            notice.$toggleList.append($template);
-                        });
-                    });
-                },
-                endpoint: function(){
-                    var lang = url('?lang');
-                    if(!(lang && notice.env.accept_languages.indexOf(lang) >= 0)) lang = undefined;
-                    var country = lang || navigator.language || navigator.userLanguage;
-                    console.log(country);
-                    switch (country) {
-                        case notice.env.accept_language.japan:
-                            return notice.env.endpoint.jp;
-                        case notice.env.accept_language.korea:
-                            return notice.env.endpoint.ko;
-                        default:
-                            return notice.env.endpoint.jp;
-                    }
-                },
-                mobile: function(link){
-                    if (notice.md.is('Iphone')) {
-                        window.location = link;
-                    }
-                    try {
-                        if(notice.md.is('AndroidOS')){
-                            Android.sendLink(link);
-                        }
-                    } catch (error) {
-                        console.log(error);
-                    }
-                },
-                template: function(){
-                    var $section = $('<section>' +
-                            '<a href="#">' +
-                            '<div class="titleWrapper">' +
-                            '<div class="title"></div>' +
-                            '<time></time>' +
-                            '</div>' +
-                            '</a>' +
-                            '<article></article>' +
-                            '</section>');
-                    return $section;
-                }
-            }
-            notice.init();
-        });
-    </script>
 </body>
 </html>
