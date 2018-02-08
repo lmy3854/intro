@@ -1,4 +1,4 @@
-a.account-btn{opacity: .7;filter: alpha(opacity=70);bottom: 2px;visibility: visible;border-width: 0;position: fixed;right: 2px;z-index: 99;transition-duration: .3s;background-color: #555!important;border-color: #555;}
+/* a.account-btn{opacity: .7;filter: alpha(opacity=70);bottom: 2px;visibility: visible;border-width: 0;position: fixed;right: 2px;z-index: 99;transition-duration: .3s;background-color: #555!important;border-color: #555;}
 div.mask {display: none; position: fixed; z-index: 1000; top: 0; left: 0; height: 100%; width: 100%;background: rgba( 255, 255, 255, .8 ) url('../imgs/loader.gif') 50% 50% no-repeat;}
 body.loading {overflow: hidden;}
 body.loading .mask {display: block;}
@@ -7,4 +7,4 @@ p.coin:before{ background-image:url("../imgs/skiCoin@3x.png");background-repeat:
 .overflow-auto {overflow:auto;}
 .width-50p{width:50px;}
 .height-20p{height:20px;}
-.height-50p{height:50px;}
+.height-50p{height:50px;} */
