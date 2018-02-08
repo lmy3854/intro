@@ -32,11 +32,13 @@ function selectTab($this){
 
 function init(){
 	$("img#mainImg").attr("src",mainImg);
-	if(urlParam("lang")!=null){
-		$("#lang").val(urlParam("lang"));
+	if(lang != null){
+		$("#lang").val(lang);
 	}
-	if(urlParam("env")=="prd"){
-		$("#env").val(urlParam("prd"));
+	if(env == "dev"){
+		$("#top-image").after().append("DEV SERVER");
+	}else{
+		$("#env").val("prd");
 	}
 	$("#id").val(urlParam("id"));
 	$("#appCode").val(urlParam("appcode"));

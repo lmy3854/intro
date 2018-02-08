@@ -25,16 +25,19 @@ $(document).ready(function(){
 
 function init(){
 	$("img#mainImg").attr("src",mainImg);
-	if(urlParam("lang")!=null){
-		$("#lang").val(urlParam("lang"));
+	if(lang != null){
+		$("#lang").val(lang);
 	}
-	if(urlParam("env")=="prd"){
-		$("#env").val(urlParam("prd"));
+	if(env!="dev"){
+		$("#env").val("prd");
+	}else{
+		$("#top-image").after().append("DEV SERVER");
 	}
 	$("#id").val(urlParam("id"));
 	$("#appCode").val(urlParam("appcode"));
 	$("#accessToken").val(urlParam("accesstoken"));
 	setHtmlLang();
+
 }
 
 function loading(){
