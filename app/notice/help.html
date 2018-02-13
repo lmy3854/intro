@@ -70,7 +70,7 @@
                     $.getJSON(endpoint, function(data) {
                         $.each(data, function(index, value){
                             var $template = notice.template();
-                            $template.find('.title').text(value.title)
+                            $template.find('.title').html(value.title)
                             $template.find('time').text(value.issueDate);
                             $template.find('article').html(value.content);
                             notice.$toggleList.append($template);
