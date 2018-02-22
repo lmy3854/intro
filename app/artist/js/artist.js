@@ -13,7 +13,8 @@ $(document).ready(function(){
 	});
 	$("#accountBtn").on("click",function(){
 		var id = $("input#id").val();
-		sendAccountSlack(id);
+		alert("Comming soon.");
+		/*sendAccountSlack(id);*/
 	});
 	init();
 }); //document.ready End
