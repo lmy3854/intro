@@ -1,54 +1,26 @@
 [
   [
     {
-      "skin": "skin1"
+      "type": 1,
+      "skin": "skin1",
+      "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/6ec4d1b66f18a9da05ced5ce5a7eda849e304766/fdc9b9ef-2048-11e8-8397-11e89db659b9.png"
     },
     {
-      "skin": "skin2"
-    },
-    {
-      "skin": "skin3"
-    },
-    {
-      "skin": "skin4"
-    },
-    {
-      "skin": "skin5"
-    },
-    {
-      "skin": "skin6"
-    },
-    {
-      "skin": "skin7"
-    },
-    {
-      "skin": "skin8"
+      "type": 2,
+      "skin": "skin2",
+      "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2419/b6f36c78-2ebd-45c8-b68e-3fc957c2a91a.jpg"
     }
   ],
   [
     {
-      "skin": "skin1"
+      "type": 11,
+      "skin": "skin1",
+      "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/6ec4d1b66f18a9da05ced5ce5a7eda849e304766/1aa81cf9-2044-11e8-89d6-d7a58940d738.png"
     },
     {
-      "skin": "skin2"
-    },
-    {
-      "skin": "skin3"
-    },
-    {
-      "skin": "skin4"
-    },
-    {
-      "skin": "skin5"
-    },
-    {
-      "skin": "skin6"
-    },
-    {
-      "skin": "skin7"
-    },
-    {
-      "skin": "skin8"
+      "type": 12,
+      "skin": "skin2",
+      "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/6ec4d1b66f18a9da05ced5ce5a7eda849e304766/c0614e17-2043-11e8-8397-6746da313141.png"
     }
   ]
 ]
