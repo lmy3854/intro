@@ -1,0 +1,95 @@
+<html>
+<head>
+<style>
+	*{margin: 0; padding:0;}
+	.container{width: 400px; margin: 0px auto 0;}
+	.box{float: left; width: 400px; position: relative;}
+	.img_layer01{position: absolute; margin: 0px; top: 0px; left: 0px;}
+	.img_layer01 img{width: 400px;  }
+	.img_layer02{position: absolute; margin: 0px; top: 117px; left:89px;}
+	.img_layer02 img{width: 227px;  }
+	.img_layer03{position: absolute; margin: 0px; top: 0px; left: 0px;}
+	.img_layer03 img{width: 400px; }
+	.img_layer04{position: absolute; margin: 0px; top: 175px; left: 128px;}
+	.img_layer04 img{width: 150px; }
+	.img_layer05{position: absolute; margin: 0px; top: 389px; left: 189px;}
+	.img_layer05 img{width: 28px; }
+	.bottom_table{margin :667 0;}
+</style>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+	$( document ).ready(function() {
+		$.ajax({
+			type : "GET",
+			url : "data.out", //"http://kyaraten.com/dummy/data.out", // //// // //data.out
+			datatype : "json",
+			async : false,
+			timeout: 60*60*1000,
+			error : function(request, status, error) {
+				alert("selectId : " + request.status + request.responseText + error);
+			},
+			success : function(data) {
+				//alert("data : " + data);
+				var list = $.parseJSON(data);
+				var html = "";
+				for (var i = 0; i < list.length; i++) {
+					html += "<tr><td colspan='10'>" + list[i].title + "</td></tr><tr valign='top' height='70'>";
+					for (var j = 0; j < list[i].skins.length; j++) {
+						var sublist = list[i].skins;
+						html += "<td>";
+						html += "<button style='background-color:white;' type='submit' class='skin_btn'  value='" + sublist[j].type +  "' id='" + sublist[j].gif + "'>";
+						html += "<img style='background-color:white;' width='50' height='50'   src='" + sublist[j].img + "'>";
+						html += "</button>";
+						html += "</td>";
+					}
+					html += "</tr>";
+				}
+				document.getElementById('skin_tb').innerHTML += html;
+			}
+		});
+	});
+	$(function(){
+		$('.skin_btn').click(function(){
+			var imgSkin = this;
+			//alert(imgSkin.value);
+			document.getElementById("img_main").src=imgSkin.id;
+			document.getElementById("img_wea_bg").src="img/z_wea_bg_" + imgSkin.value + ".png";
+			document.getElementById("img_icon").src="img/z_wea_icon_" + imgSkin.value + ".png";
+        });
+});
+
+});
+</script>
+</head>
+
+<body  bgcolor="#f3f3f3">
+		<div class="container">
+			<div class="box">
+				<div class="img_layer01">
+					<img src="img/bg.png">
+			</div>
+				<div class="img_layer02">
+					<img id="img_wea_bg" src="img/z_wea_bg_01.png">
+				</div>
+				<div class="img_layer03">
+					<img src="img/bg_frame.png">
+				</div>
+				<div class="img_layer04">
+					<img id="img_main" src="img/imgWeaMain.png">
+				</div>
+				<div class="img_layer05">
+					<img id="img_icon" src="img/z_wea_icon_01.png">
+				</div>
+			</div>
+			
+			<table style="width: 100%; letter-spacing: -1px;" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr><td>
+					<table class="bottom_table" id="skin_tb">
+					</table>
+				</td></tr>
+			</table>
+		</div>
+</body>
+</html>
