@@ -3,7 +3,7 @@
   "message": "success",
   "innerContents": [
     {
-      "title": "",
+      "gTitle": "",
       "imgSm": "",
       "imgBanner": "",
       "skins": [
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "title": "title12312312313",
+      "gTitle": "title12312312313",
       "imgSm": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/5c6d9f025873ec66d3401dfbdb78d9f009ecd306/1b4d1f3d-2451-11e8-89d6-67751e45b08b.png",
       "imgBanner": "",
       "skins": [
