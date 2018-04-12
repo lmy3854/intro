@@ -1,0 +1,392 @@
+[
+  {
+    "title": "적극적인곰 : 베타쿠마",
+    "skins": [
+      {
+        "type": "01",
+        "typeStr": "맑음 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2707/30599f40-90cd-4bfd-9c16-8f96be07bf5d.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2707/7ee8717d-1184-421c-9da6-9c919bc20504.gif"
+      },
+      {
+        "type": "02",
+        "typeStr": "맑음 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2708/993b0f7d-9004-468c-8744-c9130ddb47c8.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2708/b206b91a-35bd-4622-8b5e-932ffb8acbbd.gif"
+      },
+      {
+        "type": "11",
+        "typeStr": "흐림 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2709/d6651994-da71-48be-8ee2-723ff620a2cc.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2709/2a1b6e10-83e2-4635-a275-617b04d812be.gif"
+      },
+      {
+        "type": "12",
+        "typeStr": "흐림 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2710/49c5239d-c46b-4819-a352-2e91cde6de17.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2710/92d360f9-a1ad-413e-a967-60f44306180b.gif"
+      },
+      {
+        "type": "21",
+        "typeStr": "비 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2711/5f088cd0-053d-4cf3-81c5-4da61bc0f9af.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2711/a250c84b-1699-4235-bbaf-98ee84095434.gif"
+      },
+      {
+        "type": "22",
+        "typeStr": "비 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/aa62ffff47619bf0b14843d4865e7dac00e278ef/ba52a131-ef0d-11e7-82f5-b5d8b0cd4236.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2712/5027865f-d82a-49a0-8b76-4ad0921f9061.gif"
+      },
+      {
+        "type": "31",
+        "typeStr": "눈",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2713/0a400f15-ef2c-41ba-8265-f6918034b389.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2713/1d4dab8c-c85c-493e-aef0-bfc4ce37f6da.gif"
+      },
+      {
+        "type": "41",
+        "typeStr": "안개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2714/c4ed1e2f-22a9-4e16-9808-0d3bb7811d89.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2714/7325b452-0c6f-4dc2-9056-4d4c1301da08.gif"
+      },
+      {
+        "type": "51",
+        "typeStr": "바람",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2715/d4a0e1a6-0daa-4922-b2c8-650b79794c0e.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2715/4826f05d-2e79-4a4e-82c3-a89c91849cdb.gif"
+      },
+      {
+        "type": "61",
+        "typeStr": "번개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/71f48ce3-3a17-4057-9ed5-97c998644839.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/24f3f0ee-2ecb-4957-b225-fe82376fb165.gif"
+      }
+    ]
+  },
+  {
+    "title": "시바견 쿠니",
+    "skins": [
+      {
+        "type": "01",
+        "typeStr": "맑음 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/488e8e9f-3863-11e8-973d-0b315427324d.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/gifc9fa6c71-3863-11e8-973d-f1d707f0cbf1.png"
+      },
+      {
+        "type": "02",
+        "typeStr": "맑음 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/a8971d50-3868-11e8-973d-e9b40b191351.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/gifd057822a-3868-11e8-b483-81b21e8cc9ef.png"
+      },
+      {
+        "type": "11",
+        "typeStr": "흐림 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/75a32acc-3865-11e8-973d-836be46a25cd.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/3047/a98f0757-9f1b-4bf0-bcc7-e1a7e46ac7ae.gif"
+      },
+      {
+        "type": "12",
+        "typeStr": "흐림 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/bf0ef22a-3865-11e8-b483-a7a3c6cc292a.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/gifd98cdd72-3865-11e8-973d-6b11f9d4f28b.png"
+      },
+      {
+        "type": "21",
+        "typeStr": "비 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/0bbd91d9-3867-11e8-973d-516ff3b29255.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/3051/a98168f0-f34e-404e-a10e-75631f0469e0.gif"
+      },
+      {
+        "type": "22",
+        "typeStr": "비 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/6be78454-38de-11e8-a84c-6bd64f5a6031.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/3082/109cd029-89b4-4006-aeb4-7a09f0844af1.gif"
+      },
+      {
+        "type": "31",
+        "typeStr": "눈",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/198bec26-3905-11e8-a84c-37d2c4b40030.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/3099/e40363f7-1f4e-4257-8282-48d05c6349c8.gif"
+      },
+      {
+        "type": "41",
+        "typeStr": "안개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/4081e0f1-38f0-11e8-a84c-bf4b651b7703.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/gif93e847df-38f0-11e8-965a-49e3bcaadd07.png"
+      },
+      {
+        "type": "51",
+        "typeStr": "바람",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/aba645d0-38ca-11e8-a5ed-8f87a204e1f7.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/3066/0705a0f4-943f-44b3-ade5-04840c63c502.gif"
+      },
+      {
+        "type": "61",
+        "typeStr": "번개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/0016c93b-38fb-11e8-a84c-732ec65cb43c.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/76e14d2b128dec91b6e21196aa9a680392eded87/gif1cfd50b0-38fb-11e8-a84c-4960a6488d43.png"
+      }
+    ]
+  },
+  {
+    "title": "꽃 스킨 (움직임 0)",
+    "skins": [
+      {
+        "type": "01",
+        "typeStr": "맑음 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/ae23dc96-fe6f-11e7-babe-8967fdf02879.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gifed1cc5ba-fe6f-11e7-babe-53c9412fc997.gif"
+      },
+      {
+        "type": "02",
+        "typeStr": "맑음 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/5be3945b-ff4f-11e7-8857-319f3a62e6f1.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gif7dce70e1-ff4f-11e7-8857-65c125c98604.gif"
+      },
+      {
+        "type": "11",
+        "typeStr": "흐림 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/673aefba-00e0-11e8-bde0-e1f267c420cb.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gifa0506e72-00e0-11e8-bde0-2daddc474c5e.gif"
+      },
+      {
+        "type": "12",
+        "typeStr": "흐림 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/139c6e7e-0278-11e8-84ca-49430107b6e9.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gif4a3cce88-0278-11e8-84ca-6d3f18009a99.gif"
+      },
+      {
+        "type": "21",
+        "typeStr": "비 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/88510524-059f-11e8-8fb8-2d63fb591f1e.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gifb57e1d3c-059f-11e8-8fb8-f7408f80bc7c.gif"
+      },
+      {
+        "type": "22",
+        "typeStr": "비 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/b6afef92-066f-11e8-8fb8-9be40490de7f.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gifeb19997c-066f-11e8-8fb8-cd99bcaf66b8.gif"
+      },
+      {
+        "type": "31",
+        "typeStr": "눈",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/07260a22-0cb4-11e8-a669-c7cc3c5c01fd.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gif59a3e60a-0cb4-11e8-a669-67221a3242a2.gif"
+      },
+      {
+        "type": "41",
+        "typeStr": "안개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/a18c6ddd-0746-11e8-9dff-e5c5dd31ce0f.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gifdf0e4768-0746-11e8-9dff-5de60693af64.gif"
+      },
+      {
+        "type": "51",
+        "typeStr": "바람",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/080ef603-0a8b-11e8-9dff-cfcd4ffa23fa.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gif40eb3c4d-0a8b-11e8-9dff-dbba70eba3dd.gif"
+      },
+      {
+        "type": "61",
+        "typeStr": "번개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/f6f56806-0c13-11e8-a669-e7dd131a2e56.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/gif2e710ce2-0c14-11e8-a669-91bbe56fac3f.gif"
+      }
+    ]
+  },
+  {
+    "title": "뿜뿜토끼 (움직임 O)",
+    "skins": [
+      {
+        "type": "01",
+        "typeStr": "맑음 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1357/3cbae76d-a4f8-480c-aa08-233edd405caa.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1357/32df7adb-4e98-4d5f-9bd4-554c658e8efd.gif"
+      },
+      {
+        "type": "02",
+        "typeStr": "맑음 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1451/b95f5513-94a7-4344-9815-a5731dc20f01.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1451/23dd4ec5-a047-480d-9f7a-dd5981a2cbff.gif"
+      },
+      {
+        "type": "11",
+        "typeStr": "흐림 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1363/efd42e00-b117-4c46-bbd1-c7382c48fa24.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1363/abb0e027-adc5-4e11-9bef-8fbe1ea0884c.gif"
+      },
+      {
+        "type": "12",
+        "typeStr": "흐림 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1629/7d1d3eb1-58f5-49bc-bc75-4d48af01b85d.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1629/2eb99b07-70a3-4e0f-9b3a-2ee627f153bf.gif"
+      },
+      {
+        "type": "21",
+        "typeStr": "비 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1361/85eebbb9-d4e6-412a-adcd-5d99f9ede8d6.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1361/2804c47d-bb3d-4310-a264-0e4dfac65e96.gif"
+      },
+      {
+        "type": "22",
+        "typeStr": "비 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1718/61d42480-3123-4c42-82af-03d8bff6fecb.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1718/1f8504e5-84fb-40c7-ac72-c9ea2d54fe51.gif"
+      },
+      {
+        "type": "31",
+        "typeStr": "눈",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1581/3131e450-821c-41ea-82e2-e78af8b467b6.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1581/aa92d49f-b433-41f5-99cf-a00af84dd469.gif"
+      },
+      {
+        "type": "41",
+        "typeStr": "안개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1579/68c98c90-c8d6-4759-a13d-e7c8ab0fee21.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1579/362c43ff-88d3-4ea3-bd47-19b3b0b20087.gif"
+      },
+      {
+        "type": "51",
+        "typeStr": "바람",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1479/49cc90dc-0934-4c9d-943b-0089a4972807.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1479/6f6d8eae-188d-42dc-8b1f-e6ab1e0b81d6.gif"
+      },
+      {
+        "type": "61",
+        "typeStr": "번개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/87a3ae84-8c7d-4172-84fc-fde3b6cc3aec.jpg",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/1b85137c-f18a-4158-a8af-dceb0d71f0bc.gif"
+      }
+    ]
+  },
+  {
+    "title": "개똥 (움직임 O)",
+    "skins": [
+      {
+        "type": "01",
+        "typeStr": "맑음 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/8502b3f9-fe68-11e7-babe-0f1337d8de2d.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/gifc8bf8dd3-fe68-11e7-babe-9f8478d81100.gif"
+      },
+      {
+        "type": "02",
+        "typeStr": "맑음 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/d548216e-fe67-11e7-babe-dfc13a3ef8da.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/gif0bf72778-fe68-11e7-babe-294c77687815.gif"
+      },
+      {
+        "type": "11",
+        "typeStr": "흐림 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/24fd4785-ff29-11e7-8857-414915ffd0a0.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/gif5c0039f2-ff29-11e7-8857-3f49eec55be5.gif"
+      },
+      {
+        "type": "12",
+        "typeStr": "흐림 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/f77abf91-0015-11e8-bde0-236879999e15.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/gif31d1befb-0016-11e8-bde0-bd34bb5e1f88.gif"
+      },
+      {
+        "type": "21",
+        "typeStr": "비 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/bc1f7beb-024c-11e8-bff5-e563a286518d.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/giff77574c5-024c-11e8-bff5-3f8d2970e9eb.gif"
+      },
+      {
+        "type": "22",
+        "typeStr": "비 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/025765e6-04af-11e8-84ca-5580816e2335.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/gif2ae52c50-04af-11e8-84ca-8fe787a70b29.gif"
+      },
+      {
+        "type": "31",
+        "typeStr": "눈",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/7a591bc3-0576-11e8-8fb8-5349da79c104.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/gifb0d048ed-0576-11e8-8fb8-7bdcf9d8be5b.gif"
+      },
+      {
+        "type": "41",
+        "typeStr": "안개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/caec7367-0703-11e8-9dff-99f655858bff.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/giff8016fa1-0703-11e8-9dff-973f406c89df.gif"
+      },
+      {
+        "type": "51",
+        "typeStr": "바람",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/842f0459-1579-11e8-b601-67545d1e1cdf.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/gifb195076f-1579-11e8-ad43-bf950bf95455.gif"
+      },
+      {
+        "type": "61",
+        "typeStr": "번개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/d4d30911-063a-11e8-8fb8-7b00762e408a.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b1d2e166d988e74123924d7bff9cd30a63aff067/gif2713dbfb-063b-11e8-8fb8-bfe3fc9652be.gif"
+      }
+    ]
+  },
+  {
+    "title": "카카오 이모티콘 작가 (움직임 O)",
+    "skins": [
+      {
+        "type": "01",
+        "typeStr": "맑음 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/d62858bd-121d-11e8-ad43-e155f56aa986.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/giff9600093-121d-11e8-ad43-fb8efa1daafd.gif"
+      },
+      {
+        "type": "02",
+        "typeStr": "맑음 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/a3e2a042-121d-11e8-ad43-9b9731e16fcd.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/gifce8982ac-121d-11e8-ad43-edb0c6f6dd6b.gif"
+      },
+      {
+        "type": "11",
+        "typeStr": "흐림 낮",
+        "img": "",
+        "gif": ""
+      },
+      {
+        "type": "12",
+        "typeStr": "흐림 밤",
+        "img": "",
+        "gif": ""
+      },
+      {
+        "type": "21",
+        "typeStr": "비 낮",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/34337840-121d-11e8-ad43-8d15eec69884.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/gif6e63dcda-121d-11e8-ad43-b10ee9b99fd1.gif"
+      },
+      {
+        "type": "22",
+        "typeStr": "비 밤",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/d9624359-121c-11e8-ad43-e34dd21cddd6.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/gif2016d95f-121d-11e8-ad43-d7e08f2a7bb2.gif"
+      },
+      {
+        "type": "31",
+        "typeStr": "눈",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/019dfcd4-121e-11e8-ad43-7399ab381094.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/gif1c8ab01a-121e-11e8-ad43-6bd896a83206.gif"
+      },
+      {
+        "type": "41",
+        "typeStr": "안개",
+        "img": "",
+        "gif": ""
+      },
+      {
+        "type": "51",
+        "typeStr": "바람",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/25cdc04b-121e-11e8-ad43-87839c4e9a5f.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/gif5a0ab4e4-121e-11e8-ad43-3982fb34a445.gif"
+      },
+      {
+        "type": "61",
+        "typeStr": "번개",
+        "img": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/7805d5eb-121d-11e8-ad43-89dc53ee8885.png",
+        "gif": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/06610fa060e114f26ad7660390d7d9864e0095d8/gif98ae4761-121d-11e8-ad43-7981bd6383f7.gif"
+      }
+    ]
+  }
+]
