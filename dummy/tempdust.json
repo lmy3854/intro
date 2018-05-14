@@ -1,36 +1,4111 @@
-{"code":0,"message":"success","innerContents":{"list":[
 {
-"coValue": "0.9",
-"dataTerm": "",
-"dataTime": "2018-05-14 19:00",
-"khaiGrade": "4",
-"khaiValue": "269",
-"mangName": "도로변대기",
-"no2Grade": "2",
-"no2Value": "0.034",
-"numOfRows": "10",
-"o3Grade": "2",
-"o3Value": "0.051",
-"pageNo": "1",
-"pm10Grade": "3",
-"pm10Grade1h": "3",
-"pm10Value": "108",
-"pm10Value24": "90",
-"pm25Grade": "3",
-"pm25Grade1h": "4",
-"pm25Value": "82",
-"pm25Value24": "67",
-"resultCode": "",
-"resultMsg": "",
-"rnum": "0",
-"serviceKey": "",
-"sidoName": "",
-"so2Grade": "1",
-"so2Value": "0.004",
-"stationCode": "",
-"stationName": "",
-"totalCount": "",
-"ver": "",
-"coGrade": "1"
+  "code": 0,
+  "message": "success",
+  "innerContents": {
+    "tmx": "204484.60834366054",
+    "tmy": "452158.95160037227",
+    "dustStation": "홍릉로",
+    "dayInfo": {
+      "url": "http://dataservice.accuweather.com/forecasts/v1/daily/10day/3429997?apikey=MXKvMz0zJBYdlAuXllBGd21TtvfBFlzE&language=ko-KR&metric=true&details=true",
+      "Headline": {
+        "EffectiveDate": "2018-05-16T01:00:00+09:00",
+        "EffectiveEpochDate": "1526400000",
+        "Severity": 2,
+        "Text": "화요일 심야부터 목요일 오후까지 뇌우, 일부 강함",
+        "Category": "thunderstorm",
+        "EndDate": "2018-05-17T19:00:00+09:00",
+        "EndEpochDate": "1526551200"
+      },
+      "DailyForecasts": [
+        {
+          "Date": "2018-05-14T07:00:00+09:00",
+          "EpochDate": "1526248800",
+          "HoursOfSun": 9.3,
+          "Sun": {
+            "epochRise": "1526243040",
+            "Rise": "2018-05-14T05:24:00+09:00",
+            "EpochRise": "1526243040",
+            "Set": "2018-05-14T19:33:00+09:00",
+            "EpochSet": "1526293980"
+          },
+          "Moon": {
+            "epochRise": "1526240760",
+            "Rise": "2018-05-14T04:46:00+09:00",
+            "EpochRise": "1526240760",
+            "Set": "2018-05-14T18:04:00+09:00",
+            "EpochSet": "1526288640",
+            "Phase": "WaningCrescent",
+            "Age": 29
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "13.2",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "26.2",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "14.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "28.1",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "14.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "24.8",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "2.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "9",
+              "Category": "매우 높음",
+              "CategoryValue": "4"
+            }
+          ],
+          "Day": {
+            "Icon": 3,
+            "IconPhrase": "일부 화창",
+            "ShortPhrase": "약간 구름 낀 후 화창함",
+            "LongPhrase": "약간 구름 낀 후 화창함",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "32",
+            "PrecipitationProbability": "15",
+            "ThunderstormProbability": "0",
+            "RainProbability": "15",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "7.4",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 212,
+                "Localized": "남남서"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "27.8",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 36,
+            "IconPhrase": "간헐적으로 흐림",
+            "ShortPhrase": "대체로 흐림",
+            "LongPhrase": "대체로 흐림",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "67",
+            "PrecipitationProbability": "1",
+            "ThunderstormProbability": "0",
+            "RainProbability": "1",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "3.7",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 201,
+                "Localized": "남남서"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "13.0",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-15T07:00:00+09:00",
+          "EpochDate": "1526335200",
+          "HoursOfSun": 1.9,
+          "Sun": {
+            "epochRise": "1526329380",
+            "Rise": "2018-05-15T05:23:00+09:00",
+            "EpochRise": "1526329380",
+            "Set": "2018-05-15T19:34:00+09:00",
+            "EpochSet": "1526380440"
+          },
+          "Moon": {
+            "epochRise": "1526329380",
+            "Rise": "2018-05-15T05:23:00+09:00",
+            "EpochRise": "1526329380",
+            "Set": "2018-05-15T19:13:00+09:00",
+            "EpochSet": "1526379180",
+            "Phase": "New",
+            "Age": 0
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "21.8",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "30.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "21.2",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "31.9",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "21.2",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "30.7",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "8.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "6",
+              "Category": "높음",
+              "CategoryValue": "3"
+            }
+          ],
+          "Day": {
+            "Icon": 6,
+            "IconPhrase": "대체로 흐림",
+            "ShortPhrase": "대체로 흐림",
+            "LongPhrase": "대체로 흐림",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "93",
+            "PrecipitationProbability": "9",
+            "ThunderstormProbability": "24",
+            "RainProbability": "9",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "7.4",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 185,
+                "Localized": "남"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "13.0",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 15,
+            "IconPhrase": "뇌우",
+            "ShortPhrase": "몇 차례의 소나기와 뇌우",
+            "LongPhrase": "몇 차례의 소나기와 뇌우",
+            "HoursOfPrecipitation": "2.5",
+            "HoursOfRain": "2.5",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "99",
+            "PrecipitationProbability": "62",
+            "ThunderstormProbability": "55",
+            "RainProbability": "62",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "5.6",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 179,
+                "Localized": "남"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "13.0",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "5.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "5.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-16T07:00:00+09:00",
+          "EpochDate": "1526421600",
+          "HoursOfSun": 1.2,
+          "Sun": {
+            "epochRise": "1526415720",
+            "Rise": "2018-05-16T05:22:00+09:00",
+            "EpochRise": "1526415720",
+            "Set": "2018-05-16T19:34:00+09:00",
+            "EpochSet": "1526466840"
+          },
+          "Moon": {
+            "epochRise": "1526418300",
+            "Rise": "2018-05-16T06:05:00+09:00",
+            "EpochRise": "1526418300",
+            "Set": "2018-05-16T20:22:00+09:00",
+            "EpochSet": "1526469720",
+            "Phase": "WaxingCrescent",
+            "Age": 1
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "21.5",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "24.2",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "20.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "27.4",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "20.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "26.2",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "5.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "2",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            }
+          ],
+          "Day": {
+            "Icon": 15,
+            "IconPhrase": "뇌우",
+            "ShortPhrase": "소나기와 뇌우, 일부 강함",
+            "LongPhrase": "소나기와 뇌우, 일부 강함",
+            "HoursOfPrecipitation": "5.0",
+            "HoursOfRain": "5.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "100",
+            "PrecipitationProbability": "71",
+            "ThunderstormProbability": "60",
+            "RainProbability": "71",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "7.4",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 169,
+                "Localized": "남"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "13.0",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "25.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "25.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 18,
+            "IconPhrase": "비",
+            "ShortPhrase": "때때로 강해지는 비와 뇌우",
+            "LongPhrase": "때때로 강해지는 비와 뇌우",
+            "HoursOfPrecipitation": "8.0",
+            "HoursOfRain": "8.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "100",
+            "PrecipitationProbability": "78",
+            "ThunderstormProbability": "60",
+            "RainProbability": "78",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "5.6",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 218,
+                "Localized": "남서"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "11.1",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "60.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "60.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-17T07:00:00+09:00",
+          "EpochDate": "1526508000",
+          "HoursOfSun": 1.3,
+          "Sun": {
+            "epochRise": "1526502060",
+            "Rise": "2018-05-17T05:21:00+09:00",
+            "EpochRise": "1526502060",
+            "Set": "2018-05-17T19:35:00+09:00",
+            "EpochSet": "1526553300"
+          },
+          "Moon": {
+            "epochRise": "1526507520",
+            "Rise": "2018-05-17T06:52:00+09:00",
+            "EpochRise": "1526507520",
+            "Set": "2018-05-17T21:31:00+09:00",
+            "EpochSet": "1526560260",
+            "Phase": "WaxingCrescent",
+            "Age": 2
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "17.9",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "23.4",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "16.4",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "26.6",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "16.4",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "24.2",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "3.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "2",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            }
+          ],
+          "Day": {
+            "Icon": 18,
+            "IconPhrase": "비",
+            "ShortPhrase": "때때로 강해지는 비와 뇌우",
+            "LongPhrase": "때때로 강해지는 비와 뇌우",
+            "HoursOfPrecipitation": "6.0",
+            "HoursOfRain": "6.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "100",
+            "PrecipitationProbability": "75",
+            "ThunderstormProbability": "60",
+            "RainProbability": "75",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "7.4",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 202,
+                "Localized": "남남서"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "11.1",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "20.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "20.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 18,
+            "IconPhrase": "비",
+            "ShortPhrase": "때때로 비",
+            "LongPhrase": "때때로 비",
+            "HoursOfPrecipitation": "5.5",
+            "HoursOfRain": "5.5",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "99",
+            "PrecipitationProbability": "68",
+            "ThunderstormProbability": "60",
+            "RainProbability": "68",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "5.6",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 1,
+                "Localized": "북"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "9.3",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "10.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "10.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-18T07:00:00+09:00",
+          "EpochDate": "1526594400",
+          "HoursOfSun": 3.9,
+          "Sun": {
+            "epochRise": "1526588460",
+            "Rise": "2018-05-18T05:21:00+09:00",
+            "EpochRise": "1526588460",
+            "Set": "2018-05-18T19:36:00+09:00",
+            "EpochSet": "1526639760"
+          },
+          "Moon": {
+            "epochRise": "1526597220",
+            "Rise": "2018-05-18T07:47:00+09:00",
+            "EpochRise": "1526597220",
+            "Set": "2018-05-18T22:35:00+09:00",
+            "EpochSet": "1526650500",
+            "Phase": "WaxingCrescent",
+            "Age": 3
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "12.2",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "21.6",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "12.6",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "21.9",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "12.6",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "20.1",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "1.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "4",
+              "Category": "보통",
+              "CategoryValue": "2"
+            }
+          ],
+          "Day": {
+            "Icon": 6,
+            "IconPhrase": "대체로 흐림",
+            "ShortPhrase": "구름이 걷히면서 가끔 해가 보임",
+            "LongPhrase": "구름이 걷히면서 가끔 해가 보임",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "84",
+            "PrecipitationProbability": "25",
+            "ThunderstormProbability": "21",
+            "RainProbability": "25",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "11.1",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 61,
+                "Localized": "동북동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "18.5",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 12,
+            "IconPhrase": "소나기",
+            "ShortPhrase": "몇 차례의 소나기",
+            "LongPhrase": "몇 차례의 소나기",
+            "HoursOfPrecipitation": "1.5",
+            "HoursOfRain": "1.5",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "85",
+            "PrecipitationProbability": "67",
+            "ThunderstormProbability": "21",
+            "RainProbability": "67",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "5.6",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 73,
+                "Localized": "동북동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "16.7",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "2.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "2.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-19T07:00:00+09:00",
+          "EpochDate": "1526680800",
+          "HoursOfSun": 11.6,
+          "Sun": {
+            "epochRise": "1526674800",
+            "Rise": "2018-05-19T05:20:00+09:00",
+            "EpochRise": "1526674800",
+            "Set": "2018-05-19T19:37:00+09:00",
+            "EpochSet": "1526726220"
+          },
+          "Moon": {
+            "epochRise": "1526687220",
+            "Rise": "2018-05-19T08:47:00+09:00",
+            "EpochRise": "1526687220",
+            "Set": "2018-05-19T23:33:00+09:00",
+            "EpochSet": "1526740380",
+            "Phase": "WaxingCrescent",
+            "Age": 4
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "13.9",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "24.6",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "14.4",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "28.9",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "14.4",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "23.7",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "1.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "11",
+              "Category": "극심함",
+              "CategoryValue": "5"
+            }
+          ],
+          "Day": {
+            "Icon": 2,
+            "IconPhrase": "대체로 화창",
+            "ShortPhrase": "대체로 화창",
+            "LongPhrase": "대체로 화창",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "17",
+            "PrecipitationProbability": "1",
+            "ThunderstormProbability": "0",
+            "RainProbability": "1",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "5.6",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 97,
+                "Localized": "동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "9.3",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 34,
+            "IconPhrase": "대체로 맑음",
+            "ShortPhrase": "대체로 맑음",
+            "LongPhrase": "대체로 맑음",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "21",
+            "PrecipitationProbability": "0",
+            "ThunderstormProbability": "0",
+            "RainProbability": "0",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "5.6",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 144,
+                "Localized": "남동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "9.3",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-20T07:00:00+09:00",
+          "EpochDate": "1526767200",
+          "HoursOfSun": 1.8,
+          "Sun": {
+            "epochRise": "1526761140",
+            "Rise": "2018-05-20T05:19:00+09:00",
+            "EpochRise": "1526761140",
+            "Set": "2018-05-20T19:38:00+09:00",
+            "EpochSet": "1526812680"
+          },
+          "Moon": {
+            "epochRise": "1526777520",
+            "Rise": "2018-05-20T09:52:00+09:00",
+            "EpochRise": "1526777520",
+            "Set": "2018-05-21T00:24:00+09:00",
+            "EpochSet": "1526829840",
+            "Phase": "WaxingCrescent",
+            "Age": 5
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "14.2",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "27.8",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "14.6",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "28.8",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "14.6",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "26.7",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "3.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "5",
+              "Category": "보통",
+              "CategoryValue": "2"
+            }
+          ],
+          "Day": {
+            "Icon": 4,
+            "IconPhrase": "간헐적으로 흐림",
+            "ShortPhrase": "높은 구름을 통해 해가 나옴",
+            "LongPhrase": "높은 구름을 통해 해가 나옴",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "96",
+            "PrecipitationProbability": "0",
+            "ThunderstormProbability": "0",
+            "RainProbability": "0",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "5.6",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 138,
+                "Localized": "남동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "11.1",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 38,
+            "IconPhrase": "대체로 흐림",
+            "ShortPhrase": "일부 갬",
+            "LongPhrase": "일부 갬",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "98",
+            "PrecipitationProbability": "0",
+            "ThunderstormProbability": "0",
+            "RainProbability": "0",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "3.7",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 128,
+                "Localized": "남동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "13.0",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-21T07:00:00+09:00",
+          "EpochDate": "1526853600",
+          "HoursOfSun": 7.7,
+          "Sun": {
+            "epochRise": "1526847480",
+            "Rise": "2018-05-21T05:18:00+09:00",
+            "EpochRise": "1526847480",
+            "Set": "2018-05-21T19:39:00+09:00",
+            "EpochSet": "1526899140"
+          },
+          "Moon": {
+            "epochRise": "1526867940",
+            "Rise": "2018-05-21T10:59:00+09:00",
+            "EpochRise": "1526867940",
+            "Set": "2018-05-22T01:09:00+09:00",
+            "EpochSet": "1526918940",
+            "Phase": "WaxingCrescent",
+            "Age": 6
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "16.1",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "27.2",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "15.9",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "31.8",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "15.9",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "26.7",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "4.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "11",
+              "Category": "극심함",
+              "CategoryValue": "5"
+            }
+          ],
+          "Day": {
+            "Icon": 4,
+            "IconPhrase": "간헐적으로 흐림",
+            "ShortPhrase": "구름과 해",
+            "LongPhrase": "구름과 해",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "50",
+            "PrecipitationProbability": "4",
+            "ThunderstormProbability": "0",
+            "RainProbability": "4",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "3.7",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 88,
+                "Localized": "동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "20.4",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 12,
+            "IconPhrase": "소나기",
+            "ShortPhrase": "오후 늦게 몇 차례의 소나기",
+            "LongPhrase": "오후 늦게 몇 차례의 소나기",
+            "HoursOfPrecipitation": "2.0",
+            "HoursOfRain": "2.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "83",
+            "PrecipitationProbability": "60",
+            "ThunderstormProbability": "20",
+            "RainProbability": "60",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "3.7",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 80,
+                "Localized": "동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "16.7",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "3.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "3.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-22T07:00:00+09:00",
+          "EpochDate": "1526940000",
+          "HoursOfSun": 11.5,
+          "Sun": {
+            "epochRise": "1526933880",
+            "Rise": "2018-05-22T05:18:00+09:00",
+            "EpochRise": "1526933880",
+            "Set": "2018-05-22T19:39:00+09:00",
+            "EpochSet": "1526985540"
+          },
+          "Moon": {
+            "epochRise": "1526958360",
+            "Rise": "2018-05-22T12:06:00+09:00",
+            "EpochRise": "1526958360",
+            "Set": "2018-05-23T01:48:00+09:00",
+            "EpochSet": "1527007680",
+            "Phase": "First",
+            "Age": 7
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "14.9",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "27.4",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "13.1",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "29.7",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "13.1",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "25.8",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "3.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "11",
+              "Category": "극심함",
+              "CategoryValue": "5"
+            }
+          ],
+          "Day": {
+            "Icon": 2,
+            "IconPhrase": "대체로 화창",
+            "ShortPhrase": "대체로 화창",
+            "LongPhrase": "대체로 화창",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "23",
+            "PrecipitationProbability": "1",
+            "ThunderstormProbability": "0",
+            "RainProbability": "1",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "11.1",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 68,
+                "Localized": "동북동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "38.9",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 33,
+            "IconPhrase": "맑음",
+            "ShortPhrase": "맑음",
+            "LongPhrase": "맑음",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "1",
+            "PrecipitationProbability": "0",
+            "ThunderstormProbability": "0",
+            "RainProbability": "0",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "13.0",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 50,
+                "Localized": "북동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "37.0",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        },
+        {
+          "Date": "2018-05-23T07:00:00+09:00",
+          "EpochDate": "1527026400",
+          "HoursOfSun": 11.6,
+          "Sun": {
+            "epochRise": "1527020220",
+            "Rise": "2018-05-23T05:17:00+09:00",
+            "EpochRise": "1527020220",
+            "Set": "2018-05-23T19:40:00+09:00",
+            "EpochSet": "1527072000"
+          },
+          "Moon": {
+            "epochRise": "1527048720",
+            "Rise": "2018-05-23T13:12:00+09:00",
+            "EpochRise": "1527048720",
+            "Set": "2018-05-24T02:23:00+09:00",
+            "EpochSet": "1527096180",
+            "Phase": "WaxingGibbous",
+            "Age": 8
+          },
+          "Temperature": {
+            "Minimum": {
+              "Value": "15.3",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "27.1",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperature": {
+            "Minimum": {
+              "Value": "16.5",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "28.3",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "RealFeelTemperatureShade": {
+            "Minimum": {
+              "Value": "16.5",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Maximum": {
+              "Value": "25.4",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "DegreeDaySummary": {
+            "Heating": {
+              "Value": "0.0",
+              "Unit": "C",
+              "UnitType": 17
+            },
+            "Cooling": {
+              "Value": "3.0",
+              "Unit": "C",
+              "UnitType": 17
+            }
+          },
+          "AirAndPollen": [
+            {
+              "Name": "AirQuality",
+              "Value": "0",
+              "Category": "좋음",
+              "CategoryValue": "1",
+              "Type": "오존"
+            },
+            {
+              "Name": "Grass",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Mold",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Ragweed",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "Tree",
+              "Value": "0",
+              "Category": "낮음",
+              "CategoryValue": "1"
+            },
+            {
+              "Name": "UVIndex",
+              "Value": "11",
+              "Category": "극심함",
+              "CategoryValue": "5"
+            }
+          ],
+          "Day": {
+            "Icon": 2,
+            "IconPhrase": "대체로 화창",
+            "ShortPhrase": "대체로 화창",
+            "LongPhrase": "대체로 화창",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "22",
+            "PrecipitationProbability": "0",
+            "ThunderstormProbability": "0",
+            "RainProbability": "0",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "18.5",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 44,
+                "Localized": "북동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "46.3",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          },
+          "Night": {
+            "Icon": 35,
+            "IconPhrase": "약간 흐림",
+            "ShortPhrase": "약간 흐림",
+            "LongPhrase": "약간 흐림",
+            "HoursOfPrecipitation": "0.0",
+            "HoursOfRain": "0.0",
+            "HoursOfSnow": "0.0",
+            "HoursOfIce": "0.0",
+            "CloudCover": "38",
+            "PrecipitationProbability": "0",
+            "ThunderstormProbability": "0",
+            "RainProbability": "0",
+            "SnowProbability": "0",
+            "IceProbability": "0",
+            "Wind": {
+              "Speed": {
+                "Value": "7.4",
+                "Unit": "km/h",
+                "UnitType": 7
+              },
+              "Direction": {
+                "Degrees": 14,
+                "Localized": "북북동"
+              }
+            },
+            "WindGust": {
+              "Speed": {
+                "Value": "29.6",
+                "Unit": "km/h",
+                "UnitType": 7
+              }
+            },
+            "TotalLiquid": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Rain": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            },
+            "Snow": {
+              "Value": "0.0",
+              "Unit": "cm",
+              "UnitType": 4
+            },
+            "Ice": {
+              "Value": "0.0",
+              "Unit": "mm",
+              "UnitType": 3
+            }
+          }
+        }
+      ]
+    },
+    "hourInfo": {
+      "url": "http://dataservice.accuweather.com/forecasts/v1/hourly/24hour/3429997?apikey=MXKvMz0zJBYdlAuXllBGd21TtvfBFlzE&language=ko-KR&metric=true&details=true",
+      "hourInfos": [
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T01:00:00+09:00",
+          "EpochDateTime": "1526313600",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "99",
+          "Temperature": {
+            "Value": "15.5",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "16.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "11.8",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 191,
+              "Localized": "남"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T02:00:00+09:00",
+          "EpochDateTime": "1526317200",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "99",
+          "Temperature": {
+            "Value": "14.7",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "15.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "10.7",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 194,
+              "Localized": "남남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T03:00:00+09:00",
+          "EpochDateTime": "1526320800",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "99",
+          "Temperature": {
+            "Value": "14.2",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "14.8",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "10.6",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 191,
+              "Localized": "남"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T04:00:00+09:00",
+          "EpochDateTime": "1526324400",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "99",
+          "Temperature": {
+            "Value": "13.2",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "14.0",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "10.0",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 175,
+              "Localized": "남"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T05:00:00+09:00",
+          "EpochDateTime": "1526328000",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "99",
+          "Temperature": {
+            "Value": "13.9",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "14.6",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "11.9",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 144,
+              "Localized": "남동"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T06:00:00+09:00",
+          "EpochDateTime": "1526331600",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "99",
+          "Temperature": {
+            "Value": "14.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "15.5",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "13.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 123,
+              "Localized": "동남동"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 1,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T07:00:00+09:00",
+          "EpochDateTime": "1526335200",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 1,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "16.8",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "18.6",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "13.5",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 122,
+              "Localized": "동남동"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 2,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T08:00:00+09:00",
+          "EpochDateTime": "1526338800",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 2,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "19.8",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "20.9",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "12.9",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "3.7",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 129,
+              "Localized": "남동"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 3,
+          "uvindexText": "보통",
+          "DateTime": "2018-05-15T09:00:00+09:00",
+          "EpochDateTime": "1526342400",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 3,
+          "UVIndexText": "보통",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "22.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "24.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "12.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 142,
+              "Localized": "남동"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 4,
+          "uvindexText": "보통",
+          "DateTime": "2018-05-15T10:00:00+09:00",
+          "EpochDateTime": "1526346000",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 4,
+          "UVIndexText": "보통",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "24.2",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "27.2",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "12.7",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 162,
+              "Localized": "남남동"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "7.4",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 5,
+          "uvindexText": "보통",
+          "DateTime": "2018-05-15T11:00:00+09:00",
+          "EpochDateTime": "1526349600",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 5,
+          "UVIndexText": "보통",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "25.8",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "29.7",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "13.8",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 177,
+              "Localized": "남"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "9.3",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 6,
+          "uvindexText": "높음",
+          "DateTime": "2018-05-15T12:00:00+09:00",
+          "EpochDateTime": "1526353200",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 6,
+          "UVIndexText": "높음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "27.0",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "31.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "15.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "7.4",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 189,
+              "Localized": "남"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "9.3",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 5,
+          "uvindexText": "보통",
+          "DateTime": "2018-05-15T13:00:00+09:00",
+          "EpochDateTime": "1526356800",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 5,
+          "UVIndexText": "보통",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "28.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "31.9",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "16.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "7.4",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 199,
+              "Localized": "남남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "9.3",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "9144.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 2,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T14:00:00+09:00",
+          "EpochDateTime": "1526360400",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 2,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "29.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "30.2",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "17.0",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "7.4",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 208,
+              "Localized": "남남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "11.1",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "1006.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 1,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T15:00:00+09:00",
+          "EpochDateTime": "1526364000",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 1,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 0,
+          "RainProbability": "0",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "30.0",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "31.2",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "18.8",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "9.3",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 215,
+              "Localized": "남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "11.1",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "1006.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 1,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T16:00:00+09:00",
+          "EpochDateTime": "1526367600",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 1,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 1,
+          "RainProbability": "1",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "94",
+          "Temperature": {
+            "Value": "29.5",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "30.5",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "19.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "9.3",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 222,
+              "Localized": "남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "13.0",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "975.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 1,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T17:00:00+09:00",
+          "EpochDateTime": "1526371200",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 1,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 1,
+          "RainProbability": "1",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "93",
+          "Temperature": {
+            "Value": "28.9",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "30.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "20.0",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "9.3",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 228,
+              "Localized": "남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "13.0",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "7498.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 1,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T18:00:00+09:00",
+          "EpochDateTime": "1526374800",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 1,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 4,
+          "RainProbability": "4",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "90",
+          "Temperature": {
+            "Value": "27.8",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "29.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "20.7",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "11.1",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 232,
+              "Localized": "남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "13.0",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "7498.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": true,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T19:00:00+09:00",
+          "EpochDateTime": "1526378400",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": true,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 15,
+          "RainProbability": "15",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "93",
+          "Temperature": {
+            "Value": "26.7",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "28.4",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "21.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "9.3",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 235,
+              "Localized": "남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "13.0",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "7498.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T20:00:00+09:00",
+          "EpochDateTime": "1526382000",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 15,
+          "RainProbability": "15",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "96",
+          "Temperature": {
+            "Value": "25.6",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "27.7",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "21.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "7.4",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 240,
+              "Localized": "서남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "11.1",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "7498.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T21:00:00+09:00",
+          "EpochDateTime": "1526385600",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 20,
+          "RainProbability": "20",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "99",
+          "Temperature": {
+            "Value": "24.2",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "26.4",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "21.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 244,
+              "Localized": "서남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "9.3",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "2012.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T22:00:00+09:00",
+          "EpochDateTime": "1526389200",
+          "WeatherIcon": 12,
+          "IconPhrase": "소나기",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 51,
+          "RainProbability": "51",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "100",
+          "Temperature": {
+            "Value": "23.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "23.5",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "20.6",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 235,
+              "Localized": "남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "7.4",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "9.7",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "2012.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "1.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "1.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-15T23:00:00+09:00",
+          "EpochDateTime": "1526392800",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 47,
+          "RainProbability": "47",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "100",
+          "Temperature": {
+            "Value": "22.9",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "24.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "19.9",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 218,
+              "Localized": "남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "7.4",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "5822.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        {
+          "daylight": false,
+          "uvindex": 0,
+          "uvindexText": "낮음",
+          "DateTime": "2018-05-16T00:00:00+09:00",
+          "EpochDateTime": "1526396400",
+          "WeatherIcon": 7,
+          "IconPhrase": "흐림",
+          "IsDaylight": false,
+          "UVIndex": 0,
+          "UVIndexText": "낮음",
+          "PrecipitationProbability": 44,
+          "RainProbability": "44",
+          "SnowProbability": "0",
+          "IceProbability": "0",
+          "CloudCover": "100",
+          "Temperature": {
+            "Value": "22.6",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "RealFeelTemperature": {
+            "Value": "23.3",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "DewPoint": {
+            "Value": "19.1",
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Wind": {
+            "Speed": {
+              "Value": "5.6",
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Degrees": 204,
+              "Localized": "남남서"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": "7.4",
+              "Unit": "km/h",
+              "UnitType": 7
+            }
+          },
+          "Visibility": {
+            "Value": "16.1",
+            "Unit": "km",
+            "UnitType": 6
+          },
+          "Ceiling": {
+            "Value": "5822.0",
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "TotalLiquid": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Value": "0.0",
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Value": "0.0",
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        }
+      ]
+    },
+    "dustInfoListModel": {
+      "list": []
+    }
+  }
 }
-]}}
