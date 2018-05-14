@@ -1,1 +1,36 @@
-{"code":0,"message":"success","innerContents":{"list":[]}}
+{"code":0,"message":"success","innerContents":{"list":[
+{
+"coValue": "0.9",
+"dataTerm": "",
+"dataTime": "2018-05-14 19:00",
+"khaiGrade": "4",
+"khaiValue": "269",
+"mangName": "도로변대기",
+"no2Grade": "2",
+"no2Value": "0.034",
+"numOfRows": "10",
+"o3Grade": "2",
+"o3Value": "0.051",
+"pageNo": "1",
+"pm10Grade": "3",
+"pm10Grade1h": "3",
+"pm10Value": "108",
+"pm10Value24": "90",
+"pm25Grade": "3",
+"pm25Grade1h": "4",
+"pm25Value": "82",
+"pm25Value24": "67",
+"resultCode": "",
+"resultMsg": "",
+"rnum": "0",
+"serviceKey": "",
+"sidoName": "",
+"so2Grade": "1",
+"so2Value": "0.004",
+"stationCode": "",
+"stationName": "",
+"totalCount": "",
+"ver": "",
+"coGrade": "1"
+}
+]}}
