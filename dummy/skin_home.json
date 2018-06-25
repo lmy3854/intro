@@ -3132,7 +3132,8 @@
       ]
     },
     {
-      "type": "POPULAR_SKIN",
+      "type": "HOME_POPULAR_SKIN",
+      "jangComment": "POPULAR_SKIN > HOME_POPULAR_SKIN 이름만 변경",
       "managed": false,
       "title": "요즘 뜨는 스킨",
       "description": "",
