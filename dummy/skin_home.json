@@ -5,7 +5,6 @@
     {
       "type": "HOME_NEW_SKIN",
       "jangComment": "기존과 동일하나, 타입 이름만 바꾸자",
-      "managed": false,
       "title": "신규 스킨",
       "description": "",
       "link": "krt://tab/new",
@@ -290,7 +289,6 @@
     {
       "type": "HOME_SLIDE",
       "jangComment": "동일함 변경X",
-      "managed": false,
       "slides": [
         {
           "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/slide/2/a8eaa6dc-4c5c-4e8c-9c14-05094c0c7461.png",
@@ -327,7 +325,6 @@
     {
       "type": "HOME_GROUP_SKIN",
       "jangComment": "RECOMMEND_SKIN > HOME_GROUP_SKIN 이름만 변경",
-      "managed": false,
       "groups": [
         {
           "skinGroupNo": 329,
@@ -2767,7 +2764,6 @@
     {
       "type": "HOME_ARTIST_SKIN",
       "jangComment": "여기는 다 바뀜 / 변경 요청",
-      "managed": false,
       "title": "그린날씨의 작가",
       "description": "",
       "link": "krt://tab/artist",
@@ -2849,7 +2845,6 @@
     {
       "type": "HOME_RECOMM_SKIN",
       "jangComment": "기존과 동일하나, 타입 이름만 바꾸자",
-      "managed": false,
       "title": "추천 스킨",
       "description": "",
       "link": "krt://tab/new",
@@ -3134,7 +3129,6 @@
     {
       "type": "HOME_POPULAR_SKIN",
       "jangComment": "POPULAR_SKIN > HOME_POPULAR_SKIN 이름만 변경",
-      "managed": false,
       "title": "요즘 뜨는 스킨",
       "description": "",
       "link": "krt://tab/popular",
