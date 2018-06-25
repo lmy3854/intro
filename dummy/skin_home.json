@@ -1,0 +1,3644 @@
+{
+  "code": 0,
+  "message": "success",
+  "innerContents": [
+    {
+      "type": "HOME_NEW_SKIN",
+      "jangComment": "기존과 동일하나, 타입 이름만 바꾸자",
+      "managed": false,
+      "title": "신규 스킨",
+      "description": "",
+      "link": "krt://tab/new",
+      "skins": [
+        {
+          "type": "SKIN",
+          "skinNo": 7325,
+          "weatherNo": 2,
+          "name": "ㄹㄹㄷ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1529128935000,
+          "id": "jisoo0531",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/fff39a1788172f7d864727faeb8e7931747d94d9/d0f14d16-712a-11e8-a660-793f7e5a1aae.png",
+              "width": 305,
+              "height": 305
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7324,
+          "weatherNo": 1,
+          "name": "ㅎㄷㅎ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1529128878000,
+          "id": "jisoo0531",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/fff39a1788172f7d864727faeb8e7931747d94d9/aab45484-712a-11e8-a660-8f2d583eb555.png",
+              "width": 1024,
+              "height": 1024
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7323,
+          "weatherNo": 2,
+          "name": "ㅇㅋ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528968969000,
+          "id": "ninano123",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b0be911eadc924612a478b7fe67e2d9f1b7d0bc9/5d06aed6-6fb6-11e8-9f72-d9d5b5632053.png",
+              "width": 1024,
+              "height": 1024
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7322,
+          "weatherNo": 1,
+          "name": "ㅈㄹㅎㄷ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528968523000,
+          "id": "ninano123",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b0be911eadc924612a478b7fe67e2d9f1b7d0bc9/4ddb6eb4-6fb5-11e8-9f72-63cb83075b87.png",
+              "width": 540,
+              "height": 540
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7321,
+          "weatherNo": 2,
+          "name": "맑은 밤!",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528465966000,
+          "id": "pppqqq3503",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/4ef6f8e48c2e31f6ac3c7e363924eeae339fd8af/392f0491-6b23-11e8-9140-b9ccd89e2b63.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7320,
+          "weatherNo": 12,
+          "name": "ROSE♡♡",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528465734000,
+          "id": "W3XpZ3L9K",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/e3a668b01c7ad01859726829908c2f9b362dbbad/65f5fcb7-6b22-11e8-afc1-dbc5b8757129.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/e3a668b01c7ad01859726829908c2f9b362dbbad/5e0f9656-6b22-11e8-afc1-977b24537bba.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/e3a668b01c7ad01859726829908c2f9b362dbbad/585c1610-6b22-11e8-9140-b9eee8381d6a.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/e3a668b01c7ad01859726829908c2f9b362dbbad/4e080a85-6b22-11e8-afc1-a90b363a6d3d.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7319,
+          "weatherNo": 51,
+          "name": "바람",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528465022000,
+          "id": "sweetyoonseo",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/410cb324333e13a419c56493c00cc22aa98f2188/06363a2c-6b21-11e8-8930-fdbc54b08070.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7318,
+          "weatherNo": 1,
+          "name": "흐규흐규흐규..작가가 되기 위해;;;",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528464938000,
+          "id": "Louise",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/9c9dc22d-6b20-11e8-9140-0f5fc567fad7.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/9ee8ea21-6b20-11e8-afc1-579ff4e522e1.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/99c65ebb-6b20-11e8-8930-a14068699bb9.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/971cc28a-6b20-11e8-8930-0dad721e28dc.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/94776c19-6b20-11e8-8930-dbad451b24dd.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/90620ae0-6b20-11e8-afc1-9f7053ffbb7c.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/8d5f7948-6b20-11e8-8930-35da745e7357.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/8af6901c-6b20-11e8-9140-652023cfc3fa.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/875c043b-6b20-11e8-9140-975193dbe332.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7317,
+          "weatherNo": 1,
+          "name": "녹수초등학교유혜림",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528463814000,
+          "id": "lgYNDBr87",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/89944912cb84d86b23810c9723d925e5b83a84be/320e29cd-6b1e-11e8-afc1-5dd5783f5d78.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/89944912cb84d86b23810c9723d925e5b83a84be/2962779c-6b1e-11e8-afc1-2d513791648c.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/89944912cb84d86b23810c9723d925e5b83a84be/23a0ed98-6b1e-11e8-9140-07494e12a596.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7316,
+          "weatherNo": 21,
+          "name": "픽셀---비 (낮)",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528463430000,
+          "id": "juoca",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/6d333d16dbadc4a10293c08bbd7d6e6d19be81ff/51435198-6b1d-11e8-afc1-e1b354b88296.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HOME_SLIDE",
+      "jangComment": "동일함 변경X",
+      "managed": false,
+      "slides": [
+        {
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/slide/2/a8eaa6dc-4c5c-4e8c-9c14-05094c0c7461.png",
+          "title": "적극적으로 예보받자",
+          "link": "krt://detail/group/161"
+        },
+        {
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/9414de20-9beb-4099-8f44-f493bff5790a.png",
+          "title": "연인을 위한 비밀 날씨",
+          "link": "krt://web/%7B%22title%22%3A%22%EC%97%B0%EC%9D%B8%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%B9%84%EB%B0%80%20%EB%82%A0%EC%94%A8%22%2C%22url%22%3A%22http%3A%2F%2Fblog.naver.com%2Fgreenweather%2F221243360472%22%7D"
+        },
+        {
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/ad761789-4de5-4a85-9ef7-03a0f57d957a.png",
+          "title": "나만의 비밀날씨 만들기",
+          "link": "krt://web/%7B%22title%22%3A%22%EB%82%98%EB%A7%8C%EC%9D%98%20%EB%B9%84%EB%B0%80%20%EB%82%A0%EC%94%A8%20%EB%A7%8C%EB%93%A4%EA%B8%B0%22%2C%22url%22%3A%22http%3A%2F%2Fblog.naver.com%2Fgreenweather%2F221243260755%22%7D"
+        },
+        {
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/cfdff2f4-0fde-4406-b0a3-9dbe2cc699c7.jpg",
+          "title": "그린날씨의 정확도",
+          "link": "krt://web/%7B%22title%22%3A%22%EA%B7%B8%EB%A6%B0%EB%82%A0%EC%94%A8%EC%9D%98%20%EC%A0%95%ED%99%95%EB%8F%84%22%2C%22url%22%3A%22http%3A%2F%2Fblog.greenweather.kr%2F221262203206%22%7D"
+        },
+        {
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/3350a620-1a14-46fd-ad02-42af598576a4.png",
+          "title": "그린날씨 위젯 설정 방법",
+          "link": "krt://web/%7B%22title%22%3A%22%EA%B7%B8%EB%A6%B0%EB%82%A0%EC%94%A8%20%EC%9C%84%EC%A0%AF%20%EC%84%A4%EC%A0%95%20%EB%B0%A9%EB%B2%95%22%2C%22url%22%3A%22http%3A%2F%2Fblog.greenweather.kr%2F221276458165%22%7D"
+        },
+        {
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/67e13b2d-e852-4ac1-8811-9b6edf88b384.jpg",
+          "title": "움직이는 스킨 업로드 방법",
+          "link": "krt://web/%7B%22title%22%3A%22%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94%20%EC%8A%A4%ED%82%A8%20%EC%97%85%EB%A1%9C%EB%93%9C%20%EB%B0%A9%EB%B2%95%22%2C%22url%22%3A%22http%3A%2F%2Fblog.greenweather.kr%2F221276572287%22%7D"
+        }
+      ]
+    },
+    {
+      "type": "HOME_GROUP_SKIN",
+      "jangComment": "RECOMMEND_SKIN > HOME_GROUP_SKIN 이름만 변경",
+      "managed": false,
+      "groups": [
+        {
+          "skinGroupNo": 329,
+          "title": "꼬마도깨비 '까까비'가 날씨를 알려줘요^^~",
+          "banner": "꼬마도깨비 '까까비'가 날씨를 알려줘요^^~",
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/skin/group/0636ef97-4633-11e8-9a2e-1128c6c0fa33.png",
+          "userId": "ccoma",
+          "price": 0,
+          "skins": [
+            {
+              "skinNo": 3919,
+              "skinGroupNo": 329,
+              "weatherNo": 12,
+              "name": "흐린밤에 잠못자는 까까비",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/68098606-46a6-11e8-9ba5-3fbaed58ecc8.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/65508088-46a6-11e8-9a2e-630c154f0550.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/627d8a65-46a6-11e8-9ba5-e5f570b88444.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/46b34864-46a6-11e8-9ba5-2f8f504df762.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/43c52927-46a6-11e8-9a2e-772bf75d8fec.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/414dc083-46a6-11e8-9ba5-374ed587249c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/3e868a36-46a6-11e8-9a2e-a3bc6aac587b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/3bd17c52-46a6-11e8-9ba5-cbdfd6b6df69.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/38e42065-46a6-11e8-9a2e-1f54ffeb58be.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3918,
+              "skinGroupNo": 329,
+              "weatherNo": 2,
+              "name": "한밤에 '덩실덩실'",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/f728b152-46a4-11e8-9a2e-13eb8ced4cf3.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/bb8e0e5f-46a4-11e8-9a2e-6dfce98a6d17.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c2f8dc1e-46a4-11e8-9ba5-a39668299ea0.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c8a2c000-46a4-11e8-9a2e-e7dc8dec6679.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ce7b06df-46a4-11e8-9ba5-bd590bb30c58.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/d3f83571-46a4-11e8-9a2e-993767798a90.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ef5bc660-46a4-11e8-9ba5-6f054759d5f7.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/fd4999f3-46a4-11e8-9a2e-f5d409b9a8bf.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/0405d834-46a5-11e8-9a2e-e54381dd2ec0.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3916,
+              "skinGroupNo": 329,
+              "weatherNo": 41,
+              "name": "안개속 까까비는 장난꾸러기^^",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/9095383a-46a0-11e8-9ba5-0f9edf2413ce.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/76407f38-46a0-11e8-9ba5-dbc5184af24a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/7b0cad49-46a0-11e8-9ba5-7397c1053c2b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/80784fa8-46a0-11e8-9a2e-9d60174fe97c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/8556a629-46a0-11e8-9a2e-6f6e84a25cb3.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/8a5a860a-46a0-11e8-9a2e-5125bd6d65ae.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/9afdb59b-46a0-11e8-9ba5-351fb1eff365.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/9f52b7dc-46a0-11e8-9ba5-81455d50fc89.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/a44bc24b-46a0-11e8-9a2e-f117c0a4f432.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/a8d5b73d-46a0-11e8-9ba5-15eeeb1f89cb.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3915,
+              "skinGroupNo": 329,
+              "weatherNo": 1,
+              "name": "맑은날 구름타고 놀러가요~~",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ee4ab334-469e-11e8-9ba5-f10a72f15715.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ce79b602-469e-11e8-9ba5-1364f4003178.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/d491ec13-469e-11e8-9ba5-d3eb1418709a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/e53d0ae2-469e-11e8-9a2e-359aec023dfe.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/f403d953-469e-11e8-9a2e-55f24e1548d9.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/fb6cd255-469e-11e8-9ba5-9168cb41aefb.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/02c4b454-469f-11e8-9a2e-fba60ecccdc9.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/07c84615-469f-11e8-9a2e-6f5b3177e25d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/0dc0bf26-469f-11e8-9ba5-5d1c4deefb3c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/11e27c66-469f-11e8-9a2e-a56e4ce506e2.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3914,
+              "skinGroupNo": 329,
+              "weatherNo": 51,
+              "name": "바람에 날라가는 차무들 ㅋㅋ",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ed2a447d-469d-11e8-9a2e-057f2bfd4ed8.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/151fc281-469e-11e8-9a2e-255c4bbc6d72.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/10e218d0-469e-11e8-9ba5-a16e0f5eafb9.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/0b0cdf30-469e-11e8-9a2e-b90a55a26f65.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/04f7dd6f-469e-11e8-9a2e-cdd1df3d4424.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ff777a8f-469d-11e8-9ba5-a1570a7bb3ef.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/fa44e98e-469d-11e8-9a2e-69039cd9efc5.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/f4ff93de-469d-11e8-9ba5-87a7bc636f39.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3913,
+              "skinGroupNo": 329,
+              "weatherNo": 61,
+              "name": "번개를 부르는 까까비",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/dc3a49ec-469c-11e8-9ba5-997a42147bbc.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/d77dd34c-469c-11e8-9a2e-fdabf300039a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/d20f98db-469c-11e8-9a2e-8f98bc42ef36.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c9bb2e6a-469c-11e8-9a2e-8755e39bfd78.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c3799e6b-469c-11e8-9ba5-e749c40b0fbd.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/bb9d4a2a-469c-11e8-9ba5-377a31616b41.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/b69bb439-469c-11e8-9a2e-332ba61fa233.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/b1b48419-469c-11e8-9ba5-8314aa9960b1.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ad2ab638-469c-11e8-9a2e-ad1a0e2bdbee.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/a6dbb8b8-469c-11e8-9ba5-197c3b2ee416.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3911,
+              "skinGroupNo": 329,
+              "weatherNo": 11,
+              "name": "흐린날에 까까비가 울어요ㅜㅜ",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ef54cbc4-4680-11e8-9ba5-df6205976427.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/bc1215af-4680-11e8-9a2e-2d1681ddab2c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c1afc491-4680-11e8-9ba5-693217b66e1d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c873cb02-4680-11e8-9ba5-57e99e0dbeed.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/cc38e950-4680-11e8-9a2e-c7660fc9b1d1.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/d3d3eed3-4680-11e8-9ba5-99ac15d3600d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/d8499871-4680-11e8-9a2e-4955ca359dfa.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/e9419ec2-4680-11e8-9a2e-379716080f44.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/f5ab6a65-4680-11e8-9ba5-8f30ec6fc642.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3910,
+              "skinGroupNo": 329,
+              "weatherNo": 21,
+              "name": "비가내리면 돌아버리는 까까비",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/d7be16be-467f-11e8-9ba5-abb78e40075f.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c2c4fa8c-467f-11e8-9ba5-01d46ddda87d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c8466eda-467f-11e8-9a2e-e96a88bfff9e.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ccbb070d-467f-11e8-9ba5-492ec07c00ae.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/d17c5fab-467f-11e8-9a2e-51218ec781b5.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/df7ef3bc-467f-11e8-9a2e-815dac36786b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/e676db6d-467f-11e8-9a2e-e1cde8501834.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/eb50ec2f-467f-11e8-9ba5-3b2dec43793c.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3891,
+              "skinGroupNo": 329,
+              "weatherNo": 22,
+              "name": "비가 내려요 ....",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/a2c42628-4628-11e8-9ba5-6d1ff8c31530.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/99a0abe8-4628-11e8-9a2e-61745c17d463.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/9e0f2997-4628-11e8-9ba5-f3feb2a1b691.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/a773a479-4628-11e8-9a2e-4b54346cdca6.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/ab7863d9-4628-11e8-9ba5-414411368176.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/b146bfaa-4628-11e8-9a2e-97248628a8fe.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/b7a1cb1b-4628-11e8-9a2e-b9320d4cfd8a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/bd33931a-4628-11e8-9ba5-6bf8d18ce83d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c2bb971b-4628-11e8-9ba5-9f2ab565dfb8.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/c704b27c-4628-11e8-9ba5-ff02c92f71a9.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3888,
+              "skinGroupNo": 329,
+              "weatherNo": 31,
+              "name": "눈내리는 날엔 온천",
+              "userId": "ccoma",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/1f0a247e-4626-11e8-9a2e-2b26d7200f72.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/470c73c4-4626-11e8-9ba5-af020d11a99f.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/43673982-4626-11e8-9a2e-1988e7eac8f2.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/3f363a03-4626-11e8-9ba5-11048505740b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/378c1951-4626-11e8-9a2e-f12bf895d80d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/3182b052-4626-11e8-9ba5-4d02c34d272e.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/2cc687d1-4626-11e8-9ba5-dd6b2b5abd36.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/28331d00-4626-11e8-9a2e-b9b4c91f002d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/266197450a0ab967df0f567f7ac404a020d7d87d/24292d7f-4626-11e8-9a2e-f775302ccfbd.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            }
+          ]
+        },
+        {
+          "skinGroupNo": 74,
+          "title": "오징어는 내친구",
+          "banner": "오징어는 내친구",
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/b7a71a87-31a1-4ed4-9947-4c6e79826f55.png",
+          "userId": "octopuskim",
+          "price": 0,
+          "skins": [
+            {
+              "skinNo": 3837,
+              "skinGroupNo": 74,
+              "weatherNo": 11,
+              "name": "오래만이에요",
+              "userId": "octopuskim",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/3837/afe46fc6-daef-43e8-97fc-62fbe099e2f0.png",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2758,
+              "skinGroupNo": 74,
+              "weatherNo": 22,
+              "name": "비올땐 반건조 오징어",
+              "userId": "octopuskim",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2758/bfeca61e-5aac-4f57-b273-1a196168a980.jpg",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 1720,
+              "skinGroupNo": 74,
+              "weatherNo": 2,
+              "name": "안주는 역시 오징어 땅콩이지? 어??!",
+              "userId": "octopuskim",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1720/3e09eeb3-70e2-480e-b0b9-6a8343caea6d.png",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 1008,
+              "skinGroupNo": 74,
+              "weatherNo": 31,
+              "name": "징어3탄이다. 동족들이여 모여라",
+              "userId": "octopuskim",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1008/b8753ea6-48ac-4485-9645-0ae7fdeab7c5.png",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 350,
+              "skinGroupNo": 74,
+              "weatherNo": 1,
+              "name": "오징어 말리는중",
+              "userId": "octopuskim",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/350/7f6e82bf-af8e-4a00-a899-ab8330294cf7.png",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 276,
+              "skinGroupNo": 74,
+              "weatherNo": 21,
+              "name": "친구 샤워중",
+              "userId": "octopuskim",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/276/1376e75c-4a2a-45b1-8a16-971c3c473ca4.png",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            }
+          ]
+        },
+        {
+          "skinGroupNo": 428,
+          "title": "서울엄마, (움짤)",
+          "banner": "서울엄마, (움짤)",
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/skin/group/0e012264-5777-11e8-8463-0187983d0d3c.png",
+          "userId": "kamaco9999",
+          "price": 0,
+          "skins": [
+            {
+              "skinNo": 5278,
+              "skinGroupNo": 428,
+              "weatherNo": 31,
+              "name": "언제쩍눈이야,",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/e82e35c9-5776-11e8-bf36-85648c42c3b3.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/e668df18-5776-11e8-bf36-5709c6e0f11b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/e4930e23-5776-11e8-8463-2bca98763ab1.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/e2be9c42-5776-11e8-8463-7fced619fd84.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5277,
+              "skinGroupNo": 428,
+              "weatherNo": 41,
+              "name": "아얘 안보여",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/6c59ec55-5776-11e8-bf36-df562fba894c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/6a8023c0-5776-11e8-8463-4d8a8e31bf34.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/68203a44-5776-11e8-bf36-6be742c3ce6a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/663b4da3-5776-11e8-bf36-6b4821aa0d22.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/640de652-5776-11e8-bf36-6f7dd299344b.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5276,
+              "skinGroupNo": 428,
+              "weatherNo": 12,
+              "name": "아직도흐려",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/1bbeda2f-5776-11e8-bf36-b9a259990166.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/1e008cd0-5776-11e8-bf36-c13a8a039191.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/1fe0befd-5776-11e8-8463-014bad587431.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/21b6695e-5776-11e8-8463-7b2de36a8282.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/23730d01-5776-11e8-bf36-6dda6e3ad6aa.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5275,
+              "skinGroupNo": 428,
+              "weatherNo": 11,
+              "name": "내눈이 침침한거여?",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/fb1222fd-5775-11e8-bf36-b9b2f5b6a1a4.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/f93414ac-5775-11e8-8463-c1a38d83babb.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/f74b2fec-5775-11e8-bf36-4d09ecfe9f5c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/f517fcbb-5775-11e8-8463-f9fbb0c9991d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/f2ffca9b-5775-11e8-bf36-9b6bf3a58ae2.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5274,
+              "skinGroupNo": 428,
+              "weatherNo": 51,
+              "name": "내빨래",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/97cbb5b9-5775-11e8-8463-8954d50dde60.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/95880748-5775-11e8-8463-29e9c9f6ca17.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/92e94009-5775-11e8-bf36-5f25212fd5a6.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/907ad897-5775-11e8-8463-3528226887a7.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/8e19dda8-5775-11e8-bf36-f755094dfeb7.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/8b6014d7-5775-11e8-bf36-07f478bd066d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/88aeb0f6-5775-11e8-8463-8d06c9005e01.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/8586bd05-5775-11e8-8463-cdad877cea03.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5273,
+              "skinGroupNo": 428,
+              "weatherNo": 61,
+              "name": "번개무셔",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/01d20025-5775-11e8-bf36-a5ad30395b52.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/ffea2dd4-5774-11e8-8463-159b9bd427de.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/fd940854-5774-11e8-bf36-4f3018ef9cb6.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/fadb5173-5774-11e8-8463-2783ef63630d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/f87378b3-5774-11e8-bf36-f713c6eb698b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/f5e183b2-5774-11e8-8463-472aa7af1479.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/f37df0b2-5774-11e8-bf36-098a525dfaff.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5272,
+              "skinGroupNo": 428,
+              "weatherNo": 22,
+              "name": "에고고헌리야",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/3cb3a940-5774-11e8-8463-b7e069bfe5ae.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/3898f05f-5774-11e8-bf36-2bb9cbcc55bc.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/36bb56be-5774-11e8-bf36-59eca3611d41.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/34bb1a6f-5774-11e8-8463-e740d5ec3d73.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/3272144d-5774-11e8-bf36-87e30e15fefb.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/3058831c-5774-11e8-bf36-a717bdeb5ccf.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/2e2a31ee-5774-11e8-8463-e38621e570f9.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5271,
+              "skinGroupNo": 428,
+              "weatherNo": 21,
+              "name": "비온다",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/a36104a8-5773-11e8-bf36-ad80ebfaca94.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/9b0d8517-5773-11e8-8463-fbe88c832f85.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/9d11b988-5773-11e8-8463-550cc1812014.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/9f1ea007-5773-11e8-bf36-930bb9172a03.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/a16905b9-5773-11e8-8463-91e1070ec010.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5270,
+              "skinGroupNo": 428,
+              "weatherNo": 2,
+              "name": "맑아오",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/4e958fc6-5773-11e8-8463-1dffa5994eff.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/4ca139d5-5773-11e8-8463-df6d3ad6c9be.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/4ae88d54-5773-11e8-8463-7deab993f42d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/48e98903-5773-11e8-8463-3db86887b41f.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/46b12532-5773-11e8-8463-d1e57087b9a3.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5269,
+              "skinGroupNo": 428,
+              "weatherNo": 1,
+              "name": "맑음",
+              "userId": "kamaco9999",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/24b3f92e-5773-11e8-8463-3b243ea70aba.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/2d677315-5773-11e8-bf36-0b45a036dc19.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/2b368954-5773-11e8-bf36-919ebe7d54f9.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/2924c0d0-5773-11e8-8463-9979fc7fb3ca.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/1d8f0f30abe39c8e5ac3f9cc9be9f3a4efabfe11/26d8fc0f-5773-11e8-8463-7f4b2382fd27.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            }
+          ]
+        },
+        {
+          "skinGroupNo": 416,
+          "title": "귀여운 소녀",
+          "banner": "귀여운 소녀",
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/skin/group/60955f10-56a3-11e8-8463-f5c823dc4801.png",
+          "userId": "eunbi070303",
+          "price": 0,
+          "skins": [
+            {
+              "skinNo": 5240,
+              "skinGroupNo": 416,
+              "weatherNo": 22,
+              "name": "\n☔",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/a695ec6a-5755-11e8-8463-c1dac8c09583.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5236,
+              "skinGroupNo": 416,
+              "weatherNo": 61,
+              "name": "\n⚡",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/e8a04622-5753-11e8-8463-fb3323cd6f85.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5235,
+              "skinGroupNo": 416,
+              "weatherNo": 31,
+              "name": "\n\n\n\n\n\n?",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/d264180f-5752-11e8-8463-e57763eaf4ec.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5234,
+              "skinGroupNo": 416,
+              "weatherNo": 51,
+              "name": "?",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/4d7f67b5-5752-11e8-bf36-7b2227f7e284.png",
+                  "width": 144,
+                  "height": 144
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5233,
+              "skinGroupNo": 416,
+              "weatherNo": 11,
+              "name": "애벌래",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/f7506ab4-5751-11e8-bf36-ffd7cf0e18a4.png",
+                  "width": 144,
+                  "height": 144
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5231,
+              "skinGroupNo": 416,
+              "weatherNo": 12,
+              "name": "TV보는 소녀",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/7ece800a-5751-11e8-8463-8daa6e4aeb83.png",
+                  "width": 144,
+                  "height": 144
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5176,
+              "skinGroupNo": 416,
+              "weatherNo": 1,
+              "name": "맑은 하루~~",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/021bf847-56a5-11e8-bf36-4bab52c47ad9.png",
+                  "width": 144,
+                  "height": 144
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5175,
+              "skinGroupNo": 416,
+              "weatherNo": 41,
+              "name": "안경낀 소녘",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/a98c43f1-56a3-11e8-8463-6bd9ea720e2c.png",
+                  "width": 144,
+                  "height": 144
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5166,
+              "skinGroupNo": 416,
+              "weatherNo": 2,
+              "name": "행복한 밤",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/ce72b484-56a0-11e8-8463-4d7d1366312e.png",
+                  "width": 144,
+                  "height": 144
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 5165,
+              "skinGroupNo": 416,
+              "weatherNo": 21,
+              "name": "비가 내린다",
+              "userId": "eunbi070303",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/c252306844582ecafe005b1bf686af12842c0b44/877751f4-56a0-11e8-bf36-e999cc0d656e.png",
+                  "width": 144,
+                  "height": 144
+                }
+              ],
+              "gif": false,
+              "artist": false
+            }
+          ]
+        },
+        {
+          "skinGroupNo": 77,
+          "title": "#연인 #일상 #사랑",
+          "banner": "#연인 #일상 #사랑",
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/13789b28-5986-4974-ade1-e26843f6cb43.png",
+          "userId": "assam_",
+          "price": 0,
+          "skins": [
+            {
+              "skinNo": 2137,
+              "skinGroupNo": 77,
+              "weatherNo": 22,
+              "name": "저기..아직 비가 안오는거같은데",
+              "userId": "assam_",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2137/5b361d60-3a5a-4cd5-b267-b22f25030c4d.jpg",
+                  "width": 1564,
+                  "height": 1484
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 1685,
+              "skinGroupNo": 77,
+              "weatherNo": 2,
+              "name": "달밤에 춤",
+              "userId": "assam_",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1685/1c0e6ffd-cd67-45ff-82ff-5b1de1ebaee2.jpg",
+                  "width": 1564,
+                  "height": 1484
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 1631,
+              "skinGroupNo": 77,
+              "weatherNo": 11,
+              "name": "흐린날엔 옛날이야기 늘어놓기",
+              "userId": "assam_",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1631/1586fa2a-746e-4032-9d08-b5e9b776d2fc.jpg",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 1457,
+              "skinGroupNo": 77,
+              "weatherNo": 51,
+              "name": "바람이 분다",
+              "userId": "assam_",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1457/e21e40f2-80b6-46e6-9e32-1cad4616eec5.jpg",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 1085,
+              "skinGroupNo": 77,
+              "weatherNo": 21,
+              "name": "여우 시집가는 날은 선글라스",
+              "userId": "assam_",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1085/558fb8cf-8667-4478-8021-705ca2cd13db.jpg",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 490,
+              "skinGroupNo": 77,
+              "weatherNo": 31,
+              "name": "겨울은 춥지만 연인은 따뜻하다",
+              "userId": "assam_",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/490/f06e322e-0413-4466-a222-adcd5d1c0bb3.jpg",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 281,
+              "skinGroupNo": 77,
+              "weatherNo": 1,
+              "name": "달달하다",
+              "userId": "assam_",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/281/9d70f6ea-9abe-4a45-be8a-18bc4c80775e.jpg",
+                  "width": 512,
+                  "height": 512
+                }
+              ],
+              "gif": false,
+              "artist": false
+            }
+          ]
+        },
+        {
+          "skinGroupNo": 183,
+          "title": "클린독의 오늘 날씨",
+          "banner": "클린독의 오늘 날씨",
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/skin/group/cf99b492-380c-11e8-b483-0906986fc794.png",
+          "userId": "check10",
+          "price": 0,
+          "skins": [
+            {
+              "skinNo": 3551,
+              "skinGroupNo": 183,
+              "weatherNo": 31,
+              "name": "클린독의 눈 내리는 날",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/8d21610a-407b-11e8-bdb1-b140aaace2f6.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/8ace9769-407b-11e8-bdb1-dffd664d7df4.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/888961a6-407b-11e8-b1df-9b7a824348e2.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/85a22035-407b-11e8-b1df-c75a5ed18a2e.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/838cae68-407b-11e8-bdb1-51dba4d4a9b8.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/8193eaf4-407b-11e8-b1df-5daa8dfefdcc.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7f6a06c7-407b-11e8-bdb1-19171f5de9f0.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7c7222d3-407b-11e8-b1df-8d43e06bbcd2.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7a392376-407b-11e8-bdb1-27dcdc73999c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/78116175-407b-11e8-bdb1-cf6ed9a7ac65.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3353,
+              "skinGroupNo": 183,
+              "weatherNo": 41,
+              "name": "클린독의 안개가득한 날",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/49f1de30-3d3c-11e8-b1df-bd4c0b11e76f.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/32e5e85a-3d3c-11e8-bdb1-ff700bdd563e.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/354beb0d-3d3c-11e8-b1df-874415064386.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/37f11b3b-3d3c-11e8-bdb1-ed8bf1dea913.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/3a0e551e-3d3c-11e8-b1df-cf1610c8a7f5.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/3c10b59c-3d3c-11e8-bdb1-19bcbc634549.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/3e1efb5f-3d3c-11e8-b1df-f39d26cf8451.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/407bb0dd-3d3c-11e8-bdb1-3ba9f18879dd.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/4c17cb71-3d3c-11e8-b1df-13ce8356683a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/4e3b969e-3d3c-11e8-bdb1-0fa3045bc1e3.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3212,
+              "skinGroupNo": 183,
+              "weatherNo": 51,
+              "name": "클린독의 바람부는 날",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/945a9615-3abb-11e8-bdb1-a14173c436dd.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/87c5e9e2-3abb-11e8-bdb1-0bc4ecd0d01f.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/8a907b93-3abb-11e8-bdb1-6b69828d4a33.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/8cd4035b-3abb-11e8-b1df-5fca2bc2e0d5.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/8f3f36fc-3abb-11e8-b1df-175a2ade5fbf.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/91ef8984-3abb-11e8-bdb1-3badde4b8af1.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/96c79edd-3abb-11e8-b1df-99d6bc805099.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/9d07cf4e-3abb-11e8-b1df-292d438f13da.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/a63904c7-3abb-11e8-bdb1-7deabe99e3da.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/a90ae9df-3abb-11e8-b1df-5d000f737f72.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3033,
+              "skinGroupNo": 183,
+              "weatherNo": 61,
+              "name": "클린독 짜릿한 번개",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7539915f-380c-11e8-973d-932015adf192.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7010010e-380c-11e8-973d-ddfa39fda064.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/72b13869-380c-11e8-b483-118d275f45eb.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7746c61a-380c-11e8-b483-c1651c9cc01c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/79558240-380c-11e8-973d-274973ec8935.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7b5dadeb-380c-11e8-b483-f10785870b50.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7d507d3c-380c-11e8-b483-b152538aa7bd.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/807bcc8d-380c-11e8-b483-0537c80ee1a0.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/838bcbae-380c-11e8-b483-d977a1cd5884.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/86866e71-380c-11e8-973d-f5c0309faafb.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 3014,
+              "skinGroupNo": 183,
+              "weatherNo": 22,
+              "name": "클린독의 비내리는 날 (밤)",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/678f4227-3760-11e8-b5b7-bbfd0fc63ff1.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/83327454-3760-11e8-8a21-d70b9c9ba010.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/8047b073-3760-11e8-8a21-174fb7beab6e.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7d8cfd42-3760-11e8-8a21-6b3059f23104.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7707d491-3760-11e8-8a21-a39a7c54d588.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/74e51b79-3760-11e8-b5b7-81c0b2022d59.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7274def0-3760-11e8-8a21-478871b85594.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/70396ddf-3760-11e8-8a21-3df4a678fd4d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/6db47088-3760-11e8-b5b7-d5d3f9cc6d84.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/6a8577de-3760-11e8-8a21-530d16f7c7b0.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2996,
+              "skinGroupNo": 183,
+              "weatherNo": 21,
+              "name": "클린독의 비 내리는 날 (낮)",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/e103f501-370f-11e8-b5b7-0dc1c3c4d6a7.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/dcf1529c-370f-11e8-a054-bf590b960139.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/dabc2370-370f-11e8-b5b7-c336682ec255.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/bb1e91fb-370f-11e8-a054-c5a87112e729.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/b7989fde-370f-11e8-b5b7-99c4a2338199.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/b529e979-370f-11e8-a054-872324c01baf.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/b22eab2d-370f-11e8-b5b7-b7b24c6eac18.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/af293308-370f-11e8-a054-8b1d85995693.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/aa112f3c-370f-11e8-b5b7-7b603720ba43.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/a6c70cf7-370f-11e8-a054-e57395569688.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2927,
+              "skinGroupNo": 183,
+              "weatherNo": 12,
+              "name": "클린독 흐린날씨 (밤)",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/76dba14b-3579-11e8-b742-81c9e49c2e0b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/61de1847-3579-11e8-b742-718f7b95e7c5.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/6474c856-3579-11e8-843e-ed17a35ef2bb.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/677b2ae8-3579-11e8-b742-d3d080f1d3f1.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/6a269b77-3579-11e8-843e-dbcd28253c59.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/6c52f1b9-3579-11e8-b742-815bf4443b6b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/6ed88b2a-3579-11e8-b742-3b5cd073f28e.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/71f952c8-3579-11e8-843e-0baf84a73a36.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/79267b49-3579-11e8-843e-71cf2aff5ed1.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/7b5fc9dc-3579-11e8-b742-4daf389f1aff.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2856,
+              "skinGroupNo": 183,
+              "weatherNo": 11,
+              "name": "클린독의 흐린날씨 (낮)",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/4357b0d9-3423-11e8-a272-9792fa552af6.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/37c77c49-3423-11e8-a89d-577584dc7bf8.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/39da56c7-3423-11e8-a272-299b1bdc5a09.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/3c8d68d8-3423-11e8-a272-b7da24855403.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/3ef0d43a-3423-11e8-a89d-e728ef5aa7bd.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/413482ab-3423-11e8-a89d-4523103b21d5.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/46642d8a-3423-11e8-a272-09580acba754.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/4a0967bc-3423-11e8-a89d-919562d4df4c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/4de14acb-3423-11e8-a272-ffdd0f03c7e4.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/507a451d-3423-11e8-a89d-3b57b64ef533.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2841,
+              "skinGroupNo": 183,
+              "weatherNo": 2,
+              "name": "클린독의 맑은날씨 (밤)",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/bb8cf124-3370-11e8-a89d-87fe2fa5e756.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/b5fc61a3-3370-11e8-a89d-ebd6256f65f3.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/b852118c-3370-11e8-a272-e73e760cd83d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/bd8ba76d-3370-11e8-a272-7d534153e886.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/bfb739e5-3370-11e8-a89d-fbfd1a8eeff8.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/c28722de-3370-11e8-a272-533293dfb0d3.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/dbe91756-3370-11e8-a89d-73e1605f9e5c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/e4814187-3370-11e8-a89d-2936ecbe47dd.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/ead213e0-3370-11e8-a272-bdc623318b7b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/eeeb93a8-3370-11e8-a89d-054e2031b663.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2840,
+              "skinGroupNo": 183,
+              "weatherNo": 1,
+              "name": "클린독의 맑은 날씨 (낮)",
+              "userId": "check10",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/ec9b10d0-336c-11e8-a272-f578682b1db9.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/054a7e2e-336d-11e8-a89d-19ab2579b912.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/016cf5f2-336d-11e8-a272-11736eb82f3a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/fdaa6f9d-336c-11e8-a89d-932f54ed2ddc.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/fb46b60c-336c-11e8-a89d-5521da8178f3.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/f828861b-336c-11e8-a89d-9b155eb15975.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/f4eae74a-336c-11e8-a89d-bd4b76b17b14.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/f2c03f19-336c-11e8-a89d-2d737c6d2cb2.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/f0b0e731-336c-11e8-a272-d7a6feef05ac.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0581e7c94c284870d30659a6c0e449a9a7ab4ed1/eebf9e68-336c-11e8-a89d-57cad8c3e753.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            }
+          ]
+        },
+        {
+          "skinGroupNo": 204,
+          "title": "판다 뉴뉴",
+          "banner": "판다 뉴뉴",
+          "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/skin/group/df61849d-367a-11e8-94f7-39a1b0dec916.png",
+          "userId": "dsdfb323",
+          "price": 0,
+          "skins": [
+            {
+              "skinNo": 2981,
+              "skinGroupNo": 204,
+              "weatherNo": 51,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/5e4a567c-367a-11e8-94f7-a7ba08259844.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/5b9aedc4-367a-11e8-b7c0-af40f1d92d31.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2978,
+              "skinGroupNo": 204,
+              "weatherNo": 41,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/455e8ada-3674-11e8-b7c0-8f8594ebf888.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/3b76d637-3674-11e8-b7c0-5ff733bbf517.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/3d8b8568-3674-11e8-b7c0-e142a9f0c8a2.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/3feb6e8f-3674-11e8-94f7-35917301c43a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/421b46b9-3674-11e8-b7c0-a1ec73ab740b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/48a1f630-3674-11e8-94f7-bb89f7690a70.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/4b3412c1-3674-11e8-94f7-bdf3285b736a.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/4fbd9282-3674-11e8-94f7-3b6c9d56cd99.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/525ddfbb-3674-11e8-b7c0-aff81e4e456c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/549e0be3-3674-11e8-94f7-8b3c7c24df2a.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2946,
+              "skinGroupNo": 204,
+              "weatherNo": 12,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/a2c5714f-35c8-11e8-b742-49a5945056df.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/9667b39c-35c8-11e8-b742-0539f492359f.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/98d50a1d-35c8-11e8-b742-8d2406550773.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/9bfed2ce-35c8-11e8-b742-b7e24c8c5d91.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/9eb3e138-35c8-11e8-843e-1f8f05444055.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/a9c3c1a0-35c8-11e8-b742-9731f81c7fdd.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/ac40f6a1-35c8-11e8-b742-ab6171c4e5ae.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/ae2631e9-35c8-11e8-843e-c3a3c6a79739.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2945,
+              "skinGroupNo": 204,
+              "weatherNo": 11,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/7c962de9-35c0-11e8-b742-39ce7b547b91.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/7a8a7ffc-35c0-11e8-843e-554e02c25459.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/7825b468-35c0-11e8-b742-2d7388007dea.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/75f2f5e7-35c0-11e8-b742-2dc4913e559e.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/72bef49b-35c0-11e8-843e-ed91e673ba0c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/6febafc6-35c0-11e8-b742-c9eb558dcf2c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/6a738ada-35c0-11e8-843e-d32c82ce8fcd.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/68601395-35c0-11e8-b742-d3ee266d042b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/65419584-35c0-11e8-b742-1380de00aec7.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/58862808-35c0-11e8-843e-75bf5ca2fb16.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2922,
+              "skinGroupNo": 204,
+              "weatherNo": 31,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/3d9fbd50-34f9-11e8-b742-d58ef57db967.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/4030f02d-34f9-11e8-843e-b929b7909da7.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/38e4f45f-34f9-11e8-b742-a94955513927.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/26ce1139-34f9-11e8-843e-cf617d26b001.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/29d9c9eb-34f9-11e8-b742-7f10ccecf5ec.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/2be26bda-34f9-11e8-843e-69c919bd157e.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/2e0ac96c-34f9-11e8-b742-97a9908fa54d.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/30d7cccb-34f9-11e8-843e-392c90d4ca03.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/32c7400e-34f9-11e8-b742-899bfbec886b.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/36bff22c-34f9-11e8-843e-e37c657d829a.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2918,
+              "skinGroupNo": 204,
+              "weatherNo": 61,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/481c38c7-34ee-11e8-b742-396e988b97fc.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/43e45c23-34ee-11e8-843e-0be8c2ee39db.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/41738332-34ee-11e8-843e-05c9b5c2bb8f.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/3c89ba56-34ee-11e8-b742-cfb892bc731c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/364d0d01-34ee-11e8-843e-d11ee49bea56.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/31040d25-34ee-11e8-b742-01de066c9cf3.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2852,
+              "skinGroupNo": 204,
+              "weatherNo": 2,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/8760cd4b-340c-11e8-a272-c5e1d8039a23.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/791bb1ef-340c-11e8-a89d-2b8f1a7c72ac.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/7c16a27a-340c-11e8-a272-95998929562c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/85458e60-340c-11e8-a89d-a94d721f70d2.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2850,
+              "skinGroupNo": 204,
+              "weatherNo": 1,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/1ca5e708-3407-11e8-a89d-170ae8951042.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/1a551946-3407-11e8-a272-955e4045fba6.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/18d81627-3407-11e8-a89d-07cf5efdb3e4.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/1527df75-3407-11e8-a272-d9ae115efefb.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/12f743c6-3407-11e8-a89d-3d509ffccb4c.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/10af9dc4-3407-11e8-a272-4bc4892833e3.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/0faa1495-3407-11e8-a89d-233114af1c0c.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2794,
+              "skinGroupNo": 204,
+              "weatherNo": 21,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/dcfd9646-3340-11e8-845b-af3a250f48f5.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/da662285-3340-11e8-845b-33061a682524.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/d7a4dfa4-3340-11e8-845b-f50eeaf7f427.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            },
+            {
+              "skinNo": 2791,
+              "skinGroupNo": 204,
+              "weatherNo": 22,
+              "name": "판다뉴뉴",
+              "userId": "dsdfb323",
+              "images": [
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/9e9e4410-3337-11e8-845b-5b1dc3925330.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/a315c271-3337-11e8-845b-490df5372312.png",
+                  "width": 256,
+                  "height": 256
+                },
+                {
+                  "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/a0d2d6d8-3337-11e8-94d5-2b5562aa9502.png",
+                  "width": 256,
+                  "height": 256
+                }
+              ],
+              "gif": false,
+              "artist": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "HOME_ARTIST_SKIN",
+      "jangComment": "여기는 다 바뀜 / 변경 요청",
+      "managed": false,
+      "title": "그린날씨의 작가",
+      "description": "",
+      "link": "krt://tab/artist",
+      "users": [
+        {
+          "type": "USER",
+          "userNo": 8111,
+          "userId": "engL2NGBz",
+          "userEmail": "",
+          "userDescription": "",
+          "userProfileImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/profile/14d557a9056a014d27ac45f13f4a682cb81baa59/3a4d78b7-49a4-11e8-9ba5-ff5f84989928.jpg"
+        },
+        {
+          "type": "USER",
+          "userNo": 1926,
+          "userId": "meryung",
+          "userEmail": "me_ryung@naver.com",
+          "userDescription": "",
+          "userProfileImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/profile/6fb8da2df1093b69f900c49091646f3470b0f13a/eac82b47-622c-11e8-9a11-0327412886c5.png"
+        },
+        {
+          "type": "USER",
+          "userNo": 530,
+          "userId": "toah18",
+          "userEmail": "toah18@naver.com",
+          "userDescription": "네이버 도전만화에서 '40일'연재중입니다 :)",
+          "userProfileImage": ""
+        },
+        {
+          "type": "USER",
+          "userNo": 14682,
+          "userId": "moon_hye_won",
+          "userEmail": "yellowmoon220@google.com",
+          "userDescription": "",
+          "userProfileImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/profile/329a179941d6c9d4fa151b859413b6168785547d/d00c5492-5e55-11e8-b68a-5f7ca6eaebae.jpg"
+        },
+        {
+          "type": "USER",
+          "userNo": 2915,
+          "userId": "ha2every",
+          "userEmail": "ha2every@naver.com",
+          "userDescription": "",
+          "userProfileImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/profile/4d5bc9910525f35dd89b403c678f1b3bfc557f70/b7bbf0cd-4962-11e8-9ba5-a1aef991ff8a.jpg"
+        },
+        {
+          "type": "USER",
+          "userNo": 7768,
+          "userId": "ombitic",
+          "userEmail": "hebssal_@naver.com",
+          "userDescription": "틈날 때 열심히 그리고 편집하고 있어요. :)\n먼지요정은 제 오너캐이기때문에 그린날씨를 제외한 곳에서 사용을 금하고 있습니다.\n남겨주신 댓글, 하트는 항상 보고있습니다. 감사합니다.?",
+          "userProfileImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/profile/49382b4dc023530e8ceeed7cbf85ef4563ea138a/9d0aa0ba-52f3-11e8-9a2e-0f62758d1bf0.jpg"
+        },
+        {
+          "type": "USER",
+          "userNo": 1822,
+          "userId": "Hyubi",
+          "userEmail": "aka_n@naver.com",
+          "userDescription": "",
+          "userProfileImage": ""
+        },
+        {
+          "type": "USER",
+          "userNo": 2753,
+          "userId": "ccoma",
+          "userEmail": "natune2001@hanmail.net",
+          "userDescription": "안녕하세요 감성충만 '정백수'작가입니다 잘부탁드려요 ",
+          "userProfileImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/profile/266197450a0ab967df0f567f7ac404a020d7d87d/e921aed2-4139-11e8-b1df-8d5de3a4443a.jpg"
+        },
+        {
+          "type": "USER",
+          "userNo": 1313,
+          "userId": "PicCalcio",
+          "userEmail": "stepstone900@naver.com",
+          "userDescription": "개인취향에 맞는 동물로 꾸미는 날씨",
+          "userProfileImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/profile/23b36ea4f70670ae377a591fdc03d36a9bebb481/19d7cc8a-16d8-11e8-824c-17fb67603578.jpg"
+        }
+      ]
+    },
+    {
+      "type": "HOME_RECOMM_SKIN",
+      "jangComment": "기존과 동일하나, 타입 이름만 바꾸자",
+      "managed": false,
+      "title": "추천 스킨",
+      "description": "",
+      "link": "krt://tab/new",
+      "skins": [
+        {
+          "type": "SKIN",
+          "skinNo": 7325,
+          "weatherNo": 2,
+          "name": "ㄹㄹㄷ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1529128935000,
+          "id": "jisoo0531",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/fff39a1788172f7d864727faeb8e7931747d94d9/d0f14d16-712a-11e8-a660-793f7e5a1aae.png",
+              "width": 305,
+              "height": 305
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7324,
+          "weatherNo": 1,
+          "name": "ㅎㄷㅎ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1529128878000,
+          "id": "jisoo0531",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/fff39a1788172f7d864727faeb8e7931747d94d9/aab45484-712a-11e8-a660-8f2d583eb555.png",
+              "width": 1024,
+              "height": 1024
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7323,
+          "weatherNo": 2,
+          "name": "ㅇㅋ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528968969000,
+          "id": "ninano123",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b0be911eadc924612a478b7fe67e2d9f1b7d0bc9/5d06aed6-6fb6-11e8-9f72-d9d5b5632053.png",
+              "width": 1024,
+              "height": 1024
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7322,
+          "weatherNo": 1,
+          "name": "ㅈㄹㅎㄷ",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528968523000,
+          "id": "ninano123",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/b0be911eadc924612a478b7fe67e2d9f1b7d0bc9/4ddb6eb4-6fb5-11e8-9f72-63cb83075b87.png",
+              "width": 540,
+              "height": 540
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7321,
+          "weatherNo": 2,
+          "name": "맑은 밤!",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528465966000,
+          "id": "pppqqq3503",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/4ef6f8e48c2e31f6ac3c7e363924eeae339fd8af/392f0491-6b23-11e8-9140-b9ccd89e2b63.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7320,
+          "weatherNo": 12,
+          "name": "ROSE♡♡",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528465734000,
+          "id": "W3XpZ3L9K",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/e3a668b01c7ad01859726829908c2f9b362dbbad/65f5fcb7-6b22-11e8-afc1-dbc5b8757129.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/e3a668b01c7ad01859726829908c2f9b362dbbad/5e0f9656-6b22-11e8-afc1-977b24537bba.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/e3a668b01c7ad01859726829908c2f9b362dbbad/585c1610-6b22-11e8-9140-b9eee8381d6a.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/e3a668b01c7ad01859726829908c2f9b362dbbad/4e080a85-6b22-11e8-afc1-a90b363a6d3d.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7319,
+          "weatherNo": 51,
+          "name": "바람",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528465022000,
+          "id": "sweetyoonseo",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/410cb324333e13a419c56493c00cc22aa98f2188/06363a2c-6b21-11e8-8930-fdbc54b08070.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7318,
+          "weatherNo": 1,
+          "name": "흐규흐규흐규..작가가 되기 위해;;;",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528464938000,
+          "id": "Louise",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/9c9dc22d-6b20-11e8-9140-0f5fc567fad7.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/9ee8ea21-6b20-11e8-afc1-579ff4e522e1.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/99c65ebb-6b20-11e8-8930-a14068699bb9.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/971cc28a-6b20-11e8-8930-0dad721e28dc.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/94776c19-6b20-11e8-8930-dbad451b24dd.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/90620ae0-6b20-11e8-afc1-9f7053ffbb7c.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/8d5f7948-6b20-11e8-8930-35da745e7357.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/8af6901c-6b20-11e8-9140-652023cfc3fa.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/dad743c4f294ed8d27cebf859b6f425fcc1d8751/875c043b-6b20-11e8-9140-975193dbe332.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7317,
+          "weatherNo": 1,
+          "name": "녹수초등학교유혜림",
+          "price": 0,
+          "hot": false,
+          "gif": true,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528463814000,
+          "id": "lgYNDBr87",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/89944912cb84d86b23810c9723d925e5b83a84be/320e29cd-6b1e-11e8-afc1-5dd5783f5d78.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/89944912cb84d86b23810c9723d925e5b83a84be/2962779c-6b1e-11e8-afc1-2d513791648c.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/89944912cb84d86b23810c9723d925e5b83a84be/23a0ed98-6b1e-11e8-9140-07494e12a596.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 7316,
+          "weatherNo": 21,
+          "name": "픽셀---비 (낮)",
+          "price": 0,
+          "hot": false,
+          "gif": false,
+          "secret": false,
+          "latest": false,
+          "issueDate": 1528463430000,
+          "id": "juoca",
+          "own": false,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/6d333d16dbadc4a10293c08bbd7d6e6d19be81ff/51435198-6b1d-11e8-afc1-e1b354b88296.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "POPULAR_SKIN",
+      "managed": false,
+      "title": "요즘 뜨는 스킨",
+      "description": "",
+      "link": "krt://tab/popular",
+      "skins": [
+        {
+          "type": "SKIN",
+          "skinNo": 2716,
+          "skinGroupNo": 161,
+          "weatherNo": 61,
+          "score": 21770,
+          "name": "적극적인곰 번개",
+          "price": 0,
+          "hot": true,
+          "gif": false,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1522146600000,
+          "id": "betakkuma",
+          "groupTitle": "적극적인 날씨",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/cdfcd9b1-ef13-40a4-901a-6293d4ad34bd.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/dbbfd0ec-da75-4c8e-830d-cd36f8a89d02.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/d9665254-414a-466c-b4c4-cae850f068f8.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/9c8a1941-ae7c-4d3a-9eb2-e68170f4d7f1.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/c20c229b-1e51-4d8f-8259-0a59d1a5b475.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/9fd3d29a-033c-4dac-bee7-fe65f1aab04c.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/debab336-42db-4389-9c0d-f5415e1e2047.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/0124f271-a500-4a9a-b237-fa62ffd4c707.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/9e779fd6-dcd2-424a-afbd-42d6385c4263.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/5c63b907-8251-4642-9b4c-2b425662c70c.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/2eb01740-e4db-47b4-a5b9-9e7c25b40b21.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/d69eb1da-f12a-4e9f-961b-6ab6664fc2e9.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/51f9a479-755b-4658-a0c0-dbc5a30663c6.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/958a8ee6-619a-4586-a3c2-8ed3483b6f78.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/a1376a95-7d7c-413c-a2f0-e77b774e3e4d.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/f711e66e-d824-455e-9748-ec0b7f7a2f2c.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/4c5f6b74-1a43-405d-9582-ea61279762a8.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/f7df2c33-581f-4142-bfc1-be71db291781.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/2e24402f-74e0-4885-b0d4-61d6e88e388d.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/cc70f005-2721-4d4b-b20f-bdd4e0f8610a.png",
+              "width": 328,
+              "height": 328
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2716/71f48ce3-3a17-4057-9ed5-97c998644839.png",
+              "width": 328,
+              "height": 328
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 1197,
+          "skinGroupNo": 205,
+          "weatherNo": 11,
+          "score": 15989,
+          "name": "구름낀 날씨예요 와옹",
+          "price": 0,
+          "hot": true,
+          "gif": true,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1516636309000,
+          "id": "sksmsbbek",
+          "groupTitle": "날씨에요 야옹",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/skin/group/6ac85437-48c9-11e8-9ba5-09f24d7fe773.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/aa62ffff47619bf0b14843d4865e7dac00e278ef/279db31d-ff8c-11e7-8857-75cdaed0ebb6.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 1719,
+          "skinGroupNo": 5,
+          "weatherNo": 61,
+          "score": 13778,
+          "name": "뿜끼 날씨 열세트 완성!!! ",
+          "price": 0,
+          "hot": true,
+          "gif": false,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1518519600000,
+          "id": "dongee",
+          "groupTitle": "뿜끼와 날씨 여행 어때요?",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/05085e7b-e8ea-4076-ae53-454f46dce114.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/4f26e590-243c-44eb-b3da-c755c7f60713.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/4b6537d0-57ad-4331-b902-ca51aded4da3.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/e10a8dab-ec3d-4c5d-8cd0-e8f5ab1d398b.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/64950e86-c701-453c-9cc0-8fe6235119a0.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/a0062bcc-4c1f-4de7-adb9-70c3340afd1b.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/a83d0194-0261-4e09-b707-4a2cba26de28.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/8e567fed-f46f-4979-a390-85d589692328.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/7be0a36d-152a-4656-9d94-929c7f421f20.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/dcf73277-a5c5-41ee-b33b-b8fe02b83010.jpg",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/1719/87a3ae84-8c7d-4172-84fc-fde3b6cc3aec.jpg",
+              "width": 512,
+              "height": 512
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 2821,
+          "skinGroupNo": 181,
+          "weatherNo": 31,
+          "score": 9693,
+          "name": "감성날씨",
+          "price": 30,
+          "hot": true,
+          "gif": false,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1522328556000,
+          "id": "daisy27",
+          "groupTitle": "감성날씨",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/04e52b33-cce2-4559-893e-5d2cbf7a775a.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/4b15621f-3351-11e8-94d5-45bbeb3b6cf3.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/478b50fe-3351-11e8-94d5-eb16d7bf37e9.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/3fd1c689-3351-11e8-845b-df5512c0ac42.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/3bea539d-3351-11e8-94d5-ab748433f5e0.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/ec883370694191262ca4364fb7b34135e11947b8/38d41278-3351-11e8-845b-2d75d286da36.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 2784,
+          "skinGroupNo": 211,
+          "weatherNo": 11,
+          "score": 9428,
+          "name": " 정말 진짜 대박 리얼 헐 완전 흐림 (ಥ_ಥ)",
+          "price": 0,
+          "hot": true,
+          "gif": true,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1522290796000,
+          "id": "o_oS2",
+          "groupTitle": "워너원 팬아트",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/25907fdd-967c-4abd-a285-62e20eecf52e.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/2784/a829e891-661d-4eec-a3fa-12f39aaeeaa2.jpg",
+              "width": 1564,
+              "height": 1484
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 2981,
+          "skinGroupNo": 204,
+          "weatherNo": 51,
+          "score": 8257,
+          "name": "판다뉴뉴",
+          "price": 0,
+          "hot": true,
+          "gif": false,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1522676058000,
+          "id": "dsdfb323",
+          "groupTitle": "판다 뉴뉴",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/skin/group/df61849d-367a-11e8-94f7-39a1b0dec916.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/5e4a567c-367a-11e8-94f7-a7ba08259844.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/68cf3877bb4c5201c8a013851c1d7301b7816896/5b9aedc4-367a-11e8-b7c0-af40f1d92d31.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 2667,
+          "skinGroupNo": 16,
+          "weatherNo": 41,
+          "score": 7639,
+          "name": "아무리 먹어도 안개가 자욱×.×",
+          "price": 0,
+          "hot": true,
+          "gif": false,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1522001769000,
+          "id": "Kkyuu",
+          "groupTitle": "키리모찌  냠냠",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/bb225f4b-9c90-4bbe-8132-831c380abfb3.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/cce637a738cef6fac143931ad866d768e84f2260/26e6b8b3-3058-11e8-9a82-4faca360dcb5.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/cce637a738cef6fac143931ad866d768e84f2260/1ca216b1-3058-11e8-9953-d9f2c03fa537.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/cce637a738cef6fac143931ad866d768e84f2260/1f020001-3058-11e8-9a82-31fb97065c0e.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/cce637a738cef6fac143931ad866d768e84f2260/210b1622-3058-11e8-9953-e9d3d2c01b72.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/cce637a738cef6fac143931ad866d768e84f2260/22f951e2-3058-11e8-9a82-650fb5c2f057.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/cce637a738cef6fac143931ad866d768e84f2260/24de3e33-3058-11e8-9953-ff4e34ff2770.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/cce637a738cef6fac143931ad866d768e84f2260/292a3fc4-3058-11e8-9953-3360c22b02bd.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 3837,
+          "skinGroupNo": 74,
+          "weatherNo": 11,
+          "score": 5850,
+          "name": "오래만이에요",
+          "price": 0,
+          "hot": true,
+          "gif": true,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1524298200000,
+          "id": "octopuskim",
+          "groupTitle": "오징어는 내친구",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/b7a71a87-31a1-4ed4-9947-4c6e79826f55.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/skin/3837/afe46fc6-daef-43e8-97fc-62fbe099e2f0.png",
+              "width": 512,
+              "height": 512
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 2808,
+          "skinGroupNo": 178,
+          "weatherNo": 31,
+          "score": 5475,
+          "name": "구름요정 꾸르밍",
+          "price": 0,
+          "hot": true,
+          "gif": false,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1522325857000,
+          "id": "ep7777",
+          "groupTitle": "구름요정 꾸르밍",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/3445887c-f872-40c8-b6d4-fd9db43480ac.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/568138fb951d9f68253812af0f47cbacc3a79c42/08e577f7-334b-11e8-845b-1998b97daecf.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/568138fb951d9f68253812af0f47cbacc3a79c42/0b8e50d8-334b-11e8-845b-3f0108af0e17.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/568138fb951d9f68253812af0f47cbacc3a79c42/0d816e49-334b-11e8-845b-718acf6a5b88.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/568138fb951d9f68253812af0f47cbacc3a79c42/0f92c291-334b-11e8-94d5-e37e7e25db73.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/568138fb951d9f68253812af0f47cbacc3a79c42/1350b4f2-334b-11e8-94d5-d9ec7d532d1d.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/568138fb951d9f68253812af0f47cbacc3a79c42/1627a23b-334b-11e8-845b-690f4a7591a7.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/568138fb951d9f68253812af0f47cbacc3a79c42/11753dba-334b-11e8-845b-8b684262aba1.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        },
+        {
+          "type": "SKIN",
+          "skinNo": 1996,
+          "skinGroupNo": 59,
+          "weatherNo": 2,
+          "score": 5402,
+          "name": "맑은 날 자는 양",
+          "price": 0,
+          "hot": true,
+          "gif": false,
+          "secret": true,
+          "latest": true,
+          "issueDate": 1518926628000,
+          "id": "rlarlfqo3",
+          "groupTitle": "양과 날씨",
+          "groupImage": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-skin/admin/960f5725-0f82-4c73-bde3-15dab5516f38.png",
+          "own": true,
+          "images": [
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0ad0144e12526132b8bd147b23f0b12e971796f6/7dbe75f0-1460-11e8-ad43-19a7e40539c6.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0ad0144e12526132b8bd147b23f0b12e971796f6/62ac87b4-1460-11e8-b601-e9e35cb2569e.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0ad0144e12526132b8bd147b23f0b12e971796f6/6b92d19e-1460-11e8-ad43-bb82e0f6e370.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0ad0144e12526132b8bd147b23f0b12e971796f6/6fc0eb35-1460-11e8-b601-09da40182458.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0ad0144e12526132b8bd147b23f0b12e971796f6/757ef30f-1460-11e8-ad43-41c2c592421a.png",
+              "width": 256,
+              "height": 256
+            },
+            {
+              "image": "https://s3-ap-northeast-1.amazonaws.com/kyaraten-user/user/skin/0ad0144e12526132b8bd147b23f0b12e971796f6/82040ee1-1460-11e8-ad43-a31b04d363ef.png",
+              "width": 256,
+              "height": 256
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
