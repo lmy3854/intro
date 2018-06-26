@@ -2847,7 +2847,7 @@
       "jangComment": "기존과 동일하나, 타입 이름만 바꾸자",
       "title": "추천 스킨",
       "description": "",
-      "link": "krt://tab/new",
+      "link": "krt://tab/recommend",
       "skins": [
         {
           "type": "SKIN",
